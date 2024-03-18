@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="210" height="210" viewBox="0 0 210 210" preserveAspectRatio="xMidYMid" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs><style type="text/css">
+        svg{
+            font-family: "Open Sans", sans-serif;
+            font-size: 30px;
+        }
+        
+         .circle_stat{
+            transform-box: fill-box;
+            transform-origin: center;
+            transform: rotate(-90deg);
+        }
+        </style></defs>
+        
+        <g>
+        <circle class="circle_stat" cx="105.0px" cy="105.0px" r="60px" fill="#9895BC" stroke="none" stroke-width="0px" />
+        <text x="105.0px" y="105.0px" text-anchor="middle" fill="#ffffff" dy=".3em">157</text>
+    
+            <circle class="circle_stat" cx="105.0px" cy="105.0px" r="70.0px" fill="none" stroke="#e70777" stroke-width="10px" pathLength="157.0" stroke-dasharray="75.0, 82.0"/>
+        
+            <circle class="circle_stat" cx="105.0px" cy="105.0px" r="85.0px" fill="none" stroke="#00b0f0" stroke-width="10px" pathLength="157.0" stroke-dasharray="30.0, 127.0"/>
+        
+            <circle class="circle_stat" cx="105.0px" cy="105.0px" r="100.0px" fill="none" stroke="#7030a0" stroke-width="10px" pathLength="157.0" stroke-dasharray="52.0, 105.0"/>
+        
+        </g>
+        </svg>
+    

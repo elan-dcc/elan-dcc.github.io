@@ -278,6 +278,11 @@ nav a{
     width: 100%;
     margin: 0 auto;
 }
+
+.menu > .item > a.highlight{
+    color: #00b0f0;
+}
+
 .menu li a {
     display: block;
     padding: 15px 5px;
