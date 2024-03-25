@@ -24,47 +24,50 @@
                     </ul>
                 </nav>
             </div>
-            <div id="headercontent">
-                <header>
+            <header>
+                <div class="headerelement publicationstats">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus quam quis nulla bibendum euismod. Sed id orci lacus. Donec sit amet odio cursus, fringilla orci eget, dignissim urna. Vestibulum sit amet urna bibendum.
+                </div>
+                <div class="headerelement">
                     <div id="buttoncontainer">
                         <a href="" class="button" alt="About ELAN">About ELAN</a>
                         <a href="" class="button" alt="About the data">About the data</a>
                     </div>
-                </header>
-            </div>
+                </div>
+            </header>
         </div>
         <div id="maincontainer">
             <main>
                 <div id="tilecontainer">
-                    <div class="tile">
-                        <h1>Projects</h1>
-                        <ul>
-                            <li>GGDH dashboard</li>
-                            <li>Project 2</li>
-                            <li>Project 3</li>
-                        </ul>
-                        <a href="#" alt="more projects">See more projects</a>
+                    <div class="tile tile_circles">
+                        <div>
+                            <h1>Publications</h1>
+                            35
+                        </div>
+                        <div>
+                            <h1>Projects</h1>
+                            3
+                        </div>
                     </div>
-                    <div class="tile">
-                        <h1>Publications</h1>
-                        <ul>
-                            <li>Article 1</li>
-                            <li>Article 2</li>
-                            <li>Article 3</li>
-                        </ul>
-                        <a href="#" alt="more articles">See more articles</a>
+                    <div class="tile tile_circles">
+                        <div class="subtile">
+                            <h1>Patients</h1>
+                            <object data="assets/patients.svg" type="image/svg+xml" class="stat_circle">
+                                Your browser doesn't support SVG.
+                            </object>
+                        </div>
+                        <div class="subtile">
+                            <h1>Practices</h1>
+                            <object data="assets/practices.svg" type="image/svg+xml" class="stat_circle">
+                                Your browser doesn't support SVG.
+                            </object>
+                        </div>
                     </div>
-                    <div class="tile">
-                        <object data="assets/elan_map.svg" type="image/svg+xml" width="400px">
+                    <div class="tile tile_map">
+                        <object data="assets/elan_map.svg" type="image/svg+xml" class="stat_map">
                             Your browser doesn't support SVG.
                         </object>
-                        <object data="assets/patients.svg" type="image/svg+xml" width="200px">
-                            Your browser doesn't support SVG.
-                        </object>
-                        <object data="assets/practices.svg" type="image/svg+xml" width="200px">
-                            Your browser doesn't support SVG.
-                        </object>
+
                     </div>
                 </div>
                 <div id="about" class="element">

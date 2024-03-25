@@ -43,19 +43,27 @@ nav li{
 }
 
 
-#headercontent{
+header{
     position: relative;
     width: var(--width);
     margin: 0 auto;
-    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 10px 0;
 }
 
-header{
-    position: absolute;
-    right: 30px;
-    top: 200px;
-    width: 500px;
+.headerelement{
+    width: 50%;
+    padding: 0 100px 0 100px;
 }
+
+.publicationstats{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(2rem);
+    border-radius: 25px;
+    box-shadow: 0 0 40px rgba(79, 75, 116, 0.6);
+}
+
 main{
     position: relative;
     margin: 0 auto;
@@ -78,18 +86,33 @@ main{
     box-shadow: var(--primary-color) 0px 8px 10px -10px;
     border-radius: 25px;
     background-color: #fcfcfc;
+    
 }
 
-.tile img{
-    display: block;
-    margin: 0 auto;
-    clear: both;
+.tile_map{
+    display: flex;
+    justify-content: center;
+}
+
+.tile_circles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat_map{
+    height: 230px;
+}
+
+.subtile{
+    width: 50%;
+}
+
+.stat_circle{
+    max-height: 150px;
     width: 100%;
-    max-width: max-content;
 }
 
-
-.tile h1{
+.tile  h1{
     color: var(--primary-color);
     margin: 0 0 20px 0;
     letter-spacing: 2px;
@@ -109,11 +132,13 @@ main{
     }
 
     header{
-        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .headerelement{
         width: 100%;
         margin: 0 auto;
         clear: both;
-        top: 20px;
     }
 }
 
@@ -193,15 +218,15 @@ footer{
 }
 
 #buttoncontainer{
-    margin: 40px 0 20px 0;
-    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .button > img{
-    height: 30px;
+    height: 10px;
     margin-left: 20px;
     vertical-align: middle;
 }
@@ -209,9 +234,7 @@ footer{
 /* button magic */
 
 .button {
-    float: left;
     width: 200px;
-    margin: 10px 10px 0;
     padding: 15px 0px;
     text-align: center;
     text-transform: uppercase;
@@ -249,7 +272,7 @@ footer{
     width: 100%;
     background-color: var(--primary-color);
     color: #fff;
-    min-height: 140px;
+    min-height: 100px;
 }
 
 nav{
