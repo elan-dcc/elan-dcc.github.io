@@ -42,7 +42,7 @@ However, Hugo does allow you to automagically spawn a file that already
 includes the respective archetype.
 
 ```sh
-hugo new content \(nl/\)news/NAME.md
+hugo new content (nl/)news/NAME.md
 ```
 
 To add a publication, open the terminal and type
@@ -67,7 +67,7 @@ Existing content in the content folders can be edited.
 There are two ways to create a summary for a post (news). One is by adding
 `<!--more-->` to mark the preceding content as the abstraction.
 
----
+```
 +++
 title = "title"
 date = {{ .Date }}
@@ -77,11 +77,11 @@ type = "News"
 Some text
 <!--more -->
 More text
----
+```
 
 The second is to create a summary, which will not appear in the post
 
----
+```
 +++
 title = "title"
 date = {{ .Date }}
@@ -89,7 +89,7 @@ draft = false
 type = "News"
 summary = "Summary
 +++
----
+```
 
 
 ## Updating the graphs
