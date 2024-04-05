@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+
+<div id="tilecontainer">
+    <div class="tile">
+        <h1>Latest publication</h1>
+        
+        {{ $publications :=  (where .Site.AllPages "Params.Category" "Publication") }}
+                
+        {{ range last 1 $publications }}
+            {{ .Title }}
+        {{ end }}
+
+
+        <div class="tilemore"><a href="/publications">Click here to read about all {{ len $publications}} publications </a></div>
+    </div>
+    <div class="tile tile_circles">
+        <div class="subtile">
+            <h1>Patients</h1>
+            {{partial "svgs/patients.svg" (dict "class" "stat_circle") .}}
+        </div>
+        <div class="subtile">
+            <h1>Practices</h1>
+            {{partial "svgs/practices.svg" (dict "class" "stat_circle") .}}
+        </div>
+    </div>
+    <div class="tile tile_map">
+        {{partial "svgs/elan_map.svg" (dict "class" "stat_map") .}}
+    </div>
+</div>
+<div id="about" class="element">
+    <h1>About</h1>
+    <p>
+        {{ .Content }}
+    </p>
+</div>
+<div id="news" class="element">
+    <h1>News</h1>
+
+    <div id="postcontainer">
+        {{ $paginator := .Paginate (where .Site.Pages "Params.Category" "News")}}
+        {{ range last 2 $paginator.Pages}}
+        {{ partial "summary.html" . }}
+        <!-- <p>{{ .Content }}</p> -->
+        {{ end }}
+    </div>
+
+    <!-- SO UGLY -->
+    {{ $pre := "news" }}
+    {{ if(eq site.Language.Lang "nl") }}
+     {{ $pre := "/nl/nieuws" }}
+    {{ end }}
+    <a class="morearticles" href= "{{ print $pre }}">Click here to read more news.</a>
+</div>
+
+{{ partial "partners.html" . }}
+
+
+
+{{ end }}

@@ -1,3 +1,5 @@
-
-other/wijkbuurtkaart_2023_v1/
-/other/.ipynb_checkpoints
+.hugo_build.lock
+/themes/elancholia/visual_generators/.ipynb_checkpoints
+/themes/elancholia/visual_generators/__pycache__
+/themes/elancholia/visual_generators/wijkbuurtkaart_2023_v1
+/public

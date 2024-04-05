@@ -1,0 +1,25 @@
+{{ $DH := resources.Get "images/logo_gemDH.svg" }}
+{{ $GGD := resources.Get "images/logo_GGD.svg" }}
+{{ $hadoks := resources.Get "images/logo_hadoks.svg" }}
+{{ $haga := resources.Get "images/logo_haga.svg" }}
+{{ $HHS := resources.Get "images/logo_HHS.svg" }}
+{{ $HMC := resources.Get "images/logo_HMC.svg" }}
+{{ $LU := resources.Get "images/logo_LU.svg" }}
+{{ $LUMC := resources.Get "images/logo_LUMC.svg" }}
+{{ $parnassia := resources.Get "images/logo_pargroup.svg" }}
+{{ $reinier := resources.Get "images/logo_reinier.svg" }}
+
+<div class="marquee">
+    <ul class="marquee-content">'
+        <li><img src="{{ $DH.RelPermalink }}" alt="Municipality The Hague" /></li>
+        <li><img src="{{ $GGD.RelPermalink }}" alt="GGD" /></li>
+        <li><img src="{{ $hadoks.RelPermalink }}" alt="Hadoks" /></li>  
+        <li><img src="{{ $haga.RelPermalink }}" alt="HAGA hospital" /></li>
+        <li><img src="{{ $HHS.RelPermalink }}" alt="The Hague University of Applied Sciences" /></li>
+        <li><img src="{{ $HMC.RelPermalink }}" alt="Haaglanden Medisch Centrum" /></li>
+        <li><img src="{{ $LU.RelPermalink }}" alt="Leiden University" /></li>
+        <li><img src="{{ $LUMC.RelPermalink }}" alt="Leiden University Medical Center" /></li>
+        <li><img src="{{ $parnassia.RelPermalink }}" alt="Parnassia Group" /></li>
+        <li><img src="{{ $reinier.RelPermalink }}" alt="Reinier de Graaf Hospital" /></li>
+    </ul>
+</div>

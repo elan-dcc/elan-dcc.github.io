@@ -1,0 +1,59 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-GB'
+title = 'ELAN'
+copyright = 'Health Campus Den Haag'
+theme = 'elancholia'
+paginate = 2
+
+#[menu]
+# Shown in the menu
+#[[menu.main]]
+#identifier = "publications"
+#name = "Publications"
+#url = "/publications/"
+
+#[[menu.main]]
+#identifier = "authors"
+#name = "Authors"
+#url = "/authors/"
+
+# Multilingual mode config. More for information about how to setup translation,
+# see https://gohugo.io/content-management/multilingual/
+[languages]
+  [languages.en]
+    title = "ELAN"
+    languageName = "en-GB"
+    LanguageCode = "en-GB"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "ENGLISH"
+    [languages.en.menus]
+  [[languages.en.menus.main]]
+    identifier = "posts"
+    name = "News"
+    url = "/news/"
+#    PageRef = "/publications"
+    weight = 2
+  [languages.nl]
+    title = "ELAN"
+    languageName = "nl-NL"
+    LanguageCode = "nl-NL"
+    contentDir = "content.nl"
+    [languages.nl.params]
+      madeWith = "DUTCH"
+    [languages.nl.menus]
+  [[languages.nl.menus.main]]
+    identifier = "posts"
+    name = "Niews"
+    url = "/nl/news/"
+    weight = 2
+
+[taxonomies]
+authors = "authors"
+year = "year"
+
+[params]
+# Dates are displayed following the format below. For more information about
+# formatting, see https://gohugo.io/functions/format/
+dateFormat = "2006-01-02"
+themeStyle = 'style'

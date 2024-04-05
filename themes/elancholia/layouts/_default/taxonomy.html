@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+I AM AN AUTHOR aa
+
+{{ .Data.Terms }} 
+
+<ul>
+	{{ range .Site.Taxonomies.authors }}
+	  <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+	{{ end }}
+  </ul>
+
+
+  ON FIRE
+
+<ul>
+    {{ range $key, $taxonomy := .Site.Taxonomies.authors }}
+      <li>{{ $key }} </li>
+      <ul>
+        {{ range $taxonomy.Pages }}
+          <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </ul>
+{{ end }}

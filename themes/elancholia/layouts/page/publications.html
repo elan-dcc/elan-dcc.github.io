@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+{{- partial "nav_publications.html" . -}}
+
+{{ .Content }}
+
+<ul>
+    {{ range $key, $taxonomy := .Site.Taxonomies.year }}
+      <li>{{ $key }} </li>
+      <ul>
+        {{ range $taxonomy.Pages }}
+          <li> {{- partial "publication.html" . -}} </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+</ul>
+
+{{ end }}
