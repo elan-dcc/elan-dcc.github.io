@@ -292,6 +292,15 @@ footer{
     background-color: var(--primary-color);
 }
 
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a{
+    color: #fff;
+}
+
 #footercontainer{
     margin: 0 auto;
     width: var(--width);

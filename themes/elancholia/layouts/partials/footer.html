@@ -8,13 +8,19 @@
     <a href="" class="button" alt="GitHub">GitHub<img src="{{ $github.RelPermalink }}" alt="GitHub logo" /></a>
   </div>
   <div class="footerelement">
-    <h1>Resources</h1>
+    <!-- <h1>Resources</h1>
     About ELAN<br/>
     About the Data<br/>
     News<br/>
     Publications<br/>
-    Projects<br/>
-    
+    Projects<br/> -->
+    {{ if .Site.Menus.footer_menu }}
+    <ul>
+    {{ range .Site.Menus.footer_menu.ByWeight }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+    {{ end }}
   </div>
   <div class="footerelement">
     <h1>Email</h1>

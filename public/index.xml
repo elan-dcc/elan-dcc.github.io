@@ -78,6 +78,15 @@
 ]]></content:encoded>
     </item>
     <item>
+      <title>Projects</title>
+      <link>https://example.org/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/</guid>
+      <description>Projects</description>
+      <content:encoded><![CDATA[<p>Projects</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Publications</title>
       <link>https://example.org/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
