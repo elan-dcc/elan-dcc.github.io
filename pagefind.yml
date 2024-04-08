@@ -1,3 +1,3 @@
 # pagefind.yml
 site: public
-output-subdir: pagefind
+output_subdir: _pagefind
