@@ -2,4 +2,14 @@
 
 {{ .Content }}
 
+
+{{ if .Site.Menus.researchers_menu }}
+<ul>
+{{ range .Site.Menus.researchers_menu.ByWeight }}
+  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+{{ end }}
+</ul>
+{{ end }}
+
+
 {{ end }}

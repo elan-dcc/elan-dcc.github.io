@@ -57,12 +57,13 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Index pagefind
+        run:  Rum npm_config_yes=true npx -y pagefind --site "public"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      - name: Index pagefind
-        run: npx -y pagefind --site public
+
         
   # Deployment job
   deploy:
