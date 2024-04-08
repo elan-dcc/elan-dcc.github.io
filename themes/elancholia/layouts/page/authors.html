@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+{{- partial "nav_publications.html" . -}}
+
+{{ .Content }}
+
+<ul>
+	{{ range .Site.Taxonomies.authors }}
+	  <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+	{{ end }}
+  </ul>
+
+{{ end }}

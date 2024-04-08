@@ -1,0 +1,12 @@
+{{ if .Site.Menus.publication_menu }}
+  
+  
+<nav aria-label="Page navigation">
+  <ul class="paginationmenu">
+  {{ range .Site.Menus.publication_menu.ByWeight }}
+    <li class="page-item"><a class="page-link" href="{{ .URL }}">{{ .Name }}</a></li>
+  {{ end }}
+</ul>
+</nav>
+  
+{{ end }}

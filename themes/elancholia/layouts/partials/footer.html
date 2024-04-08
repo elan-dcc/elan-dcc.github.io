@@ -1,0 +1,31 @@
+
+<div id="footercontainer">
+  {{ $linkedin := resources.Get "images/logo_linkedin.svg" }}
+  {{ $x := resources.Get "images/logo_x.svg" }}
+  {{ $github := resources.Get "images/logo_github.svg" }}
+
+  <div class="footerelement">
+    <a href="" class="button" alt="GitHub">GitHub<img src="{{ $github.RelPermalink }}" alt="GitHub logo" /></a>
+  </div>
+  <div class="footerelement">
+    <h1>Resources</h1>
+    About ELAN<br/>
+    About the Data<br/>
+    News<br/>
+    Publications<br/>
+    Projects<br/>
+    
+  </div>
+  <div class="footerelement">
+    <h1>Email</h1>
+    elan-dcc@lumc.nl
+    <h1>Socials</h1>
+    <img src="{{ $linkedin.RelPermalink }}" class="sociallogo" alt="LinkedIn logo" />
+    <img src="{{ $x.RelPermalink }}" class="sociallogo" alt="X logo" />
+  </div>
+</div>
+<div id="bottomcontainer">
+  <div id="bottomcontent">
+    {{ .Site.Copyright }} | {{ markdownify .Site.Params.madeWith }}
+  </div>
+</div>

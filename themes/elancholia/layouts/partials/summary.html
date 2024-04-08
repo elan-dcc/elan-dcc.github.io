@@ -1,0 +1,19 @@
+<div class="post">
+	<div class="postcontent">
+
+		<a href="{{ .Permalink }}"><h1> {{ .Title }}</h1></a>
+
+		<div class="newsdescription">
+			{{ if   .Description}}{{ .Description }}{{else}}{{ .Summary }}{{end}}
+		</div>
+	</div>
+	<div class="postextra">
+
+		<!-- {{/* - partial "tags.html" . - */}} -->
+		<time class="postdate"
+			datetime="{{ .Date.Format "2006-01-02" }}">
+			{{- .Date.Format (.Site.Params.PostDateFormat | default "2006-1-2") -}}
+		</time>
+		<a class="postextralink" href="{{ .Permalink }}">Read article</a>
+	</div>
+</div>
