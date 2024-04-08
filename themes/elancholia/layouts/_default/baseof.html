@@ -15,7 +15,7 @@
   <script src="/pagefind/pagefind-ui.js"></script> -->
 
   
-  {{ $style := "pagefind-ui.css" | minify }}
+  {{ $style := "pagefind-ui.css" | resources.Get | minify }}
   <link href="{{ $style.RelPermalink }}" rel="stylesheet">
   
   {{ $style := print (default "original" .Site.Params.themeStyle) ".css" | resources.Get | minify }}
