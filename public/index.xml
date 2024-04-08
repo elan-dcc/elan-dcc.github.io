@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ELAN</title>
+    <link>https://example.org/</link>
+    <description>Recent content on ELAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Health Campus Den Haag</copyright>
+    <lastBuildDate>Tue, 26 Mar 2024 21:14:26 +0100</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My third post</title>
+      <link>https://example.org/news/my_third_post/</link>
+      <pubDate>Tue, 26 Mar 2024 21:14:26 +0100</pubDate>
+      <guid>https://example.org/news/my_third_post/</guid>
+      <description>Redox is a type of chemical reaction in which the oxidation states of a reactant change.Oxidation is the loss of electrons or an increase in the oxidation state, while reduction is the gain of electrons or a decrease in the oxidation state.&#xA;There are two classes of redox reactions:&#xA;Electron-transfer: Only one (usually) electron flows from the atom, ion or molecule being oxidized to the atom, ion, or molecule that is reduced.</description>
+      <content:encoded><![CDATA[<p>Redox is a type of chemical reaction in which the oxidation states of a reactant change.Oxidation is the loss of electrons or an increase in the oxidation state, while reduction is the gain of electrons or a decrease in the oxidation state.</p>
+<p>There are two classes of redox reactions:</p>
+<ul>
+<li>Electron-transfer:  Only one (usually) electron flows from the atom, ion or molecule being oxidized to the atom, ion, or molecule that is reduced. This type of redox reaction is often discussed in terms of redox couples and electrode potentials.</li>
+<li>Atom transfer:An atom transfers from one substrate to another. For example, in the rusting of iron, the oxidation state of iron atoms increases as the iron converts to an oxide, and simultaneously the oxidation state of oxygen decreases as it accepts electrons released by the iron. Although oxidation reactions are commonly associated with the formation of oxides, other chemical species can serve the same function.In hydrogenation, bonds like C=C are reduced by transfer of hydrogen atoms.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>My second post</title>
+      <link>https://example.org/news/my_second_post/</link>
+      <pubDate>Tue, 26 Mar 2024 21:14:19 +0100</pubDate>
+      <guid>https://example.org/news/my_second_post/</guid>
+      <description>The Eurovision Song Contest (French: Concours Eurovision de la chanson), often known simply as Eurovision or by its initialism ESC, is an international song competition organised annually by the European Broadcasting Union. Each participating country submits an original song to be performed live and transmitted to national broadcasters via the Eurovision and Euroradio networks, with competing countries then casting votes for the other countries&amp;rsquo; songs to determine a winner.&#xA;The contest was inspired by and based on Italy&amp;rsquo;s national Sanremo Music Festival, held in the Italian Riviera since 1951.</description>
+      <content:encoded><![CDATA[<p>The Eurovision Song Contest (French: Concours Eurovision de la chanson), often known simply as Eurovision or by its initialism ESC, is an international song competition organised annually by the European Broadcasting Union. Each participating country submits an original song to be performed live and transmitted to national broadcasters via the Eurovision and Euroradio networks, with competing countries then casting votes for the other countries&rsquo; songs to determine a winner.</p>
+<p>The contest was inspired by and based on Italy&rsquo;s national Sanremo Music Festival, held in the Italian Riviera since 1951. Eurovision has been held annually since 1956 (apart from 2020 due to the COVID-19 pandemic), making it the longest-running international music competition on TV and one of the world&rsquo;s longest-running television programmes. Active members of the EBU and invited associate members are eligible to compete; as of 2023, 52 countries have participated at least once. Each participating broadcaster sends one original song of three minutes duration or less to be performed live by a singer or group of up to six people aged 16 or older. Each country awards 1–8, 10 and 12 points to their ten favourite songs, based on the views of an assembled group of music professionals and the country&rsquo;s viewing public, with the song receiving the most points declared the winner. Other performances feature alongside the competition, including a specially-commissioned opening and interval act and guest performances by musicians and other personalities, with past acts including Cirque du Soleil, Madonna, Justin Timberlake, Mika, Rita Ora and the first performance of Riverdance. Originally consisting of a single evening event, the contest has expanded as new countries joined (including countries outside of Europe, such as Israel and Australia), leading to the introduction of relegation procedures in the 1990s, before the creation of semi-finals in the 2000s. As of 2023, Germany has competed more times than any other country, having participated in all but one edition, while Ireland and Sweden both hold the record for the most victories, with seven wins each in total.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/news/my-first-post/</link>
+      <pubDate>Sun, 24 Mar 2024 17:33:25 +0100</pubDate>
+      <guid>https://example.org/news/my-first-post/</guid>
+      <description>&lt;p&gt;This is my first post. I am really thirsty.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>This is my first post. I am really thirsty.</p>
+<p>I got some tea, and I can proudly say that I am no longer thirsty.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>A systematic review of risk stratification tools internally used in primary care settings</title>
+      <link>https://example.org/publications/sys_review_risk_prim_care/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.org/publications/sys_review_risk_prim_care/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Assessment of the Adjusted Clinical Groups system in Dutch primary care using electronic health records = a retrospective cross-sectional study</title>
+      <link>https://example.org/publications/assess_dutch_prim_care/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.org/publications/assess_dutch_prim_care/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Authors</title>
+      <link>https://example.org/authors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/authors/</guid>
+      <description>Publications per author.</description>
+      <content:encoded><![CDATA[<p>Publications per author.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>For researchers</title>
+      <link>https://example.org/researchers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/researchers/</guid>
+      <description>For the researchers&#xA;LISCHIP</description>
+      <content:encoded><![CDATA[<p>For the researchers</p>
+<p><a href="https://www.lischip.com">LISCHIP</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://example.org/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/publications/</guid>
+      <description>Publications baby.</description>
+      <content:encoded><![CDATA[<p>Publications baby.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Title of project</title>
+      <link>https://example.org/www.lumc.nl</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/www.lumc.nl</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+  </channel>
+</rss>

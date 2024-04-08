@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>News on ELAN</title>
+    <link>https://example.org/nl/news/</link>
+    <description>Recent content in News on ELAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-NL</language>
+    <copyright>Health Campus Den Haag</copyright>
+    <lastBuildDate>Tue, 26 Mar 2024 21:14:19 +0100</lastBuildDate>
+    <atom:link href="https://example.org/nl/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mijn tweede post</title>
+      <link>https://example.org/nl/news/my_second_post/</link>
+      <pubDate>Tue, 26 Mar 2024 21:14:19 +0100</pubDate>
+      <guid>https://example.org/nl/news/my_second_post/</guid>
+      <description>Europapa</description>
+      <content:encoded><![CDATA[<p>Europapa</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Mijn eerste post</title>
+      <link>https://example.org/nl/news/my-first-post/</link>
+      <pubDate>Sun, 24 Mar 2024 17:33:25 +0100</pubDate>
+      <guid>https://example.org/nl/news/my-first-post/</guid>
+      <description>&lt;p&gt;Hoi hoi&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hoi hoi</p>
+<p>Doei doei</p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
