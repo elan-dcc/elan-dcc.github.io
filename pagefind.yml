@@ -1,0 +1,3 @@
+# pagefind.yml
+site: public
+output-subdir: pagefind
