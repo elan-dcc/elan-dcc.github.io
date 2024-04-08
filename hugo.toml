@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://elan-dcc.github.io'
 languageCode = 'en-GB'
 title = 'ELAN'
 copyright = 'Health Campus Den Haag'
