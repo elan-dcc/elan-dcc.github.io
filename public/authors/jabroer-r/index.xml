@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jabroer R on ELAN</title>
-    <link>https://example.org/authors/jabroer-r/</link>
+    <link>http://localhost:1313/authors/jabroer-r/</link>
     <description>Recent content in Jabroer R on ELAN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language>
     <copyright>Health Campus Den Haag</copyright>
     <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/authors/jabroer-r/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/authors/jabroer-r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A systematic review of risk stratification tools internally used in primary care settings</title>
-      <link>https://example.org/publications/sys_review_risk_prim_care/</link>
+      <link>http://localhost:1313/publications/sys_review_risk_prim_care/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.org/publications/sys_review_risk_prim_care/</guid>
+      <guid>http://localhost:1313/publications/sys_review_risk_prim_care/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

@@ -617,7 +617,7 @@ ul.publicationauthors, ul.publicationauthors > li {
     max-height: 100%;
     font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
     white-space: nowrap;
-    margin-right: 100px;
+    /* margin-right: 100px; */
   }
   
   .marquee-content li img {
