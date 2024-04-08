@@ -3,7 +3,7 @@
 A static site featuring information for ELAN researchers and stakeholders.
 It is made and build using the static site generator [Hugo](https://gohugo.io/).
 
-Click [here]( https://elan-dcc.github.io/information-products/) to visit the site.
+Click [here]( https://elan-dcc.github.io/) to visit the site.
 
 ## Installation
 If you just want to add or edit a post or publication, you only need to clone

@@ -1,4 +1,4 @@
-baseURL = ' https://elan-dcc.github.io/information_products/'
+baseURL = ' https://elan-dcc.github.io/'
 languageCode = 'en-GB'
 title = 'ELAN'
 copyright = 'Health Campus Den Haag'
