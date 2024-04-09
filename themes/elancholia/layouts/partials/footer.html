@@ -5,7 +5,11 @@
   {{ $github := resources.Get "images/logo_github.svg" }}
 
   <div class="footerelement">
-    <a href="" class="button" alt="GitHub">GitHub<img src="{{ $github.RelPermalink }}" alt="GitHub logo" /></a>
+    <ul>
+    <li><a href="" class="button" alt="GitHub">GitHub<img src="{{ $github.RelPermalink }}" alt="GitHub logo" /></a></li>
+    <li><a href="http://www.elanresearch.nl" target="_blank">Ticket system</a></li>
+    <li><a href="http://www.lumc.nl/elan" target="_blank">Information in Dutch</a></li>
+    </ul>
   </div>
   <div class="footerelement">
     <!-- <h1>Resources</h1>

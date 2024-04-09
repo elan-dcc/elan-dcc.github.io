@@ -3,6 +3,22 @@
 {{ .Content }}
 
 
+<div id="tilecontainer">
+  <div class="tile">
+    <a href="http://www.elanresearch.nl" target="_blank">Request a ticket</a>
+  </div>
+  <div class="tile">
+    <a href="">Codebook</a><br/>
+    Version: 1.1<br />
+    Last update: 09-04-2024
+    </div>
+  <div class="tile">
+    <a href="">Guidance document</a><br/>
+    Version: 1.1<br />
+    Last update: 09-04-2024
+  </div>
+</div>
+
 {{ if .Site.Menus.researchers_menu }}
 <ul>
 {{ range .Site.Menus.researchers_menu.ByWeight }}
@@ -10,6 +26,9 @@
 {{ end }}
 </ul>
 {{ end }}
+
+Image showing workflow for new researchers to request access to data or something?
+And what to do when they've concluded their analysis?
 
 
 {{ end }}

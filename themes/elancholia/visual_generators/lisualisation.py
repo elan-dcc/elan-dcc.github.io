@@ -49,7 +49,7 @@ def make_sexy_circle(amounts: list, colours: list, destination: str,
         </style></defs>
     '''
     
-    svg = rf'''<svg xmlns:xlink="http://www.w3.org/1999/xlink" class = "{{ .class }}" viewBox="0 0 {width} {height}" preserveAspectRatio="xMidYMid" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    svg = rf'''<svg xmlns:xlink="http://www.w3.org/1999/xlink" class = " ''' +'{{ .class }}' + rf'''" viewBox="0 0 {width} {height}" preserveAspectRatio="xMidYMid" xmlns="http://www.w3.org/2000/svg" version="1.1">
     ''' + css
 
     svg += rf'''    

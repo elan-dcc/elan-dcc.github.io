@@ -3,21 +3,12 @@
         <nav>{{- partial "nav.html" . -}}</nav>
       
     </div>
-    <div id="headercontent">
-        <div class="headerelement publicationstats">
-
-            {{ $projects :=  ( where .Site.AllPages "Params.Category" "Project") }}
-            {{ $projects :=  ( where $projects "Params.Featured" true) }}
-            {{ range $projects }}
-                {{ .Title }}
-            {{ end }}
-            
-        </div>
+    <!-- <div id="headercontent">
         <div class="headerelement">
             <div id="buttoncontainer">
                 <a href="" class="button" alt="About ELAN">About ELAN</a>
                 <a href="" class="button" alt="About the data">About the data</a>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>

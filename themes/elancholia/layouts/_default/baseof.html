@@ -11,13 +11,9 @@
   {{- partial "seo_tags.html" . -}}
   <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <!-- <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-  <script src="/pagefind/pagefind-ui.js"></script> -->
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="/pagefind/pagefind-ui.js"></script>
 
-  
-  {{ $style := "pagefind-ui.css" | resources.Get | minify }}
-  <link href="{{ $style.RelPermalink }}" rel="stylesheet">
-  
   {{ $style := print (default "original" .Site.Params.themeStyle) ".css" | resources.Get | minify }}
   <link href="{{ $style.RelPermalink }}" rel="stylesheet">
 
@@ -67,10 +63,6 @@
   <script src="{{ $js.RelPermalink }}"></script>
 
   {{ $js := resources.Get "marquee.js" | minify }}
-
-  <script src="{{ $js.RelPermalink }}"></script>
-
-  {{ $js := resources.Get "pagefind-ui.js" | minify }}
 
   <script src="{{ $js.RelPermalink }}"></script>
 </body>

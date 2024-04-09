@@ -34,6 +34,17 @@
         {{ .Content }}
     </p>
 </div>
+
+<div class="element" id="projects">
+    <h1>Projects</h1>
+    {{ $projects :=  ( where .Site.AllPages "Params.Category" "Project") }}
+    {{ $projects :=  ( where $projects "Params.Featured" true) }}
+    {{ range $projects }}
+        {{ .Title }} <br />
+    {{ end }}
+    
+</div>
+
 <div id="news" class="element">
     <h1>News</h1>
 

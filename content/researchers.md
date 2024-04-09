@@ -1,9 +1,7 @@
 +++
 title = 'For researchers'
-menu = 'main'
+menus = ['about_menu', 'footer_menu']
 layout = 'researchers'
 +++
 
 For the researchers
-
-[LISCHIP](https://www.lischip.com)

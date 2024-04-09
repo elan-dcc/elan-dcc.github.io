@@ -69,16 +69,8 @@ nav li{
     padding: 0 0 10px 0;
 }
 
-.headerelement{
-    width: 50%;
-    padding: 0 100px 0 100px;
-}
-
-.publicationstats{
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
-    backdrop-filter: blur(2rem);
-    border-radius: 25px;
-    box-shadow: 0 0 40px rgba(79, 75, 116, 0.6);
+#projects{
+    color: var(--secondary-color);
 }
 
 main{
@@ -260,6 +252,28 @@ a.morearticles{
     }
 }
 
+@media only screen and (max-width: 800px) {
+    .pagefind-ui__result-excerpt.svelte-j9e30.svelte-j9e30{
+        font-size: 13px;
+    }
+
+    .pagefind-ui__result.svelte-j9e30.svelte-j9e30.svelte-j9e30{
+        padding: 0 5px 0 5px;
+    }    
+
+    .pagefind-ui__result-inner.svelte-j9e30.svelte-j9e30{
+        margin: 0;
+    }
+
+    .pagefind-ui__button.svelte-e9gkc3{
+        margin-top: 5px;
+    }
+    .pagefind-ui__message.svelte-e9gkc3{
+        padding: 0 5px 0 5px;
+    }
+
+}
+
 
 #about{
     background-color: var(--primary-color);
@@ -295,6 +309,7 @@ footer{
 
 footer ul {
     list-style-type: none;
+    padding: 0;
 }
 
 footer a{
@@ -344,7 +359,12 @@ footer a{
     padding: 10px;
 }
 
-#buttoncontainer{
+#about_menu{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#about_menu ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -353,7 +373,7 @@ footer a{
 }
 
 .button > img{
-    height: 10px;
+    height: 30px;
     margin-left: 20px;
     vertical-align: middle;
 }
@@ -518,13 +538,17 @@ nav a{
     .footerelement{
         width: auto;
     }
+
+    #about_menu ul{
+        flex-direction: row;
+    }
 }
 
 
 /* Start search result madness */
 #search{
     width: 100%;
-    padding: 0 0 50px 0;
+    padding: 0 0 10px 0;
     clear: both;
 }
 
@@ -538,13 +562,13 @@ mark {
 }
 
 .pagefind-ui__message.svelte-e9gkc3{
-    padding: 0;
+    padding: 0 10px 0 10px;
     height: fit-content;
 }
 
 .pagefind-ui__result.svelte-j9e30.svelte-j9e30{
     gap: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 ul.publicationauthors, ul.publicationauthors > li {
@@ -632,7 +656,6 @@ ul.publicationauthors, ul.publicationauthors > li {
       --marquee-elements-displayed: 3;
     }
     .marquee:before, .marquee:after { width: 5rem; }
-    .marquee-content li { margin-right: 50px; }
       
   }
 

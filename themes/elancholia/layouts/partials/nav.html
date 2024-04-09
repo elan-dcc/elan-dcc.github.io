@@ -39,3 +39,14 @@
         new PagefindUI({ element: "#search", showSubResults: false, pageSize: 3, showImages: false, resetStyles: false });
     });
 </script>
+
+<div id="about_menu">
+  {{ if .Site.Menus.about_menu }}
+  <ul>
+  {{ range .Site.Menus.about_menu.ByWeight }}
+    <li><a href="{{ .URL }}"  class="button">{{ .Name }}</a></li>
+  {{ end }}
+</ul>
+  {{ end }}
+
+</div>

@@ -58,9 +58,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Index pagefind
-        run:  RUST_BACKTRACE=1 npx pagefind --site "public"
-        env:
-          RUST_BACKTRACE: 1
+        run: npx pagefind --site "public"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
