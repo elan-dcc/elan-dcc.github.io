@@ -4,5 +4,6 @@ menu = ['main', 'publication_menu', 'footer_menu']
 layout = 'publications'
 +++
 
+# Publications
 
-Publications baby.
+We be publishing, yo.
