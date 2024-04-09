@@ -65,6 +65,11 @@
   {{ $js := resources.Get "marquee.js" | minify }}
 
   <script src="{{ $js.RelPermalink }}"></script>
+
+  {{ $js := resources.Get "map.js" | minify }}
+
+  <script src="{{ $js.RelPermalink }}"></script>
+
 </body>
 
 </html>
