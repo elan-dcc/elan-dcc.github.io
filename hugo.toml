@@ -26,21 +26,14 @@ paginate = 2
     LanguageCode = "en-GB"
     contentDir = "content"
     [languages.en.params]
-      madeWith = "ENGLISH"
-    [languages.en.menus]
-  [[languages.en.menus.main]]
-    identifier = "posts"
-    name = "News"
-    url = "/news/"
-#    PageRef = "/publications"
-    weight = 2
+      update = "Last update: 11-04-2024"
   [languages.nl]
     title = "ELAN"
     languageName = "nl-NL"
     LanguageCode = "nl-NL"
     contentDir = "content.nl"
     [languages.nl.params]
-      madeWith = "DUTCH"
+      update = "Laatste update: 11-04-2024"
 
 [taxonomies]
 authors = "authors"

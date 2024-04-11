@@ -2,7 +2,7 @@
   other = "Filteren voor"
 
 [no-posts]
-  other = "Nog geen posts"
+  other = "Nog geen nieuws"
 
 [news]
   other = "Nieuws"
@@ -24,3 +24,7 @@
 
 [read-articles]
   other = "Klik hier voor meer nieuws"
+
+[read-publications]
+  one = "Klik hier voor meer over deze publicatie."
+  other = "Klik hier voor alle {{ . }} publicaties."

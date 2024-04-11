@@ -1,7 +1,8 @@
 +++
 title = 'About'
-menu = 'main'
+layout = 'NL_about'
 +++
 
+# Informatie
 
-It's just a ride
+Over data + ELAN.
