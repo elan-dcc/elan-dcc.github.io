@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --myfont: "Open Sans", sans-serif;
     --width: 75%;
@@ -22,7 +28,7 @@
     --marquee-width: 100%;
     --marquee-height: 300px;
     /* --marquee-elements: 12; */ /* defined with JavaScript */
-    --marquee-elements-displayed: 4;
+    --marquee-elements-displayed: 3;
     --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
     --marquee-animation-duration: calc(var(--marquee-elements) * 7s);
 }
@@ -86,13 +92,11 @@ main{
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 20px;
-    box-sizing: border-box;
     width: 100%;
 }
 
 .tile{
     width: 33%;
-    box-sizing: border-box;
     height: 250px;
     padding: 10px 30px 30px 30px;
     box-shadow: var(--primary-color) 0px 8px 10px -10px;
@@ -148,7 +152,6 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    box-sizing: border-box;
 }
 
 .post{
@@ -159,7 +162,6 @@ main{
     border-radius: 25px;
     background-color: #fcfcfc;
     overflow: hidden;
-    box-sizing: border-box;
     position: relative;
 }
 
@@ -186,7 +188,6 @@ main{
     margin: 0;
     background-color: var(--pagefind-ui-background);
     padding: 5px 20px 0 20px;
-    box-sizing: border-box;
     color: #fff;
 }
 
@@ -214,7 +215,6 @@ a.morearticles{
     width: 100%;
     padding: 20px;
     margin-top: 20px;
-    box-sizing: border-box;
 }
 
 
@@ -274,11 +274,9 @@ a.morearticles{
 
 }
 
-
 #about{
     background-color: var(--primary-color);
     color: #fff;
-    box-sizing: border-box;
 }
 
 #about img{
@@ -595,12 +593,13 @@ ul.publicationauthors, ul.publicationauthors > li {
     height: var(--marquee-height);
     color: #eee;
     overflow: hidden;
+    position: relative;
   }
 
   .marquee:before, .marquee:after {
     position: absolute;
     top: 0;
-    width: 0rem;
+    width: 10rem;
     height: 100%;
     content: "";
     z-index: 1;
@@ -639,7 +638,7 @@ ul.publicationauthors, ul.publicationauthors > li {
     /* text-align: center; */
     flex-shrink: 0;
     width: var(--marquee-element-width);
-    max-height: 100%;
+    height: 100%;
     font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
     white-space: nowrap;
     /* margin-right: 100px; */
@@ -647,7 +646,7 @@ ul.publicationauthors, ul.publicationauthors > li {
   
   .marquee-content li img {
     width: 100%;
-    max-height: 50%;
+    max-height: 150px;
   }
   
   @media (max-width: 600px) {
