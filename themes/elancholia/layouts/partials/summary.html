@@ -14,6 +14,6 @@
 			datetime="{{ .Date.Format "2006-01-02" }}">
 			{{- .Date.Format (.Site.Params.PostDateFormat | default "2006-1-2") -}}
 		</time>
-		<a class="postextralink" href="{{ .Permalink }}">Read article</a>
+		<a class="postextralink" href="{{ .Permalink }}">{{ i18n "read-article" }}</a>
 	</div>
 </div>

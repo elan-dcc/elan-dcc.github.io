@@ -1,6 +1,5 @@
 +++
 title = 'Authors'
-menu = 'publication_menu'
 layout = 'authors'
 +++
 

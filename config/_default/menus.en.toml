@@ -1,0 +1,64 @@
+[[main]]
+    identifier = "posts"
+    name = "News"
+    url = "/news/"
+    weight = 1
+[[main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 2
+
+[[publication_menu]]
+    identifier = "publications"
+    name = "Per Year"
+    url = "/publications/"
+    weight = 1
+[[publication_menu]]
+    identifier = "authors"
+    name = "Per author"
+    url = "/authors/"
+    weight = 2
+
+[[about_menu]]
+    identifier = "about_data"
+    name = "About the data"
+    url = "/about_data/"
+    weight = 1
+[[about_menu]]
+    identifier = "about_elan"
+    name = "About ELAN"
+    url = "/about_elan/"
+    weight = 2
+[[about_menu]]
+    identifier = "researchers"
+    name = "For researchers"
+    url = "/researchers/"
+    weight = 3
+
+[[footer_menu]]
+    identifier = "about_data"
+    name = "About the data"
+    url = "/about_data/"
+    weight = 1
+[[footer_menu]]
+    identifier = "about_elan"
+    name = "About ELAN"
+    url = "/about_elan/"
+    weight = 2
+[[footer_menu]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
+[[footer_menu]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+[[footer_menu]]
+    identifier = "researchers"
+    name = "For researchers"
+    url = "/researchers/"
+    weight = 5
+

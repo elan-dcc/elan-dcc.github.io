@@ -1,0 +1,26 @@
+[filtering-for]
+  other = "Filteren voor"
+
+[no-posts]
+  other = "Nog geen posts"
+
+[news]
+  other = "Nieuws"
+
+[latest-publication]
+  other = "Laatste publicatie"
+
+[patients]
+  other = "Patienten"
+
+[practices]
+ other = "Praktijken"
+
+[projects]
+  other = "Projecten"
+
+[read-article]
+  other = "Lees meer"
+
+[read-articles]
+  other = "Klik hier voor meer nieuws"

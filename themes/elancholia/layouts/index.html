@@ -3,7 +3,7 @@
 
 <div id="tilecontainer">
     <div class="tile">
-        <h1>Latest publication</h1>
+        <h1>{{ i18n "latest-publication" }}</h1>
         
         {{ $publications :=  (where .Site.AllPages "Params.Category" "Publication") }}
                 
@@ -16,11 +16,11 @@
     </div>
     <div class="tile tile_circles">
         <div class="subtile">
-            <h1>Patients</h1>
+            <h1>{{ i18n "patients" }}</h1>
             {{partial "svgs/patients.svg" (dict "class" "stat_circle") .}}
         </div>
         <div class="subtile">
-            <h1>Practices</h1>
+            <h1>{{ i18n  "practices" }}</h1>
             {{partial "svgs/practices.svg" (dict "class" "stat_circle") .}}
         </div>
     </div>
@@ -36,7 +36,7 @@
 </div>
 
 <div class="element" id="projects">
-    <h1>Projects</h1>
+    <h1>{{ i18n "projects" }}</h1>
     {{ $projects :=  ( where .Site.AllPages "Params.Category" "Project") }}
     {{ $projects :=  ( where $projects "Params.Featured" true) }}
     {{ range $projects }}
@@ -46,7 +46,7 @@
 </div>
 
 <div id="news" class="element">
-    <h1>News</h1>
+    <h1>{{ i18n "news" }}</h1>
 
     <div id="postcontainer">
         {{ $paginator := .Paginate (where .Site.Pages "Params.Category" "News")}}
@@ -61,7 +61,7 @@
     {{ if(eq site.Language.Lang "nl") }}
      {{ $pre := "/nl/nieuws" }}
     {{ end }}
-    <a class="morearticles" href= "{{ print $pre }}">Click here to read more news.</a>
+    <a class="morearticles" href= "{{ print $pre }}">{{ i18n "read-articles" }}</a>
 </div>
 
 {{ partial "partners.html" . }}

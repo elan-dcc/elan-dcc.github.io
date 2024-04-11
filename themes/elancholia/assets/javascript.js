@@ -7,12 +7,12 @@ function toggleMenu() {
         menu.classList.remove("active");
         
         // adds the menu (hamburger) icon 
-        toggle.innerHTML = "AA";
+        toggle.innerHTML = "Menu";
     } else {
         menu.classList.add("active");
         
         // adds the close (x) icon 
-        toggle.innerHTML = "BB";
+        toggle.innerHTML = "Close";
     }
 }
 /* Event Listener */

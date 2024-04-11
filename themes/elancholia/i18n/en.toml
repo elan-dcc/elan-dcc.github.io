@@ -4,11 +4,23 @@
 [no-posts]
   other = "No posts yet"
 
-[email-subject]
-  other = "Reply to "
+[news]
+  other = "Neuws"
 
-[email-reply]
-  other = "Reply to this post by email"
+[latest-publication]
+  other = "Latest publication"
 
-[skip-link]
-  other = "Skip to main content"
+[patients]
+  other = "Patients"
+
+[practices]
+ other = "Practices"
+
+[projects]
+  other = "Projects"
+
+[read-article]
+  other = "Read article"
+
+[read-articles]
+  other = "Click here to read more articles"

@@ -1,0 +1,10 @@
+[[main]]
+    identifier = "news"
+    name = "Niews"
+    url = "/nl/news/"
+    weight = 1
+[[main]]
+    identifier = "about"
+    name = "Informatie"
+    url = "/nl/about/"
+    weight = 2

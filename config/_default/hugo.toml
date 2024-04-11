@@ -41,6 +41,12 @@ paginate = 2
     contentDir = "content.nl"
     [languages.nl.params]
       madeWith = "DUTCH"
+    [languages.nl.menus]
+  [[languages.nl.menus.main]]
+    identifier = "posts"
+    name = "Niews"
+    url = "/nl/news/"
+    weight = 2
 
 [taxonomies]
 authors = "authors"
