@@ -5,7 +5,7 @@
     <div class="tile">
         <h1>{{ i18n "latest-publication" }}</h1>
         
-        {{ $publications :=  (where .Site.AllPages "Params.Category" "Publication") }}
+        {{ $publications :=  (where .Site.Pages "Params.Category" "Publication") }}
                 
         {{ range last 1 $publications }}
             {{ .Title }}
@@ -37,7 +37,7 @@
 
 <div class="element" id="projects">
     <h1>{{ i18n "projects" }}</h1>
-    {{ $projects :=  ( where .Site.AllPages "Params.Category" "Project") }}
+    {{ $projects :=  ( where .Site.Pages "Params.Category" "Project") }}
     {{ $projects :=  ( where $projects "Params.Featured" true) }}
     {{ range $projects }}
         {{ .Title }} <br />

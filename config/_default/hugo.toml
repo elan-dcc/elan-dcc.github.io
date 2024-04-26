@@ -5,18 +5,6 @@ copyright = 'Health Campus Den Haag'
 theme = 'elancholia'
 paginate = 2
 
-#[menu]
-# Shown in the menu
-#[[menu.main]]
-#identifier = "publications"
-#name = "Publications"
-#url = "/publications/"
-
-#[[menu.main]]
-#identifier = "authors"
-#name = "Authors"
-#url = "/authors/"
-
 # Multilingual mode config. More for information about how to setup translation,
 # see https://gohugo.io/content-management/multilingual/
 [languages]
@@ -26,14 +14,14 @@ paginate = 2
     LanguageCode = "en-GB"
     contentDir = "content"
     [languages.en.params]
-      madeWith = "ENGLISH"
+      update = "Last update: 26-04-2024"
   [languages.nl]
     title = "ELAN"
     languageName = "nl-NL"
     LanguageCode = "nl-NL"
     contentDir = "content.nl"
     [languages.nl.params]
-      madeWith = "DUTCH"
+      update = "Laatste update: 26-04-2024"
 
 [taxonomies]
 authors = "authors"
