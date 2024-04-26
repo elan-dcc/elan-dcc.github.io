@@ -10,7 +10,7 @@
     ({{ .Params.Year }}). {{ .LinkTitle }}.,{{ .Params.Journal }}, 
     <i> {{ .Params.Volume }}</i>({{ .Params.Issue }}), {{ .Params.PageRange }}. 
     {{ .Params.DOI }} </b> <br /><br />
-    Themes: {{ range  .Params.Themes }} {{ . }}  {{ end }}, Datasources: {{ range .Params.Datasources}} clicker-{{ . }} {{ end }}
+    Themes: {{ range  .Params.Themes }} {{ . }}  {{ end }}, Datasources: {{ range .Params.Datasources}} {{ . }} {{ end }}
 
     <br/><br/>
     {{ if eq $.Site.Language.LanguageName "nl-NL" }}
