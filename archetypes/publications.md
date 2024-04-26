@@ -7,7 +7,13 @@ journal = "Title of journal"
 volume = 1
 issue =  1
 pagerange = 1
-DOI = "doi.org"
-type = "Article"
+doi = "doi.org"
+summaryeng = ""
+summarynl = ""
+themes = [""]
+datasources = [""]
+ticketnummer = ""
 category = "Publication"
+type = "Article"
+draft = true
 +++

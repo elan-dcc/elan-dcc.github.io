@@ -44,19 +44,27 @@ However, Hugo does allow you to automagically spawn a file that already
 includes the respective archetype.
 
 ```sh
-hugo new content (nl/)news/NAME.md
+hugo new content (nl/en)news/NAME.md
 ```
 
-To add a publication, open the terminal and type
+To add a publication and retrieve relevant information from pubmed, open the terminal and type:
 
 ```sh
-hugo new content publications/NAME.md
+python pubmedget.py -pmid PMID
+```
+
+Then go to the file shown in the window to add the datasources, categories and Dutch summary accordingly, and to set draft to false. Make sure NOT to use spaces in categories and datasources.
+
+To add a publication without retrieving data from pubmed, type the following:
+
+```sh
+hugo new content en/publications/NAME.md
 ```
 
 To add a project, open the terminal and type
 
 ```sh
-hugo new content projects/NAME.md
+hugo new content en/projects/NAME.md
 ```
 
 The front matters and contents of all generated md-files can be edited 

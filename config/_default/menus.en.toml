@@ -19,6 +19,11 @@
     name = "Per author"
     url = "/authors/"
     weight = 2
+[[publication_menu]]
+    identifier = "themes"
+    name = "Per theme/type"
+    url = "/themes/"
+    weight = 3
 
 [[about_menu]]
     identifier = "about_data"

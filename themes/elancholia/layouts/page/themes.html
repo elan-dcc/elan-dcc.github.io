@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+{{- partial "nav_publications.html" . -}}
+
+{{ .Content }}
+
+Select theme<br/>
+{{ range .Site.Taxonomies.themes }}
+<button id="check-logo" class="selectionform-submit-button" onclick="tagmagician('clicker-{{ .Page.Title }}', this)">{{ .Page.Title }}</button>
+{{ end }} <br/><br/>
+
+Select datasource<br/>
+{{ range .Site.Taxonomies.datasources }}
+<button id="check-logo" class="selectionform-submit-button" onclick="tagmagician('clicker-{{ .Page.Title }}', this)">{{ .Page.Title }}</button>
+{{ end }}<br/><br/>
+
+{{ range $key, $taxonomy := .Site.Taxonomies.year }}
+    {{ range $taxonomy.Pages }}
+      {{- partial "publication.html" . -}}
+    {{ end }}
+{{ end }}
+
+
+{{ $js := resources.Get "tagmagician.js" | minify }}
+
+<script src="{{ $js.RelPermalink }}"></script>
+
+
+{{ end }}

@@ -7,4 +7,25 @@
     identifier = "about"
     name = "Informatie"
     url = "/nl/about/"
+    weight = 3
+[[main]]
+    identifier = "publications"
+    name = "Publicaties"
+    url = "/nl/publications/"
     weight = 2
+
+[[publication_menu]]
+    identifier = "publications"
+    name = "Per Year"
+    url = "/nl/publications/"
+    weight = 1
+[[publication_menu]]
+    identifier = "authors"
+    name = "Per author"
+    url = "/nl/authors/"
+    weight = 2
+[[publication_menu]]
+    identifier = "themes"
+    name = "Per thema/type"
+    url = "/nl/themes/"
+    weight = 3

@@ -1,9 +1,21 @@
-<ul class ="publicationauthors">
-    {{ range .Params.Authors }}
-    <li>{{ . }}</li>
-    {{ end }}
-</ul>
+<div class="publication {{ range  .Params.Themes }} clicker-{{ . }}  {{ end }} {{ range .Params.Datasources}} clicker-{{ . }} {{ end }}">
 
-({{ .Params.Year }}). {{ .LinkTitle }}.,{{ .Params.Journal }}, 
-<i> {{ .Params.Volume }}</i>({{ .Params.Issue }}), {{ .Params.PageRange }}. 
-{{ .Params.DOI }} 
+    <b>
+    <ul class ="publicationauthors">
+        {{ range .Params.Authors }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+
+    ({{ .Params.Year }}). {{ .LinkTitle }}.,{{ .Params.Journal }}, 
+    <i> {{ .Params.Volume }}</i>({{ .Params.Issue }}), {{ .Params.PageRange }}. 
+    {{ .Params.DOI }} </b> <br /><br />
+    Themes: {{ range  .Params.Themes }} {{ . }}  {{ end }}, Datasources: {{ range .Params.Datasources}} clicker-{{ . }} {{ end }}
+
+    <br/><br/>
+    {{ if eq $.Site.Language.LanguageName "nl-NL" }}
+    {{ .Params.summarynl }}
+    {{ else }}
+    {{ .Params.summaryeng }}
+    {{ end }}
+</div><br/><br />

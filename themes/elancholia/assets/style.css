@@ -660,3 +660,7 @@ ul.publicationauthors, ul.publicationauthors > li {
   }
 
   /* End marquee magic */
+
+  .checked-mode{
+    background-color: red;
+  }
