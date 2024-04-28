@@ -6,14 +6,16 @@
 
 Select theme<br/>
 {{ range .Site.Taxonomies.themes }}
-<button id="check-logo" class="selectionform-submit-button" onclick="tagmagician('clicker-{{ .Page.Title }}', this)">{{ .Page.Title }}</button>
+<button id="check-logo" class="selectionform-submit-button" onclick="tagmagician('clickert-{{ .Page.Title }}', this)">{{ .Page.Title }}</button>
 {{ end }} <br/><br/>
 
 Select datasource<br/>
 {{ range .Site.Taxonomies.datasources }}
-<button id="check-logo" class="selectionform-submit-button" onclick="tagmagician('clicker-{{ .Page.Title }}', this)">{{ .Page.Title }}</button>
+<button id="check-logo" class="selectionform-submit-button" onclick="tagmagician('clickerd-{{ .Page.Title }}', this)">{{ .Page.Title }}</button>
 {{ end }}<br/><br/>
 
+<div id="tagmagicianstoraget" class="{{ range .Site.Taxonomies.themes }}clickert-{{ .Page.Title }} {{ end }}"></div>
+<div id="tagmagicianstoraged" class="{{ range .Site.Taxonomies.datasources }}clickerd-{{ .Page.Title }} {{ end }}"></div>
 {{ range $key, $taxonomy := .Site.Taxonomies.year }}
     {{ range $taxonomy.Pages }}
       {{- partial "publication.html" . -}}

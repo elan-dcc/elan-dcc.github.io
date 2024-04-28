@@ -1,19 +1,38 @@
+function isDatasource(category){
+    return category.startsWith("clickerd");
+}
 
 function tagmagician(category, element) {
 
     element.classList.toggle("checked-mode");
-    console.log("klik!");
 
+    // updating the "storage"
+    if (isDatasource(category)){
+        var storage = document.getElementById("tagmagicianstoraged").classList;
+        var storageother = document.getElementById("tagmagicianstoraget").classList;
+    }
+    else{
+        var storage = document.getElementById("tagmagicianstoraget").classList;
+        var storageother = document.getElementById("tagmagicianstoraged").classList;
+    }
+    storage.toggle(category);
+    
+    // adjusting the publications
     var x = document.getElementsByClassName("publication");
-    console.log(x);
     for(var i = 0; i < x.length; i++){
-        if (x[i].classList.contains(category)) {
-            if (x[i].style.display === "none") {
-                x[i].style.display = "block";
-            } else {
-                x[i].style.display = "none";
+        var display = "none";
+        myClassList = x[i].classList;
+        for(var j = 0; j < storage.length; j++){
+            if(myClassList.contains(storage[j])){
+                for(var k = 0; k < storageother.length; k++){
+                    if(myClassList.contains(storageother[k])){
+                        display = "block";
+                        break;
+                    }
+                }
+                break;
             }
         }
-    }
-
-  }
+        x[i].style.display = display;
+    }   
+}

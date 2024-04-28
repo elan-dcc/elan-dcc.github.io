@@ -1,4 +1,4 @@
-<div class="publication {{ range  .Params.Themes }} clicker-{{ . }}  {{ end }} {{ range .Params.Datasources}} clicker-{{ . }} {{ end }}">
+<div class="publication {{ range  .Params.Themes }} clickert-{{ . }}  {{ end }} {{ range .Params.Datasources}} clickerd-{{ . }} {{ end }}">
 
     <b>
     <ul class ="publicationauthors">
@@ -18,4 +18,5 @@
     {{ else }}
     {{ .Params.summaryeng }}
     {{ end }}
-</div><br/><br />
+    <br/><br />
+</div>
