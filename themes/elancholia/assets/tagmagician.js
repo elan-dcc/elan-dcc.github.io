@@ -16,9 +16,9 @@ function tagmagician(category, element) {
         var storageother = document.getElementById("tagmagicianstoraged").classList;
     }
     storage.toggle(category);
-    
+
     // adjusting the publications
-    var x = document.getElementsByClassName("publication");
+    var x = document.getElementsByClassName("publication " + category);
     for(var i = 0; i < x.length; i++){
         var display = "none";
         myClassList = x[i].classList;
