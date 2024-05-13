@@ -79,3 +79,5 @@ type = "publicationlist"
 1. van Munster, J. J. C. M., Halperin, I. J. Y., Ardesch, F. H., van den Hout, W. B., van Benthem, P. P. G., Moojen, W., & Peul, W. C. (2024). Practice variation in surgical treatment for lumbar degenerative disc disease: exploring regional and hospital factors influencing surgical rates. Scientific reports, 14(1), 9273. https://doi.org/10.1038/s41598-024-59629-9
 
 1. Watjer RM, Heckmans KM, Eekhof JA, et alAssociation between onychomycosis and ulcerative complications in patients with diabetes: a longitudinal cohort study in Dutch general practiceBMJ Open 2024;14:e076441. doi: 10.1136/bmjopen-2023-076441
+
+1. van den Brink, G., Koggel, L. M., Hendriks, J. J., de Boer, M. G., Siersema, P. D., & Numans, M. E. (2024). Treatment failure of Helicobacter Pylori in primary care. BJGP open, BJGPO.2023.0252. Advance online publication. https://doi.org/10.3399/BJGPO.2023.0252
