@@ -74,6 +74,8 @@ type = "publicationlist"
 
 1. van Os HJA, Kanning JP, Wermer MJH, Chavannes NH, Numans ME, Ruigrok YM, et al. Developing Clinical Prediction Models Using Primary Care Electronic Health Record Data: The Impact of Data Preparation Choices on Model Performance. Frontiers in Epidemiology \[Internet\]. 2022 [cited 2024 Jan 6];2. Available from: https://www.frontiersin.org/articles/10.3389/fepid.2022.871630
 
+1. Extracting Patient Lifestyle Characteristics from Dutch Clinical Text with BERT Models \[Internet\]. 2024 [cited 2024 Feb 13]. Available from: https://www.researchsquare.com
+
 1. van Munster, J. J. C. M., Halperin, I. J. Y., Ardesch, F. H., van den Hout, W. B., van Benthem, P. P. G., Moojen, W., & Peul, W. C. (2024). Practice variation in surgical treatment for lumbar degenerative disc disease: exploring regional and hospital factors influencing surgical rates. Scientific reports, 14(1), 9273. https://doi.org/10.1038/s41598-024-59629-9
 
 1. Watjer RM, Heckmans KM, Eekhof JA, et alAssociation between onychomycosis and ulcerative complications in patients with diabetes: a longitudinal cohort study in Dutch general practiceBMJ Open 2024;14:e076441. doi: 10.1136/bmjopen-2023-076441
