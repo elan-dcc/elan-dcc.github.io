@@ -1,6 +1,6 @@
 +++
 title = 'About'
-layout = 'NL_about'
+layout = 'page'
 +++
 
 # Informatie

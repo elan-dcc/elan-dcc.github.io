@@ -664,3 +664,20 @@ ul.publicationauthors, ul.publicationauthors > li {
   .checked-mode{
     background-color: red;
   }
+
+
+  /* Code block render per language */
+  
+  code {
+    padding: 2px 5px;
+    color: #f8f8f2;
+    background-color: #38365b;
+  }
+  
+  pre code {
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }

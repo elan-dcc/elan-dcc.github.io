@@ -67,3 +67,8 @@
     url = "/researchers/"
     weight = 5
 
+[[researchers_menu]]
+    identifier = "python_env"
+    name = "Requesting Python packages"
+    weight = 5
+    pageRef = "research/python_env"

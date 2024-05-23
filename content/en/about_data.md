@@ -1,5 +1,6 @@
 +++
 title = 'About the data'
+layout = 'page'
 +++
 
 # ELAN data
