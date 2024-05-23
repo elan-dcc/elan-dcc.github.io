@@ -7,9 +7,13 @@
         {{ end }}
     </ul>
 
-    ({{ .Params.Year }}). {{ .LinkTitle }}.,{{ .Params.Journal }}, 
-    <i> {{ .Params.Volume }}</i>({{ .Params.Issue }}), {{ .Params.PageRange }}. 
-    {{ .Params.DOI }} </b> <br /><br />
+    ({{ .Params.Year }}). {{ .LinkTitle }} {{ .Params.Journal }}, 
+    <i> {{ .Params.Volume }}</i>({{ .Params.Issue }}){{ if .Params.PageRange }}, {{ .Params.PageRange }}{{ end }}.
+    
+    {{ .Params.DOI }} </b> 
+    
+    
+    <br /><br />
     Themes: {{ range  .Params.Themes }} {{ . }}  {{ end }}, Datasources: {{ range .Params.Datasources}} {{ . }} {{ end }}
 
     <br/><br/>

@@ -71,4 +71,4 @@
     identifier = "python_env"
     name = "Requesting Python packages"
     weight = 5
-    pageRef = "research/python_env"
+    pageRef = "researchers/python_env"
