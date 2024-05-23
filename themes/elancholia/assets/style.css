@@ -33,6 +33,12 @@
     --marquee-animation-duration: calc(var(--marquee-elements) * 7s);
 }
 
+@media all and (max-width: 960px) {
+    :root {
+        --width: 100%;
+    }
+}
+
 body {
     overscroll-behavior: none;
     margin: 0 auto;
@@ -44,6 +50,14 @@ body {
 a{
     text-decoration: none;
     color: var(--tertiary-color);
+}
+
+h2, h1{
+    margin-top: 50px;
+}
+
+h1:first-of-type{
+    margin-top: 0;
 }
 
 #logo{

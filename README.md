@@ -53,7 +53,7 @@ To add a publication and retrieve relevant information from pubmed, open the ter
 python pubmedget.py -pmid PMID
 ```
 
-Then go to the file shown in the window to add the datasources, categories and Dutch summary accordingly, and to set draft to false. Make sure NOT to use spaces in categories and datasources.
+Next, go to the file shown in the window to add the datasources, categories and Dutch summary accordingly, and to set draft to false. You may have to make some adjustments to the authors as well (such as changing "Mozart JC" to "Mozart JCWT"). Make sure NOT to use spaces in categories and datasources.
 
 To add a publication without retrieving data from pubmed, type the following:
 

@@ -29,12 +29,12 @@
     identifier = "about_data"
     name = "About the data"
     url = "/about_data/"
-    weight = 1
+    weight = 2
 [[about_menu]]
     identifier = "about_elan"
     name = "About ELAN"
     url = "/about_elan/"
-    weight = 2
+    weight = 1
 [[about_menu]]
     identifier = "researchers"
     name = "For researchers"

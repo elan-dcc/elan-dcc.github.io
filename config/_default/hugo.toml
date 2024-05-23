@@ -52,3 +52,8 @@ lang = 'nl'
 source = 'content/en'
 target = 'content'
 lang = 'nl'
+
+
+# Allow HTML in markdown files
+# [markup.goldmark.renderer]
+# unsafe = true
