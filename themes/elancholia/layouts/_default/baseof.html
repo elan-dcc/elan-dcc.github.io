@@ -58,6 +58,8 @@
   your local /layouts/partials-directory -->
   {{- partial "custom_body.html" . -}}
 
+<!-- TODO: optimise this. Why have all of these available EVERYWHERE?-->
+
   {{ $js := resources.Get "javascript.js" | minify }}
 
   <script src="{{ $js.RelPermalink }}"></script>

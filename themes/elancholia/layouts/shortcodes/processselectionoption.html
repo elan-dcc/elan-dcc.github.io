@@ -1,0 +1,5 @@
+{{- $value := .Get "value" -}}
+{{- $text := .Get "text" -}}
+
+
+<button class="processselector {{ $value }}" onclick="processtoggle('{{ $value }}', this)">{{ $text }}</button>

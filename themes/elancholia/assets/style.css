@@ -288,6 +288,11 @@ a.morearticles{
 
 }
 
+
+p{
+    margin: 30px 0 0 0;
+}
+
 #about{
     background-color: var(--primary-color);
     color: #fff;
@@ -694,4 +699,9 @@ ul.publicationauthors, ul.publicationauthors > li {
     white-space: pre-wrap;
     font-size: 14px;
     overflow-x: auto;
+  }
+
+  /* Mermaid charts */
+  .mermaidTooltip{
+    display: none;
   }
