@@ -18,6 +18,8 @@ The purple boxes are links to additional information or to platforms that allow 
 
 You may have already finished writing your research protocol, in which case you can submit that to your ELAN ticket.
 
+**Note that you need to follow *all* paths coming from each box**
+
 ```mermaid {class=""}
 flowchart TD
     id1("(Write research protocol)") --> id2(Submit one ELAN ticket\nper research/article)
