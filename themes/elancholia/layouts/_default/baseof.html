@@ -60,18 +60,34 @@
 
 <!-- TODO: optimise this. Why have all of these available EVERYWHERE?-->
 
+  {{ if .Store.Get "hasMermaid" }}
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+  {{ end }}
+
+
+  {{ if .Store.Get "hasProcess" }}
+    {{ $js := resources.Get "processselection.js" | minify }}
+    <script src="{{ $js.RelPermalink }}"></script>
+  {{ end }}
+
   {{ $js := resources.Get "javascript.js" | minify }}
 
   <script src="{{ $js.RelPermalink }}"></script>
 
-  {{ $js := resources.Get "marquee.js" | minify }}
+  {{ if .Store.Get "hasMarquee" }}
+    {{ $js := resources.Get "marquee.js" | minify }}
 
-  <script src="{{ $js.RelPermalink }}"></script>
+    <script src="{{ $js.RelPermalink }}"></script>
+  {{ end }}
 
-  {{ $js := resources.Get "map.js" | minify }}
+  {{ if .Store.Get "hasRegionStats" }}
+    {{ $js := resources.Get "map.js" | minify }}
 
-  <script src="{{ $js.RelPermalink }}"></script>
-
+    <script src="{{ $js.RelPermalink }}"></script>
+  {{ end }}
 </body>
 
 </html>

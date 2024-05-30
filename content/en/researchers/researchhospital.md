@@ -13,7 +13,7 @@ If you want to use data/variables currently not present in ELAN, contact Frank A
 
 If you want to use free tekst to perform your own data/text mining, you can contact the following people:
 - Jan Pronk, head of IT
-- HAGA: Coen DOrtmond
+- HAGA: Coen Dortmond
 - HMC: Wetenschapsbureau Landsteiner
 - Hands-on expert: Janet Kist
 
