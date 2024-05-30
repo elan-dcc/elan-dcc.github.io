@@ -16,6 +16,8 @@ Some of the providers of our data, and for certain types of research, some addit
 
 The purple boxes are links to additional information or to platforms that allow you to perform the action in question.
 
+You may have already finished writing your research protocol, in which case you can submit that to your ELAN ticket.
+
 ```mermaid {class=""}
 flowchart TD
     id1("(Write research protocol)") --> id2(Submit one ELAN ticket\nper research/article)

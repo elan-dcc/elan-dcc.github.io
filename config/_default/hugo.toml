@@ -14,7 +14,7 @@ paginate = 2
     LanguageCode = "en-GB"
     contentDir = "content"
     [languages.en.params]
-      update = "Last update: 28-05-2024"
+      update = "Last update: 30-05-2024"
   [languages.nl]
     title = "ELAN"
     languageName = "nl-NL"
