@@ -31,7 +31,7 @@ function processtoggle(category, element) {
         if (sameArray(myClassList,flowchart)) { 
             x[i].style.display = "block";
             x[i].style.visibility = "visible";
-            x[i].style.height = "auto";
+            x[i].style.height = "fit-content";
             
         }
         else{

@@ -721,3 +721,7 @@ ul.publicationauthors, ul.publicationauthors > li {
   .mermaidTooltip{
     display: none;
   }
+
+  .mermaid{
+   color: var(--background-color); /*This is a bit hacky, but it prevents the markup language from showing up */
+  }

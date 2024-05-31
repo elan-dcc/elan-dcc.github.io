@@ -3,7 +3,7 @@ title = 'Overview of steps to initiate data analysis'
 menu = 'researchers_menu'
 layout = 'page'
 +++
-Last update: 30-05-2024
+Last update: 31-05-2024
 
 # Overview of steps to initiate data analysis
 To use the ELAN infrastructure and its data, you will need to take the steps shown in the flow chart below.
@@ -44,11 +44,13 @@ flowchart TD
     id10(Upload approval
     to ticket) --> idend(Start your data-analysis!)
     id6 --> id8
-    id8(Contact ELAN-DCC
+    id8("Contact ELAN-DCC
     to start 
     set-up of your 
-    research data:
-    elan.dcc@lumc.nl) --> id11(Start process of
+    research data
+    (including the Data
+    Management Plan):
+    elan.dcc@lumc.nl") --> id11(Start process of
     gaining access
     to CBS or LUMC directories)
 
@@ -69,7 +71,7 @@ flowchart TD
 
 ```mermaid {class="mentalhealth"}
 flowchart TD
-    id1("(Write research protocol)") --> id2
+    id1("(Write research protocol)") --> id2(Submit one ELAN ticket\nper research/article)
     subgraph ticket [This process will take at least 2 months]
         id4
     end
@@ -91,11 +93,13 @@ flowchart TD
     id10(Upload approval
     to ticket) --> idend(Start your data-analysis!)
     id6 --> id8
-    id8(Contact ELAN-DCC
+    id8("Contact ELAN-DCC
     to start 
     set-up of your 
-    research data:
-    elan.dcc@lumc.nl) --> id11(Start process of
+    research data
+    (including the Data
+    Management Plan):
+    elan.dcc@lumc.nl") --> id11(Start process of
     gaining access
     to CBS or LUMC directories)
 
@@ -106,7 +110,7 @@ flowchart TD
         to ticket)
     end
 
-    id2(Submit one ELAN ticket\nper research/article) --> external
+    id2 --> external
     id2 --> ticket
 
     style idend fill:#86c985,stroke:#4d934c,stroke-width:4px
@@ -127,7 +131,7 @@ flowchart TD
 
 ```mermaid {class="hospital"}
 flowchart TD
-    id1("(Write research protocol)") --> id2
+    id1("(Write research protocol)") --> id2(Submit one ELAN ticket\nper research/article)
     subgraph ticket [This process will take at least 2 months]
         id4
     end
@@ -149,11 +153,13 @@ flowchart TD
     id10(Upload approval
     to ticket) --> idend(Start your data-analysis!)
     id6 --> id8
-    id8(Contact ELAN-DCC
+    id8("Contact ELAN-DCC
     to start 
     set-up of your 
-    research data:
-    elan.dcc@lumc.nl) --> id11(Start process of
+    research data
+    (including the Data
+    Management Plan):
+    elan.dcc@lumc.nl") --> id11(Start process of
     gaining access
     to CBS or LUMC directories)
 
@@ -163,7 +169,7 @@ flowchart TD
         at hospital(s)")
     end
 
-    id2(Submit one ELAN ticket\nper research/article) --> external
+    id2 --> external
     id2 --> ticket
 
     style idend fill:#86c985,stroke:#4d934c,stroke-width:4px
@@ -185,7 +191,7 @@ flowchart TD
 
 ```mermaid {class="hospital mentalhealth"}
 flowchart TD
-    id1("(Write research protocol)") --> id2
+    id1("(Write research protocol)") --> id2(Submit one ELAN ticket\nper research/article)
     subgraph ticket [This process will take at least 2 months]
         id4
     end
@@ -207,11 +213,13 @@ flowchart TD
     id10(Upload approval
     to ticket) --> idend(Start your data-analysis!)
     id6 --> id8
-    id8(Contact ELAN-DCC
+    id8("Contact ELAN-DCC
     to start 
     set-up of your 
-    research data:
-    elan.dcc@lumc.nl) --> id11(Start process of
+    research data
+    (including the Data
+    Management Plan):
+    elan.dcc@lumc.nl") --> id11(Start process of
     gaining access
     to CBS or LUMC directories)
 
@@ -225,7 +233,7 @@ flowchart TD
         at hospital(s)")
     end
 
-    id2(Submit one ELAN ticket\nper research/article) --> external
+    id2 --> external
     id2 --> ticket
 
     style idend fill:#86c985,stroke:#4d934c,stroke-width:4px

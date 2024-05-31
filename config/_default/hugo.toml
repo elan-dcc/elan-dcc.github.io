@@ -14,14 +14,14 @@ paginate = 2
     LanguageCode = "en-GB"
     contentDir = "content"
     [languages.en.params]
-      update = "Last update: 30-05-2024"
+      update = "English"
   [languages.nl]
     title = "ELAN"
     languageName = "nl-NL"
     LanguageCode = "nl-NL"
     contentDir = "content.nl"
     [languages.nl.params]
-      update = "Laatste update: 24-04-2024"
+      update = "Dutch"
 
 [taxonomies]
 authors = "authors"
