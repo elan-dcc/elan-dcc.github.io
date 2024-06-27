@@ -159,7 +159,14 @@ main{
     color: var(--secondary-color)
 }
 
-
+.researchertile{
+    padding: 10px 30px 30px 30px;
+    box-shadow: var(--primary-color) 0px 8px 10px -10px;
+    border-radius: 25px;
+    background-color: #fcfcfc;
+    position: relative;  
+    width: 33%;    
+}
 
 #postcontainer{
     display: flex;
@@ -300,6 +307,13 @@ ol li ul li{
 #about{
     background-color: var(--primary-color);
     color: #fff;
+}
+
+.accent{
+    background-color: var(--primary-color);
+    color: #fff;
+    display: block;
+    clear: both;
 }
 
 #about img{
@@ -724,4 +738,35 @@ ul.publicationauthors, ul.publicationauthors > li {
 
   .mermaid{
    color: var(--background-color); /*This is a bit hacky, but it prevents the markup language from showing up */
+  }
+
+  /*custom drive display*/
+  
+
+  .drive{
+    display: block;
+    overflow: hidden;
+    width: 80%;
+    margin: 10px auto;
+    background-color: var(--primary-color);
+    color: #FFF;
+    padding: 10px;
+  }
+
+  .drivetitle{
+    width: 90px;
+    float: left;
+    height: 90px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    background-color: var(--tertiary-color);
+    border-radius: 30px;
+    margin-right: 10px;
+  }
+
+  .comment{
+    background-color: pink;
+    font-weight: bold;
+    color: red;
   }

@@ -20,6 +20,10 @@ You may have already finished writing your research protocol, in which case you 
 
 **Note that you need to follow *all* paths coming from each box**
 
+{{ < comment >}}
+Moeten we Perined + GGD + gemeente Den Haag + Hadoks ook toevoegen aan de Flowchart? Volgens Franks Guidance Doc moeten onderzoekers ook van die instanties expliciet toestemming vragen als ze die data willen gebruiken. Of vallen die mailtjes onder "Contact ELAN-DCC to start set-up of your research data"?
+{{ < /comment >}}
+
 ```mermaid {class=""}
 flowchart TD
     id1("(Write research protocol)") --> id2(Submit one ELAN ticket\nper research/article)

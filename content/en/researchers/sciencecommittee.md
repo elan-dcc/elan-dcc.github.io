@@ -1,12 +1,12 @@
 +++
 title = 'The Science committee'
 layout = 'page'
+menu = 'researchers_menu'
 +++
 
 # The Science Committee
 
-Last update: 28-05-2024
-
+{{< comment >}} Is dit hetzelfde als de scientific board? {{< /comment >}}
 The Science Committee determines whether research protocols and amendments are sound and complete. **All** types of research done at ELAN need to get explicit permission from a Science Committee. If you want to get approved by the PHEG Science Committee, the procedure is described below.
 
 The following documents need to be mailed to Wetenschapscommissie_PHEG@lumc.nl:

@@ -1,9 +1,11 @@
 +++
 title = 'Requesting Python Packages'
 layout = 'page'
+menu = 'researchers_menu_ext'
 +++
 
-# Python environment
+# Requesting Python packages at CBS
+Follow the procedure outlined below to get Python packages installed in your account in the external environment at CBS.
 
 In the instructions below, replace 0000 with the code of your project at CBS.
 

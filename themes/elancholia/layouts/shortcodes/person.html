@@ -1,0 +1,10 @@
+{{ if .IsNamedParams }}
+    {{ $Who := .Get "who"}}
+  {{ if eq $Who "internal" }}
+    {{ .Site.Params.dataManInt }}{{- "" -}}
+  {{ else }}
+      {{ .Site.Params.dataManExt }}{{- "" -}}
+  {{ end }}{{- "" -}}
+{{ else }}
+    {{ .Site.Params.dataManExt }}{{- "" -}}
+{{ end }}{{- "" -}}

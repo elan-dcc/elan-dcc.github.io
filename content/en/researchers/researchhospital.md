@@ -1,6 +1,7 @@
 +++
 title = 'Requesting data or doing research at a contracted hospital'
 layout = 'page'
+menu = 'researchers_menu'
 +++
 
 # Requesting data or doing research at a contracted hospital

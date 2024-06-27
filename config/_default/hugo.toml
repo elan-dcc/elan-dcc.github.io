@@ -34,7 +34,9 @@ datasources = "datasources"
 # formatting, see https://gohugo.io/functions/format/
 dateFormat = "2006-01-02"
 themeStyle = 'style'
-
+codebooks = 'https://github.com/elan-dcc/org/tree/main/codebooks'
+dataManExt = 'datamanager Frank Ardesch'
+dataManInt = 'datamanager Henk de Jong'
 
 # I included the lang.merge to enable Dutch summaries for publications
 # It's the most elegant way to support this imho - Lisette

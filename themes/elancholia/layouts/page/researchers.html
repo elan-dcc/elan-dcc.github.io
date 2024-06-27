@@ -2,29 +2,54 @@
 
 {{ .Content }}
 
+I should add a "last update" to every page!
 
 <div id="tilecontainer">
   <div class="tile">
     <a href="http://www.elanresearch.nl" target="_blank">Request a ticket</a>
   </div>
   <div class="tile">
-    <a href="">Codebook</a><br/>
-    Version: 1.1<br />
-    Last update: 09-04-2024
-    </div>
+    <a href="https://github.com/elan-dcc/org/blob/main/codebooks/STIZON%20HA%20codeboek%202023-09-28.pdf">Codebook GP data</a><br/>
+    Version: 0<br />
+    Last update: 28-09-2023
+  </div>
   <div class="tile">
-    <a href="">Guidance document</a><br/>
-    Version: 1.1<br />
-    Last update: 09-04-2024
+    <a href="https://github.com/elan-dcc/org/blob/main/codebooks/Codeboek_ELAN_CBS_V9.6.xlsx" target="_blank">Codebook other data</a><br/>
+    Version: 9.6<br />
+    Last update: 27-05-2024
   </div>
 </div>
 
-{{ if .Site.Menus.researchers_menu }}
-<ul>
-{{ range .Site.Menus.researchers_menu.ByWeight }}
-  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-{{ end }}
-</ul>
-{{ end }}
+
+
+<div id="tilecontainer">
+  <div class="researchertile">
+    <h2>General</h2>
+    {{ if .Site.Menus.researchers_menu }}
+    <ul>
+    {{ range .Site.Menus.researchers_menu.ByWeight }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+  <div class="researchertile">
+      <h2>External environment</h2>
+    <ul>
+    {{ range .Site.Menus.researchers_menu_ext }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+  </div>
+  <div class="researchertile">
+    <h2>Internal environment</h2>
+    <ul>
+      {{ range .Site.Menus.researchers_menu_int }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+</div>
+</div>
+
 
 {{ end }}
