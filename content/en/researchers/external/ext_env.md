@@ -25,11 +25,13 @@ This drive is solely used to export aggregated results. For more information on 
 {{< /drive_explainer >}}
 
 {{< drive_explainer drive="G:" title="Data" >}}
-This drive houses all the data. These files can be accessed by the researchers and stored on the drive specific to their project: the H drive. Not all files will be accessible to you; those that are, are described in the codebook. If you want to request access to data, contact the ELAN datamanager (LINK).
+This drive houses all the data. These files can be accessed by the researchers and stored on the drive specific to their project: the H drive. Not all files will be accessible to you; those that are, are described in the codebook. If you want to request access to data, contact the ELAN datamanager.
 {{< /drive_explainer >}}
 
 {{< drive_explainer drive="H:" title="Analysis" >}}
-This drive is the Shared Workspace. All active researchers perform their analyses from this drive. Every researcher has their own directory from which they can work. We urge our researchers to consider storage efficiency, to delete files that are no longer of any use to them, and to zip files that will be shelved for a short amount of time. This ensures there is enough storage left for all researchers to perform their analyses.
+This drive is the Shared Workspace. All active researchers perform their analyses from this drive. Every researcher has their own directory from which they can work. We urge our researchers to consider storage efficiency, to delete files that are no longer of any use to them, and to zip files that will be shelved for a short amount of time. This ensures there is enough storage left for all researchers to perform their analyses.</p>
+<p>
+For some projects, data, such as <a href="../gp_data" alt="General Practitioner data">general practicioner data</a>, is stored on this drive.
 {{< /drive_explainer >}}
 
 {{< drive_explainer drive="K:" title="Metadata" >}}

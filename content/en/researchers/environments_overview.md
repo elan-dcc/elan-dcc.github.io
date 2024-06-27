@@ -11,7 +11,7 @@ menu = 'researchers_menu'
 {{< comment >}}Wat zit hier verder nog meer in? {{< /comment >}}
 The internal data infrastructure houses the data from general practitioners in the ELAN region. In the Netherlands, practitioners keep track of their patient's health in a digital file called a *Medisch dosier*. This is updated via an interface known as a *Huisartsen Informatie Systeem*, HIS for short. In our database, every consultation, so points of contact between a patient and their practitioner, is known as a *journaal*. Every *episode* encapsulates all the *journaals* regarding a certain medical issue/condition.
 
-For more information on the way this specific database is designed click [here]({{< relref "about_gp_data" >}} "About GP data").
+For more information on the way this specific database is designed click [here]({{< relref "gp_data" >}} "About GP data").
 
 {{< comment >}} TO DO: Margots file met hiaten:
 Procedures: discuss dataset with data-manager, sign DTA, access PHEG I-drive, communicate updates with ELAN-team and WP-holder, submit paper to scientific board, share syntaxes, archive (no information in current guideline)
