@@ -1,0 +1,10 @@
+flowchart TD
+subgraph external [These actions can be performed whenever]
+    idF1(Request data from Hadoks) --> idF2(Update your ticket)
+end
+
+id2 --> idF1
+
+style idF2 fill:#c594c3
+style external fill:#efd5ef, stroke:#a57ca5
+click idF2 "https://elanresearch.nl" "ELAN research" _blank

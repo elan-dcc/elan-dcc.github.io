@@ -1,0 +1,4 @@
+{
+    "themeCSS": ".label foreignObject { overflow: visible; }",
+    "defaultRenderer": "elk"    
+}

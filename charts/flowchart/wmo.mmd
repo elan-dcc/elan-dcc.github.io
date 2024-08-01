@@ -1,0 +1,14 @@
+flowchart TD
+subgraph external [These actions can be performed whenever]
+    idE1(Request permission
+    from the Municipality The Hague) --> idE2(Upload approval
+    from The Hague
+    to ticket)
+end
+
+id2 --> idE1
+
+style idE2 fill:#c594c3
+style external fill:#efd5ef, stroke:#a57ca5
+click idE2 "https://elan-dcc.github.io/researchers/wmo" "WMO" _blank
+click idE2 "https://elanresearch.nl" "ELAN research" _blank

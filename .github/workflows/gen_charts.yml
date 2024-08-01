@@ -1,0 +1,39 @@
+name: Generate charts
+
+on:
+  push:
+    paths:
+      - charts/**
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+      - name: Install mermaid
+        run: npm install -g @mermaid-js/mermaid-cli
+      - name: Make subdir for output
+        run: mkdir mermaidchartsoutputs
+      - name: Generate mmd files
+        run: python .github/scripts/genmmds.py
+      - name: Make the script file executable
+        run: chmod +x mermaidchartsoutputs/commands.sh
+      - name: Generate svg files
+        run: mermaidchartsoutputs/commands.sh
+#        run: mmdc -i mmds/input.mmd -o svgs/output.svg
+#      - uses: actions/upload-artifact@v4
+#        with:
+#          name: svgs
+#          path: svgs/output.svg
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: '*.svg'
+          commit_message: Pushed new charts

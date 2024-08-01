@@ -1,0 +1,14 @@
+flowchart TD
+subgraph external [These actions can be performed whenever]
+    idC1("Initiate research
+    at hospital(s)") --> idC2("Upload approval
+    from hospital(s)
+    to ticket")
+end
+
+id2 --> idC1
+
+style idC2 fill:#c594c3
+style external fill:#efd5ef, stroke:#a57ca5
+click idC1 "https://elan-dcc.github.io/researchers/researchhospital/" "Research at a hospital"
+click idC2 "https://elanresearch.nl" "ELAN research" _blank

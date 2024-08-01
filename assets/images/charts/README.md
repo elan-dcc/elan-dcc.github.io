@@ -1,0 +1,1 @@
+This directory hosts the charts generated. These generations are based on the mmd files in the directory: charts.
