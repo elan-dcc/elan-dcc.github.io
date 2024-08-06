@@ -21,6 +21,6 @@ You may have already finished writing your research protocol, in which case you 
 {{< flowchart >}}
 **Note that you need to follow *all* paths coming from each box**
 
-{{ < comment >}}
-Moeten we Perined + GGD + gemeente Den Haag + Hadoks ook toevoegen aan de Flowchart? Volgens Franks Guidance Doc moeten onderzoekers ook van die instanties expliciet toestemming vragen als ze die data willen gebruiken. Of vallen die mailtjes onder "Contact ELAN-DCC to start set-up of your research data"?
-{{ < /comment >}}
+{{< comment >}}
+Ik heb niet duidelijk in mijn aantekeningen aangegeven waarom we "I want to use GP data" gingen toevoegen. Ik weet dat het iets te maken had met de steering committee.
+{{< /comment >}}
