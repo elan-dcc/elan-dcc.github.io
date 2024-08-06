@@ -5,14 +5,12 @@ menu = 'researchers_menu'
 +++
 
 # What to do when temporarily inactive?
-Researchers may need to take a break from their research for varied reasons. If you are taking a break of several months, we would appreciate it if you would contact us.
-
-{{< comment >}} Ik neem aan dat er meer moet gebeuren dan alleen Frank een berichtje sturen?{{< /comment >}}
+Researchers may need to pause their research for various reasons. If your break extends for several months, inform the ELAN scientific board and your Principal Investigator (PI).
 
 ## If you're using the external environment
-If you're active in the external environment, do contact the data manager. Your account for the external environment will be temporarily suspended until you are able to return to your analysis. You will not lose any (intermediate) results or code if you do this.
+If you are active in the external environment, notify the data manager. Your account will be temporarily suspended, preserving all intermediate results and code.
 
-Once you are able to continue your analysis at the external environment, all you need to do is inform the data manager, and he will get your account reinstated.
+Once you are able to resume your analysis, inform the data manager to reinstate your account.
 
-## If you're using tthe internal environment
-You're good!
+## If you're using the internal environment
+No action is required.

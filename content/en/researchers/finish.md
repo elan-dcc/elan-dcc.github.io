@@ -4,21 +4,18 @@ layout = 'page'
 menu = 'researchers_menu'
 +++
 
-# What to do you when you've concluded your research?
-
-Once your end product, regardless of its form (such as a paper, factsheet, report, and so on), and regardless of whether it will be published or not, has been completed, we require researchers to send the manuscript at least **2 weeks before submittance** to the following:
+# Before submission/publication
+Once your research is complete, regardless of its form (e.g., paper, factsheet, report) and whether it will be published or not, submit the manuscript at least **two weeks before its intended submission** to the following:
 - The principal investigator (PI) of your research
-- The chiefs of ELAN: D. Mook and J. Struijs
-- The general ELAN email address: elan@lumc.nl
+- ELAN chiefs: D. Mook and J. Struijs
+-  General ELAN email: elan@lumc.nl
 
-The PI or one of the chiefs will present the manuscript to [the scientific board]({{< relref sciencecommittee >}} "The scientific board"). The board will check the sections that concern ELAN and will gauge the overall research quality. Your PI **is required to get back to you within one week** {{< comment >}}nadat de scientific board een conclusie heeft gemaakt of na het mailen?{{< /comment >}}
+The PI or one of the chiefs will present the manuscript to the ELAN scientific board for review. The board will evaluate sections concerning ELAN and assess the overall research quality. You will receive feedback from your PI **within 2-4 weeks.**
 
-Once approved by hte board, you can submit and publish your work.
+After the board's approval, you may proceed with sumitting and publishing your work.
 
-# What to do after publishing?
-After you have published your work, you have to perform the following steps **within 4 weeks after the date of publication**.
-
-- contact elan.dcc@lumc.nl to organise a repo containing your publication and the code you've used to generate results
-- contact Statistics Netherlands if you've used data from them with the link of your publication
-- contact Converis if you're a PhD student
-
+# Post-publication
+Within **four weeks** of publication, complete the following:
+- Contact elan.dcc@lumc.nl to organise a repository containing your publication and the code used for results
+- Inform Statistics Netherlands, if applicable, by providing the publication link
+- If you are a PhD student, contact Converis

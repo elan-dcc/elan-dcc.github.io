@@ -101,7 +101,6 @@ summary = "Summary
 +++
 ```
 
-
 ## Updating the map of ELAN and the statistics
 The theme elancholia includes a folder "visual_generator". You can
 update the data used by the notebook (and potentially the notebook), and run it.

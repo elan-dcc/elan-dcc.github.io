@@ -4,15 +4,15 @@ layout = 'page'
 menu = 'researchers_menu'
 +++
 
-# Requesting data or doing research at a contracted hospital
+# Accessing Hospital Data from Contracted Hospitals
 
-Last update: 28-05-2024
+Research can request and mine hospital data from the contracted hospitals, [Haga Hospital](https://www.hagaziekenhuis.nl/) and [HMC Hospital](https://www.haaglandenmc.nl/english/), through ELAN. Follow these steps to access the data:
 
-Through ELAN, researchers can both request hospital data and mine hospital data from the contracted hospitals: [Haga Hospital](https://www.hagaziekenhuis.nl/) and [HMC Hospital](https://www.haaglandenmc.nl/english/). Here, we will describe the steps the researcher needs to take to get access to the data.
+## Requesting New Data:
+If you need data or variables not currently in ELAN, contact Frank Ardesch. This will take considerably more time than using data already in the research infrastructure, as this requires approval form the hospital board(s).
 
-If you want to use data/variables currently not present in ELAN, contact Frank Ardesch. This will take considerably more time than using data already in the research infrastructure, as this has to be approved by the board of the hospital(s).
-
-If you want to use free tekst to perform your own data/text mining, you can contact the following people:
+## Using Free Text for Data/Text Mining:
+If you want to use free text to perform your own data/text mining, you can contact the following people:
 - Jan Pronk, head of IT
 - HAGA: Coen Dortmond
 - HMC: Wetenschapsbureau Landsteiner
@@ -20,22 +20,24 @@ If you want to use free tekst to perform your own data/text mining, you can cont
 
 If you want permission to use data already available in the ELAN environment, follow the steps laid out below.
 
-**We advise you to start this procedure on time, as it takes time to be matched up with a Principal Investigator.** You can always submit the required files for step 3 later down the line.
+## Accessing hospital data in ELAN
+Follow these steps to use data already available in the ELAN environment. **Start early to ensure you have enough time to match with a Principal Investigator (PI)**. You can always submit the required files for step 3 later down the line.
 
-1. Find a Principal Investigator (PI) from Haga/HMC willing to co-author your research. Most departments in HAGA have a research nurse (???????????) who will help you with step 2 (contacting a PI).
-1. Contact the Principal Investigator in Question'
+1. Find a Principal Investigator (PI) from Haga/HMC willing to co-author your research. Most departments at HAGA have a research nurse (???????????) to help you contact a PI (step 2).
+1. Contact the PI
 
-    - If you want to contact a PI at Haga: Click [here](https://haga.castorsms.com/user/login) to make an account in Haga's Castor SMS and "fill in forms". Some examples of filled in forms can be found [here](https://hagawetenschapsbureau.nl/index_const.php); 
-    - If you want to contact a PI at HMC: Click [here](https://www.haaglandenmc.nl/over-ons/opleiding-en-ontwikkeling/leerhuis-landsteiner/) to make an account on HMC's PaNaMa
+    - For Haga: Create an account in Haga's [Castor SMS](https://haga.castorsms.com/user/login) and fill in the neccesary forms. Some examples of filled forms can be found [here](https://hagawetenschapsbureau.nl/index_const.php); 
+    - For HMC: Create an account in HMC's [PaNaMa](https://www.haaglandenmc.nl/over-ons/opleiding-en-ontwikkeling/leerhuis-landsteiner/)
 
-1. Fill in the forms required by the hospital(s). Make sure **you mention in the title that it's an ELAN data research request if that's the case**. This will shorten the processing time of your application. Add the research protocol and the nWMO approval you have received from us to your file in Castor/PaNaMa.
+1. Complete the forms required by the hospital(s). Make sure **you indicate in the title that it's an ELAN data research request if that's the case to expedite processing**. Include your research protocol and the nWMO approval in your Castor/PaNaMa file.
     
-    - Make **sure** to mention the research you will be conducting does not require new data, and relies on data ELAN has already received from the hospital(s).
-    - Make **sure** you upload contracts (????????????). You can contact Frank Ardesch or the secretariat Health Campus Den Haag.
-    
+    - **Ensure** you mention that your relies on data already present in ELAN and does not require new data from the hospital(s).
+    - **Ensure** you upload the neccesary contracts (????????????). For assistance, contact Frank Ardesch or the Health Campus Den Haag secretariat.
+    {{< comment >}} Welke contracten ? {{< /comment >}}
 1. While your application(s) is/are being processed, make sure to contact an employee from each hospital you're contacting to establish a budget.
-1. When your file is complete, the sciencebureau(s) will pick up your submission. You will receive a message through Castor and/or PaNaMa when it has been approved.
+1. When your file is complete, the science bureau(s) will process your submission. You will receive a message through Castor and/or PaNaMa when it has been approved.
 
+## Adding an Intern to an Approved Project:
 If you want to add an intern to a project that has already been approved by one or both hospitals, do the following:
-- If your research relies on Haga: add the intern's data to Castor SMS and mail Haga wetenschapsbureau.
-- If your research (also) relies on HMC: Contact wetenschapsbureau Landsteiner 
+- For Haga: add the intern's data to Castor SMS and mail Haga wetenschapsbureau.
+- For HMC: Contact wetenschapsbureau Landsteiner 
