@@ -13,6 +13,8 @@ Some of the providers of our data, and for certain types of research, some addit
     {{< processselectionoption value="mentalhealth" text="I want to use mental health data." >}}
     {{< processselectionoption value="hospital" text="I want to use hospital data." >}}
     {{< processselectionoption value="hadoks" text="I want to use hadoks data." >}}
+    {{< processselectionoption value="perined" text="I want to use perined data." >}}
+    {{< processselectionoption value="wmo" text="I want to use wmo data." >}}
 {{< /processselection >}}
 
 The purple boxes are links to additional information or to platforms that allow you to perform the action in question.

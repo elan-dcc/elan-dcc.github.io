@@ -102,8 +102,14 @@ summary = "Summary
 ```
 
 
-## Updating the graphs
+## Updating the map of ELAN and the statistics
 The theme elancholia includes a folder "visual_generator". You can
-update the data used there, update the jupyter notebook, and run it.
+update the data used by the notebook (and potentially the notebook), and run it.
 The SVGs will be updated automatically. The hugo command needs to be
 ran to update the
+
+## Updating the flowchart
+The map charts contains all the mmd files that are used to generate charts.
+For the "flowcharts" subdirectory, the "main.mmd" is considered to be the
+main body of the flowcharts shown in [here](https://elan-dcc.github.io/researchers/overview_getting_started/).
+All other charts are just expansions of this chart.
