@@ -16,7 +16,7 @@ for f in glob.glob(outputdir + "*.mmd"):
     os.remove(f)
 
 # empty output directory (svgs)
-svgdir = "assets/images/charts"
+svgdir = "assets/charts"
 for f in glob.glob(svgdir + "*.svg"):
     os.remove(f)
 

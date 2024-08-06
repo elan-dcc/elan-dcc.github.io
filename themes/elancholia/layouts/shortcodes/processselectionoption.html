@@ -2,4 +2,4 @@
 {{- $text := .Get "text" -}}
 
 
-<button class="processselector {{ $value }}" onclick="processtoggle('{{ $value }}', this)">{{ $text }}</button>
+<button type="button" onclick="loadChart('{{ $value }}')">{{ $text }}</button>
