@@ -244,6 +244,11 @@ a.morearticles{
         width: 100%;
     }
     
+    .researchertile{
+        width: 100%;
+    }
+    
+
     #postcontainer{
         position:relative;
         flex-wrap: wrap;
