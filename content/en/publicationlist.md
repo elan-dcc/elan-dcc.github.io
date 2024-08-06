@@ -81,3 +81,5 @@ type = "publicationlist"
 1. Watjer RM, Heckmans KM, Eekhof JA, et alAssociation between onychomycosis and ulcerative complications in patients with diabetes: a longitudinal cohort study in Dutch general practiceBMJ Open 2024;14:e076441. doi: 10.1136/bmjopen-2023-076441
 
 1. van den Brink, G., Koggel, L. M., Hendriks, J. J., de Boer, M. G., Siersema, P. D., & Numans, M. E. (2024). Treatment failure of Helicobacter Pylori in primary care. BJGP open, BJGPO.2023.0252. Advance online publication. https://doi.org/10.3399/BJGPO.2023.0252
+
+1. Kist JM, Vos HMM, Vos RC, Mairuhu ATA, Struijs JN, Vermeiren RRJM, van Peet PG, van Os HJA, Ardesch FH, Beishuizen ED, Sijpkens YWJ, de Waal MWM, Haas MR, Groenwold RHH, Numans ME, Mook-Kanamori D. Data Resource Profile: Extramural Leiden University Medical Center Academic Network (ELAN). Int J Epidemiol. 2024 Jun 12;53(4):dyae099. doi: 10.1093/ije/dyae099. PMID: 39049713; PMCID: PMC11269676.
