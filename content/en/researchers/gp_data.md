@@ -5,34 +5,34 @@ menu = 'researchers_menu'
 +++
 
 # About the General Practicioner data
-General practitioners keep online medical records of all their patients. They do this via a system called a *Huisartsen Informatie Systeem* or HIS for short. Within the ELAN region, the HIS produced by Medicon and Pharmapartners are the systems used most often. Every consult is called a *journaal* and is registered by the practitioner. An episode is specific for a certain condition, and can therefore encapsulate multiple *journalen*.
+General practitioners maintain online medical records of all their patients through system called a *Huisartsen Informatie Systeem* (HIS). Within the ELAN region, the HIS systems by Medicon and Pharmapartners are predominantly used. Each consultation, refferred to as a *journaal*, is recorded by the practitioner. An *episode* pertains to a specific condition and can include multiple *journalen*.
 
-These data can be found in both the internal and subsets of it are available to some projects in the external environment.
+These data are available in both the internal environent and to certain projects in the external environment.
 
-Every 3 months we collect snapshots of all the datasets below.
+Snapshots of all the datasets listed below are collected every three months.
 
 | Property          | Abbreviation | Description                                                                                                                                                                                                                                                                                                                                         |
 |-------------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Actions           | ACT          | Actions (operations) declared by the GP. These have been cross checked with NHG-table 15.                                                                                                                                                                                                                                                           |
-| Contraindications | CIA          | There are multiple levels contraindications can be logged as: - Active Pharmaceutical Ingredient - medication (expressed as 'HPK', 'PRK' or 'ATC') - undesired group. Optionally, a GP may add the route of administration. More information about medication usage is logged when a contraindication is associated with a HPK or PRK. For example, for every PRK the appropriate GPK and ATC are also present. |
-| Correspondence    | COR          | Incoming and outgoing correspondence including referrals. Note that these are not present for HIS Promovendico. |
-Episodes | EPS | Episodes per patient. To record symptoms, conditions and complaints, ICPC is used. The starting data of the ICPC, and a possible end date are included. |
-Journalen | JRN | Every consultation between a patient and a practitioner. |
-| Lab tests | LAB | Measured values/readings in accordance with NHG table 45. Next to lab tests, it includes values like BMI and blood pressure |
-Medication | MED | Prescriptions of medication (ATC coding) |
-Patients | PAT | Data of every registered patients, including patients who have moved or passed away |
+| Actions           | ACT          | Actions (operations) declared by the GP, cross-checked with NHG-table 15. |
+| Contraindications | CIA          | Contraindications are logged at multiple levelss: Active Pharmaceutical Ingredient, medication (expressed as 'HPK', 'PRK' or 'ATC'), or undesired group. Additionally, a GP may record the route of administration. More information about medication usage is logged when a contraindication is associated with a HPK or PRK. For example, for every PRK the appropriate GPK and ATC are also present. |
+| Correspondence    | COR          | Incoming and outgoing correspondence, including referrals. Note: not available for HIS Promovendico. |
+Episodes | EPS | Episodes per patient, recording symptoms, conditions, and complaints using ICPC codes. Includes start and possible end dates. |
+Journalen | JRN | Records every consultation between a patient and a practitioner. |
+| Lab tests | LAB | Measured values/readings in accordance with NHG table 45, including labt tests, BMI, and blood pressure. |
+Medication | MED | Prescriptions of medication, coded using ATC. |
+Patients | PAT | Data of all registered patients, including those who have moved or passed away. |
 Ruiters | RUI | {{< comment >}}Hoe vertalen we dit? {{< /comment >}} |
 
-The NHG tables can be found [here](https://github.com/elan-dcc/org/tree/main/NHG_tables).
+The NHG tables can be accessed [here](https://github.com/elan-dcc/org/tree/main/NHG_tables).
 
 {{< comment >}}Wat is DWH? {{< /comment >}}
 
- To consolidate the journal and episode data, you can use *the episodenummer*: the episode ID. Every record in the journaal dataset uses a specific method of encoding the medical data, which is referred to by the acronym [SOEP](https://nl.wikipedia.org/wiki/SOEPstatus): subjective, objective, evaluation, plan.
+ To consolidate the j*journaal* and *episode data*, use the *episodenummer* (episode ID). Each record in the *journaal* dataset employs a specific method of encoding medical data known as [SOEP](https://nl.wikipedia.org/wiki/SOEPstatus):
 
- - subjective: feelings and observations that drove the patient to see his general practicioner.
- - objective: symptoms and signs observed by the general practitioner
- - evaluation: potential diagnoses
- - plan: a plan of action, such as doing more research (e.g. blood analysis, ECG or an X-ray), referrals to a specialist, or medication
+ - **Subjective:** Patient's feelings and observations prompting the visit to the general practicioner.
+ - **Objective:** symptoms and signs observed by the general practitioner.
+ - **Evaluation:** potential diagnoses.
+ - **Plan:** Proposed actions, such as further tests (e.g. blood analysis, ECG or an X-ray), referrals to specialisst, or medication.
 
  {{< comment >}} Wordt elke record geassocieerd met een ID S O E of P? Ik zou dit toch graag goed visualiseren. En dit geldt dus voor zowel journalen als episodes? Zit deze ook niet bij correspondentie? Hoe heet dit attribuut? Waarom zijn sommige attributen in het Nederlands en andere in het Engels?{{< /comment >}}
 

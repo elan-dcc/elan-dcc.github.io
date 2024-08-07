@@ -127,7 +127,6 @@ main{
 .tilemore{
     position: absolute;
     bottom: 20px;
-    background-color: var(--background-color);
 }
 
 .tile_circles{
