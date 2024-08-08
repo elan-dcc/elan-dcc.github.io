@@ -2,4 +2,4 @@
 {{- $text := .Get "text" -}}
 
 
-<button type="button" onclick="loadChart('{{ $value }}')">{{ $text }}</button>
+<button type="button" class="processselector" onclick="loadChart('{{ $value }}', this)">{{ $text }}</button>

@@ -1,4 +1,7 @@
-function loadChart(charttype = "") {
+function loadChart(charttype = "", element) {
+    // Change the colour of the button
+    element.classList.toggle("checked-mode");
+
     var xhttp = new XMLHttpRequest();
     var display = document.getElementById("flowchartdisplay");
     xhttp.onreadystatechange = function() {
