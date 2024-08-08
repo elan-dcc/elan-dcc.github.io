@@ -1,5 +1,5 @@
 +++
-title = 'The Science Committee'
+title = 'The PHEG Science Committee'
 layout = 'page'
 menu = 'researchers_menu'
 +++

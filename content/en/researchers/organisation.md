@@ -23,14 +23,11 @@ menu = 'researchers_menu'
 ## ELAN Data Competence Center (ELAN-DCC)
 This is the coolest group.
 
-## ELAN research team
-The ELAN research team consists of two committees: the ELAN Core Committee and hte ELAN Steering Committee.
-
-### ELAN Core Committee
+## ELAN Research Committee
 This is the second coolest group.
 
-### ELAN Steering Committee
-They really like boats.
+## ELAN GP Steering Committee
+Geepers Peepers!
 
 ## ELAN Scientific Board
 The ELAN Scientific Board (SB) is responsible for maintaining the quality of research
