@@ -10,9 +10,9 @@ Within the regional research infrastructure, data from multiple sources are bein
 
 | Type of data | Source(s) | Population |
 |--------------|-----------|-----------|
-| Patient data | General Practitioners | patients in the ELAN region |
+| Primary care health data | General Practitioners | patients in the ELAN region |
 | Data from Statistics Netherlands | Statistics Netherlands | the Netherlands |
-| Patient data | Hospitals | patients from the hospitals HagaZiekenhuis or HMC |
+| Patient health data | Hospitals | patients from the hospitals HagaZiekenhuis or HMC |
 | Acute and chronical care data | Hadoks | patients in Haaglanden | 
 | Mental health data | Parnassia | patients in Haaglanden |
 | Perinatal data | Perined | patients in the Netherlands |
