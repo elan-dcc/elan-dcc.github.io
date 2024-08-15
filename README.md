@@ -101,6 +101,20 @@ summary = "Summary
 +++
 ```
 
+## How to link
+There are two types of links: those that link to pages on this website and those
+that link to pages on other websites.
+
+Below is an example for the former type of link
+```
+[here]({{< relref "sciencecommittee" >}} "PHEG Science Committee")
+```
+
+Below is an example for an external link
+```
+[LUMC](https://lumc.nl)
+```
+
 ## Updating the map of ELAN and the statistics
 The theme elancholia includes a folder "visual_generator". You can
 update the data used by the notebook (and potentially the notebook), and run it.
