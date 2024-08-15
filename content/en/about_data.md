@@ -4,7 +4,7 @@ layout = 'page'
 +++
 
 # ELAN data
-The data within the research infrastructure allows researchers to investigate the current and past states of health affairs in the region Haaglanden and Hollands Midden, while also enabling the development of exploratory and predictive models using the available data as input.  With its extensive data sets the ELAN research infrastructure serves as an ideal platform for conducting a wide range of studies, including both clinical and societal research.
+The data within the research infrastructure allows researchers to investigate the current and past states of health affairs in the region Haaglanden and Hollands Midden, while also enabling the development of exploratory and predictive models using the available data as input. The data within the ELAN research infrastructure is extensive, and is the perfect platform to conduct many types of research. Both clinical and societal researches can be conducted with the available data.
 
 Within the regional research infrastructure, data from multiple sources are being linked at the individual level. Periodically, the data sources securely upload data to the research infrastructure, which transforms the data in such a way that allows for linkage between multiple data sets while minimising the risk of identifying individuals, even when multiple data sets are combined.
 
