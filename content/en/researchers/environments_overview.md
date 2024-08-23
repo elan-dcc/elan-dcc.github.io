@@ -14,7 +14,8 @@ In the Netherlands, practitioners keep track of their patient's health in electr
 ## Internal (LUMC) environment
 Within the internal (LUMC) environment, researchers can get access to encrypted GP-care data. These comprise almost 1,2 million patients from 150 affiliated GPs in the ELAN region. A Trusted Third Party (STIZON) collects these health records and stores them in separate files on a data server with a Microsoft Azure Datawarehouse. Subsets of this data are constructed according to the wishes/requirements of the diverse ELAN research projects. These subsets are made by the ELAN-datamanager in the (remote) data environment of our TTP and then transferred via VPN to the LUMC. Here, in the LUMC environment, they are stored in secure folders on the I-drive, only accessible to members of the research project.
 
-The internal data infrastructure also includes the opportunity for precision recruitment via STIZON as trusted third party, by offering GPs tiles for patient selection. For this, the ELAN-datamanager can transfer pseudo-patient-IDs back to STIZON, after making a specific selection in cooperation with the researcher.
+Precison recruitement (tile projects)
+The internal data infrastructure also includes the opportunity for precision recruitment via STIZON as trusted third party. For this the ELAN-datamanager creates (in cooperation with the researcher) a specific selection of pseudo-patient-IDs and transfers these back to STIZON. STIZON will depseudonymize the IDs and provide the GP with a recognizable list of patients. The GP can access such a list by means of a secure data-portal. In this portal, the GP must select a 'tile' behind which the patient selection is visible, these projects are therefore also called 'tile projects'.
 
 For more information on the steps in this process click [here](https://elan-dcc.github.io/researchers/internal/int_env/).
 
