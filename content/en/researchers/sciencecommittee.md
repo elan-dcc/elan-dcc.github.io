@@ -11,12 +11,12 @@ The PHEG Science Committee ensures the quality of the department's research and 
 ## Submission requirements
 
 For review, submit the following documents (in Word) to the PHEG Science Committee (email Wetenschapscommissie_PHEG@lumc.nl):
+- [Application Form for the Research Protocol](https://www.lumc.nl/siteassets/over-het-lumc/afdelingen/pheg/bestanden/application-form-pheg-science-committee-version-21-09-2023-translated-23-08-24.pdf)
 - Final protocol (C1)
-- [Application Form for the Research Protocol](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.lumc.nl/siteassets/over-het-lumc/afdelingen/pheg/bestanden/application-form-pheg-science-committee-version-21-09-2023-translated-23-08-24.pdf)
 - [Non-WMO submission letter (A1 Niet-WMO aanbiedingsbrief, template only available in Dutch)](https://www.metc-ldd.nl/nwmo-en-mdr-documenten)
 - [Non-WMO questionnaire (B2 Niet-WMO vragenlijst, template only available in Dutch)](https://www.metc-ldd.nl/nwmo-en-mdr-documenten)
 
-On behalf of the PHEG science committee, members of the ELAN-research team will review and provide their advice by filling in an [ELAN-specific checklist](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.lumc.nl/siteassets/over-het-lumc/afdelingen/pheg/bestanden/checklist-advice-protocol-pheg-wecie-elan-data-version-17-04-2023-translation-23-8-24.pdf). The Science Committee will then communicate their final decision to the researcher.
+On behalf of the PHEG science committee, members of the ELAN-research team will review and provide their advice by filling in an [ELAN-specific checklist](https://www.lumc.nl/siteassets/over-het-lumc/afdelingen/pheg/bestanden/checklist-advice-protocol-pheg-wecie-elan-data-version-17-04-2023-translation-23-8-24.pdf). The Science Committee will then communicate their final decision to the researcher.
 
 Next step (see [flowchart](https://elan-dcc.github.io/researchers/overview_getting_started/)) is to submit all documents (A1, B2, C1) and the letter of approval (K1) to the nWMO-committee of division 3: see www.metc-ldd.nl/indienen-niet-wmo-en-mdr. Once you have received the WMO exception letter from the nWMO-committee, upload this letter and the final protocol to your ticket at www.elanresearch.nl.
 
