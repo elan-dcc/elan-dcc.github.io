@@ -12,7 +12,7 @@ The PHEG Science Committee ensures the quality of the department's research and 
 
 For review, submit the following documents (in Word) to the PHEG Science Committee (email Wetenschapscommissie_PHEG@lumc.nl):
 - Final protocol (C1)
-- [Application Form for the Research Protocol](https://www.lumc.nl/siteassets/over-het-lumc/afdelingen/pheg/bestanden/aanmeldformulier-protocol-wetenschapscommissie-pheg-versie-13-11-2023.pdf)
+- [Application Form for the Research Protocol](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.lumc.nl/siteassets/over-het-lumc/afdelingen/pheg/bestanden/application-form-pheg-science-committee-version-21-09-2023-translated-23-08-24.pdf)
 - [Non-WMO submission letter (A1 Niet-WMO aanbiedingsbrief, template only available in Dutch)](https://www.metc-ldd.nl/nwmo-en-mdr-documenten)
 - [Non-WMO questionnaire (B2 Niet-WMO vragenlijst, template only available in Dutch)](https://www.metc-ldd.nl/nwmo-en-mdr-documenten)
 
