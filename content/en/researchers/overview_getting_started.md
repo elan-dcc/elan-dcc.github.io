@@ -7,6 +7,8 @@ layout = 'page'
 To use the ELAN infrastructure and its data, you will need to take the steps shown in the flow chart below.
 Some of the providers of our data, and for certain types of research, some additional steps need to be taken. These are displayed in the flow chart by selecting the following buttons if they are applicable to your situation.
 
+Note that you can also get access to free data for text mining when using general practitioner data and hospital data.
+
 {{< processselection class="content-gallery" >}}
     {{< processselectionoption value="gp" text="I want to use general practitioner data." >}}
     {{< processselectionoption value="mentalhealth" text="I want to use mental health data." >}}
