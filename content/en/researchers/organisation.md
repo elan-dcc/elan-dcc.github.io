@@ -21,7 +21,9 @@ menu = 'researchers_menu'
 | L. de Schipper | Data scientist | member ELAN-DCC |
 
 ## ELAN Data Competence Center (ELAN-DCC)
-This is the coolest group.
+The Data Competence Center of ELAN is one of the core teams. This is the team that concerns itself with the technicalities of the data infrastructure(s). Data managers and people who perform data engineering tasks (typically our data managers as well) work in this team, but there are also data scientists and people with skills around visualization and dashboarding, may you need further assistance with that.
+
+Click [here]({{< relref "dcc" >}} "Data Competence Center") for more information on the Data Competence Center.
 
 ## ELAN Research Committee
 This is the second coolest group.
