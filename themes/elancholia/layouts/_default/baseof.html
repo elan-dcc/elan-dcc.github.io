@@ -78,6 +78,20 @@
 
     <script src="{{ $js.RelPermalink }}"></script>
   {{ end }}
+
+{{ if .Store.Get "hasGraph" }}
+  {{ $js := resources.Get "chart.umd.js" | minify }}
+
+  <script src="{{ $js.RelPermalink }}"></script>
+
+  {{ $js := resources.Get "lineChart.js" | minify }}
+
+  <script src="{{ $js.RelPermalink }}"></script>
+
+  <script>
+    lineChart("chart", {{ .Site.Params.dataPractices }})
+  </script>
+{{ end }}
 </body>
 
 </html>

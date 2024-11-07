@@ -15,6 +15,9 @@
 
 [practices]
  other = "Practices"
+ 
+[practicesgrowth]
+ other = "Number of affiliated practices"
 
 [projects]
   other = "Projects"

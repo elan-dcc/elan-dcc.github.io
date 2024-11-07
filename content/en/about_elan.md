@@ -13,6 +13,7 @@ One of the elements of the ELAN data warehouse is the primary care data from aff
 
 
 ## Partnership with general practitioners
+
 Through ELAN over 100 affiliated general practitioners and their patients from the following regions can be reached:
 
 {{< regionstats >}}

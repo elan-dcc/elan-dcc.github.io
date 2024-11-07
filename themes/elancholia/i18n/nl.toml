@@ -19,6 +19,9 @@
 [projects]
   other = "Projecten"
 
+[practicesgrowth]
+ other = "Groei aangesloten praktijken"
+
 [read-article]
   other = "Lees meer"
 

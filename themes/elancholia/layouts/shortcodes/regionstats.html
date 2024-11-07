@@ -1,4 +1,28 @@
 <!-- raw html -->
-{{partial "svgs/elan_map.svg" (dict "class" "stat_map") .}}
 
+
+<div id="tilecontainer">
+    <div class="tile">
+        <h1>{{ i18n "practicesgrowth" }}</h1>
+        <div class="chart_container">
+            <canvas id="chart"></canvas>
+        </div>
+    </div>
+    <div class="tile tile_circles">
+        <div class="subtile">
+            <h1>{{ i18n "patients" }}</h1>
+            {{partial "svgs/patients.svg" (dict "class" "stat_circle") .}}
+        </div>
+        <div class="subtile">
+            <h1>{{ i18n  "practices" }}</h1>
+            {{partial "svgs/practices.svg" (dict "class" "stat_circle") .}}
+        </div>
+    </div>
+    <div class="tile tile_map">
+        {{partial "svgs/elan_map.svg" (dict "class" "stat_map") .}}
+    </div>
+</div>
+</div>
 {{ .Page.Store.Set "hasRegionStats" true }}
+
+{{ .Page.Store.Set "hasGraph" true }}

@@ -764,3 +764,12 @@ ul.publicationauthors, ul.publicationauthors > li {
     font-weight: bold;
     color: red;
   }
+
+  /* chartjs */
+
+  .chartcontainer{
+    position: relative; /* required for the responsiveness of chartjs charts */
+    width: 100%;
+    height: 100%;
+    height: 450px;
+}

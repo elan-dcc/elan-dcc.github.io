@@ -1,12 +1,12 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" class="{{ .class }}" viewBox="0 0 720 528.173872" xmlns="http://www.w3.org/2000/svg" version="1.1"> <metadata>
+<svg id="elan_map" xmlns:xlink="http://www.w3.org/1999/xlink" class="{{ .class }}" viewBox="0 0 720 528.173872" xmlns="http://www.w3.org/2000/svg" version="1.1"> <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-04-09T13:59:25.557031</dc:date>
+    <dc:date>2024-11-07T17:12:56.662096</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.8.3, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -47,12 +47,10 @@
     }
 
     .hover_text{
-        font-size: 0.9em;
-        fill: #6a6874;
-    }
-    
-    .hover_bar{
-        fill: #FFFFFF;
+        font-size: 1.1em;
+        fill: #000000;
+        font-weight: 600;
+        pointer-events: none;
     }
 
     .hover_container_hidden{
@@ -8216,7 +8214,7 @@ L 349.342024 399.100481
 L 349.418174 398.995254 
 L 349.395297 398.975775 
 L 348.005058 397.792931 
-" clip-path="url(#pb997e62b68)" class="region1"/>    <path d="M 187.17909 478.077545 
+" clip-path="url(#p74ba168329)" class="region1"/>    <path d="M 187.17909 478.077545 
 L 186.837742 478.311878 
 L 186.087209 478.827095 
 L 185.367941 479.310884 
@@ -14925,7 +14923,7 @@ L 187.646509 477.756669
 L 187.314041 477.984902 
 L 187.270596 478.014726 
 L 187.17909 478.077545 
-" clip-path="url(#pb997e62b68)" class="region2"/>    <path d="M 42.060097 424.15585 
+" clip-path="url(#p74ba168329)" class="region2"/>    <path d="M 42.060097 424.15585 
 L 42.055393 424.395782 
 L 41.98346 424.773424 
 L 41.875563 425.061152 
@@ -14980,7 +14978,7 @@ L 41.992452 423.775369
 L 42.038334 423.878601 
 L 42.066916 423.840041 
 L 42.060097 424.15585 
-" clip-path="url(#pb997e62b68)" class="region2"/>    <path d="M 332.559902 386.077588 
+" clip-path="url(#p74ba168329)" class="region2"/>    <path d="M 332.559902 386.077588 
 L 333.307702 386.78295 
 L 333.444031 386.748341 
 L 334.016979 386.602851 
@@ -16140,7 +16138,7 @@ L 332.065428 385.633193
 L 332.178253 385.735864 
 L 332.30841 385.850986 
 L 332.559902 386.077588 
-" clip-path="url(#pb997e62b68)" class="region3"/>   </g>
+" clip-path="url(#p74ba168329)" class="region3"/>   </g>
    <g id="PatchCollection_2">
     <path d="M 353.45263 39.215119 
 L 365.461277 44.503538 
@@ -17159,7 +17157,7 @@ L 325.238098 26.365298
 L 336.643375 31.515201 
 L 346.747314 36.133521 
 L 353.45263 39.215119 
-" clip-path="url(#pb997e62b68)" class="Noordwijk municipality category1" data-name="Noordwijk"/>    <path d="M 248.90501 195.355471 
+" clip-path="url(#p74ba168329)" class="Noordwijk municipality category1" data-name="Noordwijk"/>    <path d="M 248.90501 195.355471 
 L 248.973005 195.355865 
 L 249.041189 195.351733 
 L 249.109537 195.342979 
@@ -18497,7 +18495,7 @@ L 248.767595 195.340777
 L 248.837179 195.350591 
 L 248.855231 195.351896 
 L 248.90501 195.355471 
-" clip-path="url(#pb997e62b68)" class="Katwijk municipality category1" data-name="Katwijk"/>    <path d="M 406.380425 42.284837 
+" clip-path="url(#p74ba168329)" class="Katwijk municipality category1" data-name="Katwijk"/>    <path d="M 406.380425 42.284837 
 L 406.39637 42.28553 
 L 406.412315 42.28519 
 L 406.428206 42.283804 
@@ -19265,7 +19263,7 @@ L 406.333351 42.276558
 L 406.348861 42.280337 
 L 406.364575 42.283097 
 L 406.380425 42.284837 
-" clip-path="url(#pb997e62b68)" class="Hillegom municipality category1" data-name="Hillegom"/>    <path d="M 369.706974 90.377267 
+" clip-path="url(#p74ba168329)" class="Hillegom municipality category1" data-name="Hillegom"/>    <path d="M 369.706974 90.377267 
 L 369.746015 90.378137 
 L 369.828241 90.367194 
 L 369.853063 90.375078 
@@ -20263,7 +20261,7 @@ L 369.363224 90.293491
 L 369.528765 90.340197 
 L 369.621336 90.363388 
 L 369.706974 90.377267 
-" clip-path="url(#pb997e62b68)" class="Lisse municipality category1" data-name="Lisse"/>    <path d="M 348.487977 163.214157 
+" clip-path="url(#p74ba168329)" class="Lisse municipality category1" data-name="Lisse"/>    <path d="M 348.487977 163.214157 
 L 348.442725 163.250642 
 L 348.387577 163.291871 
 L 348.344078 163.316312 
@@ -21902,7 +21900,7 @@ L 348.594468 163.094304
 L 348.589806 163.09981 
 L 348.529193 163.171542 
 L 348.487977 163.214157 
-" clip-path="url(#pb997e62b68)" class="Teylingen municipality category1" data-name="Teylingen"/>    <path d="M 331.479933 242.40946 
+" clip-path="url(#p74ba168329)" class="Teylingen municipality category1" data-name="Teylingen"/>    <path d="M 331.479933 242.40946 
 L 331.524234 242.418078 
 L 331.546391 242.395921 
 L 331.570587 242.370093 
@@ -23065,7 +23063,7 @@ L 330.869032 242.284999
 L 330.919721 242.295397 
 L 331.399174 242.393746 
 L 331.479933 242.40946 
-" clip-path="url(#pb997e62b68)" class="Leiden municipality category1" data-name="Leiden"/>    <path d="M 287.073573 293.354208 
+" clip-path="url(#p74ba168329)" class="Leiden municipality category1" data-name="Leiden"/>    <path d="M 287.073573 293.354208 
 L 287.15463 293.461854 
 L 287.166905 293.46006 
 L 287.266966 293.445393 
@@ -23784,7 +23782,7 @@ L 286.562665 293.330324
 L 286.789729 293.282299 
 L 286.97165 293.288715 
 L 287.073573 293.354208 
-" clip-path="url(#pb997e62b68)" class="Voorschoten municipality category1" data-name="Voorschoten"/>    <path d="M 344.55414 297.841446 
+" clip-path="url(#p74ba168329)" class="Voorschoten municipality category1" data-name="Voorschoten"/>    <path d="M 344.55414 297.841446 
 L 344.571662 297.897913 
 L 344.703342 298.269815 
 L 344.70345 298.270114 
@@ -24738,7 +24736,7 @@ L 344.372859 297.815293
 L 344.525431 297.74893 
 L 344.554072 297.841229 
 L 344.55414 297.841446 
-" clip-path="url(#pb997e62b68)" class="Zoeterwoude municipality category1" data-name="Zoeterwoude"/>    <path d="M 531.442971 171.229728 
+" clip-path="url(#p74ba168329)" class="Zoeterwoude municipality category1" data-name="Zoeterwoude"/>    <path d="M 531.442971 171.229728 
 L 531.544351 171.23575 
 L 531.718088 171.215903 
 L 531.802408 171.194901 
@@ -26537,7 +26535,7 @@ L 530.156804 171.095439
 L 531.03086 171.200108 
 L 531.130105 171.207244 
 L 531.442971 171.229728 
-" clip-path="url(#pb997e62b68)" class="Kraag en Braassem municipality category1" data-name="Kraag en Braassem"/>    <path d="M 503.348619 280.224811 
+" clip-path="url(#p74ba168329)" class="Kraag en Braassem municipality category1" data-name="Kraag en Braassem"/>    <path d="M 503.348619 280.224811 
 L 503.556707 280.482909 
 L 503.60582 280.448382 
 L 503.63771 280.425953 
@@ -28796,7 +28794,7 @@ L 502.642265 279.383869
 L 502.929847 279.719177 
 L 503.016613 279.820326 
 L 503.348619 280.224811 
-" clip-path="url(#pb997e62b68)" class="Alphen aan den Rijn municipality category1" data-name="Alphen aan den Rijn"/>    <path d="M 585.211695 177.130313 
+" clip-path="url(#p74ba168329)" class="Alphen aan den Rijn municipality category1" data-name="Alphen aan den Rijn"/>    <path d="M 585.211695 177.130313 
 L 585.520945 177.145008 
 L 586.079431 177.137233 
 L 586.202614 177.138388 
@@ -32679,7 +32677,7 @@ L 584.522714 177.187841
 L 584.613096 177.147047 
 L 584.846101 177.11778 
 L 585.211695 177.130313 
-" clip-path="url(#pb997e62b68)" class="Nieuwkoop municipality category1" data-name="Nieuwkoop"/>    <path d="M 449.20488 422.319911 
+" clip-path="url(#p74ba168329)" class="Nieuwkoop municipality category1" data-name="Nieuwkoop"/>    <path d="M 449.20488 422.319911 
 L 449.210901 422.448599 
 L 449.226751 422.547043 
 L 449.246312 422.639818 
@@ -33502,7 +33500,7 @@ L 449.103187 420.951721
 L 449.15718 421.694437 
 L 449.196098 422.13205 
 L 449.20488 422.319911 
-" clip-path="url(#pb997e62b68)" class="Waddinxveen municipality category1" data-name="Waddinxveen"/>    <path d="M 596.04938 339.90535 
+" clip-path="url(#p74ba168329)" class="Waddinxveen municipality category1" data-name="Waddinxveen"/>    <path d="M 596.04938 339.90535 
 L 596.500083 340.234065 
 L 596.638817 340.333963 
 L 596.557189 340.448868 
@@ -36527,7 +36525,7 @@ L 596.012446 339.84282
 L 596.014146 339.844084 
 L 596.063816 339.882295 
 L 596.04938 339.90535 
-" clip-path="url(#pb997e62b68)" class="Bodegraven-Reeuwijk municipality category1" data-name="Bodegraven-Reeuwijk"/>    <path d="M 332.559902 386.077588 
+" clip-path="url(#p74ba168329)" class="Bodegraven-Reeuwijk municipality category1" data-name="Bodegraven-Reeuwijk"/>    <path d="M 332.559902 386.077588 
 L 333.307702 386.78295 
 L 333.444031 386.748341 
 L 334.016979 386.602851 
@@ -37687,7 +37685,7 @@ L 332.065428 385.633193
 L 332.178253 385.735864 
 L 332.30841 385.850986 
 L 332.559902 386.077588 
-" clip-path="url(#pb997e62b68)" class="Zoetermeer municipality category3" data-name="Zoetermeer"/>    <path d="M 228.629573 259.163457 
+" clip-path="url(#p74ba168329)" class="Zoetermeer municipality category3" data-name="Zoetermeer"/>    <path d="M 228.629573 259.163457 
 L 228.721151 259.289373 
 L 228.838177 259.16899 
 L 228.845993 259.17667 
@@ -38835,7 +38833,7 @@ L 227.887522 258.143068
 L 228.143663 258.4953 
 L 228.292701 258.700248 
 L 228.629573 259.163457 
-" clip-path="url(#pb997e62b68)" class="Wassenaar municipality category2" data-name="Wassenaar"/>    <path d="M 42.038334 423.878601 
+" clip-path="url(#p74ba168329)" class="Wassenaar municipality category2" data-name="Wassenaar"/>    <path d="M 42.038334 423.878601 
 L 42.066916 423.840041 
 L 42.060097 424.15585 
 L 42.055393 424.395782 
@@ -38890,7 +38888,7 @@ L 41.67775 423.622514
 L 41.848589 423.613522 
 L 41.992452 423.775369 
 L 42.038334 423.878601 
-" clip-path="url(#pb997e62b68)" class="'s-Gravenhage municipality category2" data-name="'s-Gravenhage"/>    <path d="M 147.962009 335.624133 
+" clip-path="url(#p74ba168329)" class="'s-Gravenhage municipality category2" data-name="'s-Gravenhage"/>    <path d="M 147.962009 335.624133 
 L 150.454591 338.687516 
 L 151.218555 339.626426 
 L 151.56622 340.054456 
@@ -45869,7 +45867,7 @@ L 144.656704 331.564027
 L 145.01209 332.000633 
 L 145.47655 332.571149 
 L 147.962009 335.624133 
-" clip-path="url(#pb997e62b68)" class="'s-Gravenhage municipality category2" data-name="'s-Gravenhage"/>    <path d="M 175.121638 428.508337 
+" clip-path="url(#p74ba168329)" class="'s-Gravenhage municipality category2" data-name="'s-Gravenhage"/>    <path d="M 175.121638 428.508337 
 L 175.124601 428.509778 
 L 175.160379 428.499175 
 L 175.19284 428.495165 
@@ -46838,7 +46836,7 @@ L 175.028537 428.45259
 L 175.052909 428.474775 
 L 175.058116 428.477317 
 L 175.121638 428.508337 
-" clip-path="url(#pb997e62b68)" class="Rijswijk municipality category2" data-name="Rijswijk"/>    <path d="M 291.059092 325.116456 
+" clip-path="url(#p74ba168329)" class="Rijswijk municipality category2" data-name="Rijswijk"/>    <path d="M 291.059092 325.116456 
 L 291.5414 325.949514 
 L 292.167757 325.613173 
 L 292.247863 325.748617 
@@ -48526,7 +48524,7 @@ L 290.760445 325.121241
 L 290.761872 325.119406 
 L 290.962076 324.94889 
 L 291.059092 325.116456 
-" clip-path="url(#pb997e62b68)" class="Leidschendam-Voorburg municipality category2" data-name="Leidschendam-Voorburg"/>    <path d="M 304.827066 214.750042 
+" clip-path="url(#p74ba168329)" class="Leidschendam-Voorburg municipality category2" data-name="Leidschendam-Voorburg"/>    <path d="M 304.827066 214.750042 
 L 304.838281 214.752353 
 L 306.068593 214.017371 
 L 306.603534 213.716223 
@@ -49464,7 +49462,7 @@ L 304.708124 214.704967
 L 304.740775 214.722883 
 L 304.77238 214.734043 
 L 304.827066 214.750042 
-" clip-path="url(#pb997e62b68)" class="Oegstgeest municipality category1" data-name="Oegstgeest"/>    <path d="M 349.036295 248.725433 
+" clip-path="url(#p74ba168329)" class="Oegstgeest municipality category1" data-name="Oegstgeest"/>    <path d="M 349.036295 248.725433 
 L 349.184626 248.745374 
 L 349.29461 248.736851 
 L 349.356895 248.732026 
@@ -50542,55 +50540,16 @@ L 345.717994 247.467472
 L 346.070798 247.607864 
 L 348.958309 248.714939 
 L 349.036295 248.725433 
-" clip-path="url(#pb997e62b68)" class="Leiderdorp municipality category1" data-name="Leiderdorp"/>   </g>
+" clip-path="url(#p74ba168329)" class="Leiderdorp municipality category1" data-name="Leiderdorp"/>   </g>
   </g>
  </g>
  <defs>
-  <clipPath id="pb997e62b68">
+  <clipPath id="p74ba168329">
    <rect x="0" y="-0" width="720" height="528.173872"/>
   </clipPath>
  </defs>
 <g>
-        <g id="hover_container_1" class="hover_container_hidden">
-            <rect class="hover_bar" x="410" width="320" y="90" height="80" rx="15" />
-            <text id="hover_text_1" class="hover_text" x="410" y="90" text-anchor="left" dy=".3em"><tspan x="415" dy="1.2em"></tspan><tspan x="415" dy="1.2em"></tspan></text>
-        </g>
-    
-        <g id="hover_container_2" class="hover_container_hidden">
-            <rect class="hover_bar" x="315" width="320" y="300" height="80" rx="15" />
-            <text id="hover_text_2" class="hover_text" x="315" y="300" text-anchor="left" dy=".3em"><tspan x="320" dy="1.2em"></tspan><tspan x="320" dy="1.2em"></tspan></text>
-        </g>
-    
-        <g id="hover_container_3" class="hover_container_hidden">
-            <rect class="hover_bar" x="385" width="320" y="420" height="80" rx="15" />
-            <text id="hover_text_3" class="hover_text" x="385" y="420" text-anchor="left" dy=".3em"><tspan x="390" dy="1.2em"></tspan><tspan x="390" dy="1.2em"></tspan></text>
-        </g>
+    <g id="hover_container" class="hover_container_hidden">
+        <text id="hover_text" class="hover_text" x="410" y="90" text-anchor="left"></text>
     </g>
-<script type="text/javascript">   
-//<![CDATA[    
-    cat_names = ["1", "2", "3"];
-    cats = cat_names.map(cat => document.getElementsByClassName("category" + cat));
-    regs = cat_names.map(cat => document.getElementById("hover_container_" + cat));
-    hovers = cat_names.map(cat => document.getElementById("hover_text_" + cat));
-
-    for(let j = 0; j < cat_names.length; j++) {
-        for(let i = 0; i < cats[j].length; i++) {
-            cats[j][i].onmouseleave = function(){
-                regs[j].classList.add('hover_container_hidden');
-                hovers[j].children[0].textContent = '';
-                hovers[j].children[1].textContent = '';
-            };
-            
-            cats[j][i].onmouseover = function(){
-                hovers[j].children[0].textContent = 'Municipality: ';
-                console.log("AAAAAAAAA");
-                console.log(cats[j][i].getAttribute('data-name'));
-                hovers[j].children[1].textContent = cats[j][i].getAttribute('data-name');
-                regs[j].classList.remove('hover_container_hidden');
-            };
-        };
-    };    
-        
-    //]]>
-</script>   
-</svg>
+</g></svg>
