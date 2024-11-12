@@ -6,8 +6,8 @@
 
 <ul>
     {{ range $key, $taxonomy := .Site.Taxonomies.year }}
-      <li>{{ $key }} </li>
-      <ul>
+      <li class="key">{{ $key }} </li>
+      <ul class="publicationitems">
         {{ range $taxonomy.Pages }}
           <li> {{- partial "publication.html" . -}} </li>
         {{ end }}

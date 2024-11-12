@@ -90,7 +90,7 @@ nav li{
 }
 
 #projects{
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 main{
@@ -772,4 +772,68 @@ ul.publicationauthors, ul.publicationauthors > li {
     width: 100%;
     height: 100%;
     height: 450px;
+}
+
+/* Project carousel */
+
+.projectCarousel{
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    justify-content: center;
+}
+
+.projectContent{
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 65%;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    flex: 0 0 auto;
+    justify-content: center;
+    box-shadow: var(--primary-color) 0px 8px 10px -10px;
+    border-radius: 25px;
+    background-color: #fcfcfc;
+}
+
+
+.projectContent > p{
+    margin: 0;
+}
+
+.projectItem{
+    width: 100%;
+}
+
+.active{
+    display: flex;
+}
+
+.projectLink{
+    width: 35%;
+    display: block;
+    color: var(--tertiary-color);
+}
+
+/* Publications per author */
+
+li.key{
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.publicationitems{
+    list-style-type: none;
 }

@@ -37,13 +37,29 @@
 
 <div class="element" id="projects">
     <h1>{{ i18n "projects" }}</h1>
-    {{ $projects :=  ( where .Site.Pages "Params.Category" "Project") }}
-    {{ $projects :=  ( where $projects "Params.Featured" true) }}
-    {{ range $projects }}
-        {{ .Title }} <br />
-    {{ end }}
-    
+    <ul class="projectCarousel">
+        {{ $projects :=  ( where .Site.Pages "Params.Category" "Project") }}
+        {{ $projects :=  ( where $projects "Params.Featured" true) }}
+        {{ $iterator := 1 }}
+        {{ range $projects }}
+            <li class="projectItem" data-projectcontent="projectContent_{{ $iterator }}"> 
+                <span class="projectLink">               
+                    {{ .Title }}
+                </span>
+                <div class="projectContent projectContent_{{ $iterator }}">
+                    {{ .Content }}
+                    <div class = "projectPage">
+                        Click 
+                        <a href="https://{{ .Params.Url }}" target="_blank">here</a> 
+                        to read more about it.
+                    </div>
+                </div>
+            </li>
+            {{ $iterator = add $iterator 1}}
+        {{ end }}
+    </ul>
 </div>
+
 
 <div id="news" class="element">
     <h1>{{ i18n "news" }}</h1>
@@ -65,7 +81,4 @@
 </div>
 
 {{ partial "partners.html" . }}
-
-
-
 {{ end }}
