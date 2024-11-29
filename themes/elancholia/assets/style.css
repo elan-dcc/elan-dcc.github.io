@@ -690,6 +690,11 @@ ul.publicationauthors, ul.publicationauthors > li {
     max-height: 150px;
   }
   
+  .marquee-content li img:hover {
+    width: 98%;
+    height: 98%;
+  }
+
   @media (max-width: 600px) {
     :root {
       --marquee-width: 100%;
