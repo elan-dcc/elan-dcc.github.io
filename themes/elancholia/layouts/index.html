@@ -43,9 +43,11 @@
         {{ $iterator := 1 }}
         {{ range $projects }}
             <li class="projectItem" data-projectcontent="projectContent_{{ $iterator }}"> 
-                <span class="projectLink">               
-                    {{ .Title }}
-                </span>
+                <div class="projectLink">
+                    <span class="projectName">               
+                        {{ .Title }}
+                    </span>
+                </div>
                 <div class="projectContent projectContent_{{ $iterator }}">
                     {{ .Content }}
                     <div class = "projectPage">

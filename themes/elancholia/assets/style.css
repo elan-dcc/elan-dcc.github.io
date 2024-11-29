@@ -826,6 +826,10 @@ ul.publicationauthors, ul.publicationauthors > li {
     color: var(--tertiary-color);
 }
 
+.projectName{
+    cursor: pointer;
+}
+
 /* Publications per author */
 
 li.key{
