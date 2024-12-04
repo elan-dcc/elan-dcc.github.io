@@ -846,3 +846,11 @@ li.key{
 .publicationitems{
     list-style-type: none;
 }
+
+#main-content > ul, #main-content > ol {
+    margin-top: 20px;
+}
+
+#main-content > ul > li > ul > li{
+    margin-left: 40px;
+}

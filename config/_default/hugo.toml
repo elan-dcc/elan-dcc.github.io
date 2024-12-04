@@ -37,7 +37,7 @@ themeStyle = 'style'
 codebooks = 'https://github.com/elan-dcc/org/tree/main/codebooks'
 dataManExt = 'datamanager Frank Ardesch'
 dataManInt = 'datamanager Henk de Jong'
-codeBookGP = 'https://github.com/elan-dcc/org/blob/main/codebooks/Codeboek%20ELAN%20DWH%20v2.0.xlsx'
+codeBookGP = 'https://github.com/elan-dcc/org/blob/main/codebooks/Codeboek%20ELAN%20DWH%20v2.01.xlsx'
 codebookCBS = 'https://github.com/elan-dcc/org/blob/main/codebooks/Codeboek_ELAN_CBS_V9.6.xlsx'
 dataPractices = [112, 100, 157]
 

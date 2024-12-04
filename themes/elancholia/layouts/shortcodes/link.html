@@ -1,0 +1,9 @@
+
+    {{ $source := .Get "type" }}
+    {{ $text := .Get "text" }}
+    {{ if eq $source "codebookGP"}}
+        {{ $source = $.Site.Params.codeBookGP }}
+    {{ else }}
+        {{ $source = $.Site.Params.codeBookCBS }}
+    {{ end }}
+    <a href="{{ $source }}">{{ $text }}</a>

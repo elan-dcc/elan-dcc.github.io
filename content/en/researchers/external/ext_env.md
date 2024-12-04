@@ -18,7 +18,7 @@ TO access the external environment hosted by CBS, you must pass the CBS awarenes
         - The first part: a 4-digit passcode provided by CBS
         - The second part: the code displayed on your CBS token (note the remaining validity indicated by the bars on the left side of the diplay)
     - Click connect
-2. VMware Horizon Client
+2. **VMware Horizon Client**
     - Install Vmware Horizon Client as per the [setup instructions](https://cbs.nl/en-gb/our-services/customised-services-microdata/microdata-conducting-your-own-research/log-in-to-ra).
     - Open VMware Horizon Client.
     - Login using your username, which consists of three parts: 
@@ -28,7 +28,7 @@ TO access the external environment hosted by CBS, you must pass the CBS awarenes
     - Enter the code sent to your phone via SMS.
     - Use the CBS-provided password that consists out of 8 characters (a mix of lowercase letters, uppercase letters, and numbers).
     - Click on the 'RA-desktop' tile to access the Windows 10 desktop. Note that login may take some time.
-3. The external desktop environment
+3. **The external desktop environment**
     - You can use the app "Windows Explorer", which you can find in the search bar on the left below, to access the drives explained below.
 
 ## Drives

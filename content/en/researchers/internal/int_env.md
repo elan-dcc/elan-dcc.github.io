@@ -6,15 +6,29 @@ menu = 'researchers_menu_int'
 
 # The internal environment: ELAN-GP data on the I-drive
 
-Research data from the ELAN-GP-datawarehouse is made available on the I-drive of the LUMC network. This drive is accessible to everyone with an appointment at the LUMC. The different subfolders on the I-drive are nót accessible to all, but shielded in such a way, that only the directly involved have access. For example: access to a research project folder with ELAN-GP data is restricted to the involved researchers only.
+Research data from the ELAN-GP data warehouse is made available on the I-drive of the LUMC network. While the I-drive is accessible to all LUMC staff, subfolders are restricted to authorised personnel directly involved in specific projects. For instance, access to a research project folder containing ELAN-GP data is limited to the designated researchers.
 
-ELAN-GP research data is always a subset of the original data in the ELAN-datawarehouse, which resides on a remote server with our Trusted Third Party. This data is normally refreshed every 3 months. About 10% of the participating practices deliver their data every 6 months or yearly (this depends on the software used in these practices).
+## Data Source and Updates
+ELAN-GP research data is a subset of the original data stored in the ELAN data warehouse, managed by STIZON, the trusted third party. The data is typically updated every three months. However, approximately 10% of participating practices provide updates every six months or annually, depending on their software capabilities.
 
-To acquire data from the ELAN-GP-datawarehouse, researchers should follow the steps described in ....  Once the ELAN ticket has been approved and all necessary documents have been uploaded (amongst which the Data Transfer Agreement), the researcher can contact the DCC (Data Competence Centre). In the case of ELAN-GP-data this means that communication with the ELAN-GP-datamanager will be initiated.
+## Steps to Request Data
+To access data from the ELAN-GP data warehouse, follow these steps:
 
-Although the coveted data should be thouroughly described in the ELAN-ticket and/or other documents, in reality there are always questions about the data, from both sides. Communication (mail, meetings) between the researcher and the datamanager is meant to dissolve any misunderstanding, so both parties have a clear understanding of which data is actually needed for the research project AND if it is possible to provide that data.
+1. Follow the steps described [here]({{< relref "/researchers/overview_getting_started" >}} "Steps to initiate data analysis")
+1. Submit an ELAN ticket with a detailed description of the required data.
+1. Upload all necessary documents, including a signed Data Transfer Agreement (DTA).
+1. Once the ticket is approved, contact the Data Competence Centre (DCC), which will liaise with the ELAN-GP data manager.
 
-Once this is all clear, the datamanager will construct a data set. A connection is made to the ELAN-GP-datawarehouse, which resides on a data server at STIZON (the trusted party which collects all the GP-data for us). This connection is (of course) secure. The data server hosts a Microsoft Azure Datawarehouse and by means of (Transact-)SQL the datamanager can compose the desired data. This data almost always comes in the form of multiple datafiles, i.e. a file for Episodes, another for Medication, and so on.
-After the data files have been constructed, it's time to transfer them to the LUMC-environment. This is done via a VPN-connection and, in case of large files, can take quite some time.
+## Resolving Data Queries
 
-When the data transfer has been completed, the ELAN-GP-datamanager will create a secure folder on the I-drive, in which the data is placed. Only researchers involved in the research project AND who have uploaded a signed Data Transfer Agreement, get access to the secure folder.  
+Although the requested data should be clearly described in the ELAN ticket, clarifications are often needed. The researcher and the data manager will communicate via email or meetings to ensure the dataset is accurately defined and feasible for the project.
+
+## Data Extraction and Transfer
+
+Once requirements are confirmed:
+
+- The data manager connects securely to the ELAN-GP data warehouse, hosted on a Microsoft Azure platform at STIZON.
+- Using Transact-SQL, the data manager extracts the required data, typically producing multiple files (e.g., episodes, medication).
+- The dataset is securely transferred to the LUMC environment via a VPN connection. For large files, this process may take significant time.
+
+Upon completing the transfer, the data manager creates a secure folder on the I-drive and places the data files there. Access to this folder is granted only to researchers involved in the project who have submitted a signed DTA.

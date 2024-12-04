@@ -23,7 +23,7 @@ If you want permission to use data already available in the ELAN environment, fo
 ## Accessing hospital data in ELAN
 Follow these steps to use data already available in the ELAN environment. **Start early to ensure you have enough time to match with a Principal Investigator (PI)**. You can always submit the required files for step 3 later down the line.
 
-1. Find a Principal Investigator (PI) from Haga/HMC willing to co-author your research. Most departments at HAGA have a research nurse (???????????) to help you contact a PI (step 2).
+1. Find a Principal Investigator (PI) from Haga/HMC willing to co-author your research. Most departments at HAGA have a research nurse to help you contact a PI (step 2).
 1. Contact the PI
 
     - For Haga: Create an account in Haga's [Castor SMS](https://haga.castorsms.com/user/login) and fill in the neccesary forms. Some examples of filled forms can be found [here](https://hagawetenschapsbureau.nl/index_const.php); 
@@ -32,8 +32,8 @@ Follow these steps to use data already available in the ELAN environment. **Star
 1. Complete the forms required by the hospital(s). Make sure **you indicate in the title that it's an ELAN data research request if that's the case to expedite processing**. Include your research protocol and the nWMO approval in your Castor/PaNaMa file.
     
     - **Ensure** you mention that your relies on data already present in ELAN and does not require new data from the hospital(s).
-    - **Ensure** you upload the neccesary contracts (????????????). For assistance, contact Frank Ardesch or the Health Campus Den Haag secretariat.
-    {{< comment >}} Welke contracten ? {{< /comment >}}
+    - **Ensure** you upload the neccesary contracts. For assistance, contact Frank Ardesch or the Health Campus Den Haag secretariat.
+
 1. While your application(s) is/are being processed, make sure to contact an employee from each hospital you're contacting to establish a budget.
 1. When your file is complete, the science bureau(s) will process your submission. You will receive a message through Castor and/or PaNaMa when it has been approved.
 
