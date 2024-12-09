@@ -2,6 +2,7 @@
 title = 'Importing data'
 layout = 'page'
 menu = 'researchers_menu_int'
+weight = 20
 +++
 
 # Importing data in the internal environment

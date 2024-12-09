@@ -1,7 +1,8 @@
 +++
-title = 'What to do when temporarily inactive?'
+title = 'Handling Temporary Inactivity (CBS)'
 layout = 'page'
-menu = 'researchers_menu'
+menu = 'researchers_menu_ext'
+weight = 50
 +++
 
 # What to do when temporarily inactive?
@@ -11,6 +12,3 @@ Researchers may need to pause their research for various reasons. If your break 
 If you are active in the external environment, notify the data manager. Your account will be temporarily suspended, preserving all intermediate results and code.
 
 Once you are able to resume your analysis, inform the data manager to reinstate your account.
-
-## If you're using the internal environment
-No action is required.

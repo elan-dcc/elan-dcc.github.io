@@ -1,7 +1,6 @@
 +++
 title = 'Hadoks'
 layout = 'page'
-menu = 'researchers_menu'
 +++
 
 # Hadoks

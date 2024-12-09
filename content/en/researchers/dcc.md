@@ -1,7 +1,6 @@
 +++
 title = 'Data Competence Center'
 layout = 'page'
-menu = 'researchers_menu'
 +++
 
 # ELAN Data Competence Center (ELAN-DCC)

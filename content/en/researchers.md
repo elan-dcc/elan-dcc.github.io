@@ -3,8 +3,6 @@ title = 'For researchers'
 layout = 'researchers'
 +++
 
-# For the researchers
-
-To use the ELAN infrastructure and its data, see our [overview of steps to initiatie data analysis](https://elan-dcc.github.io/researchers/overview_getting_started/).
-You can join the meetings of the [ELAN knowledge sharing group](https://lumconline.sharepoint.com/sites/ELANKnowledgeSharing). Here we connect and empower ELAN researchers, with the opportunity to ask questions.
-Once your research is complete, but before submission or publication, please see the following steps to be taken [here](https://elan-dcc.github.io/researchers/finish/).
+# Researcher Hub
+To utilise the ELAN infrastructure and its data, please refer to our [overview of the steps to initiate data analysis](https://elan-dcc.github.io/researchers/overview_getting_started/).
+You are also welcome to attend the weekly meetings of the [ELAN knowledge sharing group](https://lumconline.sharepoint.com/sites/ELANKnowledgeSharing), where we connect and support ELAN researchers, providing an opportunity to ask questions and engage in collaborative discussions.

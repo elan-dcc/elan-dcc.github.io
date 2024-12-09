@@ -2,6 +2,7 @@
 title = 'Organisation'
 layout = 'page'
 menu = 'researchers_menu'
+weight = 30
 +++
 
 # Organisation

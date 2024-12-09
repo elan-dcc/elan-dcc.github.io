@@ -2,6 +2,7 @@
 title = 'Overview of the data environments'
 layout = 'page'
 menu = 'researchers_menu'
+weight = 20
 +++
 
 # Overview of the data environments
@@ -18,11 +19,6 @@ Precison recruitement (tile projects)
 The internal data infrastructure also includes the opportunity for precision recruitment via STIZON as trusted third party. For this the ELAN-datamanager creates (in cooperation with the researcher) a specific selection of pseudo-patient-IDs and transfers these back to STIZON. STIZON will depseudonymize the IDs and provide the GP with a recognizable list of patients. The GP can access such a list by means of a secure data-portal. In this portal, the GP must select a 'tile' behind which the patient selection is visible, these projects are therefore also called 'tile projects'.
 
 For more information on the steps in this process click [here](https://elan-dcc.github.io/researchers/internal/int_env/).
-
-{{< comment >}} TO DO: Margots file met hiaten:
-Procedures: discuss dataset with data-manager, sign DTA, access PHEG I-drive, communicate updates with ELAN-team and WP-holder, submit paper to scientific board, share syntaxes, archive (no information in current guideline)
-Possibility to go ‘back to the GP’ as there are pseudonymized data (see more information in governance document), information on ‘tegelproject’ or precision medicine (no information in current guideline)
- {{< /comment >}}
 
 ## External (CBS-RA) environment
 The external data infrastructure is hosted on the CBS servers. The CBS-RA environment of ELAN offers researchers a unique data-infrastructure in which researchers are able to combine data from multiple caregivers (i.e. GP, hospital, mental health care, Municipal Health Services, social care and perinatal data) with the SN-microdata (SN=Statistics Netherlands=CBS). Within this infrastructure, researchers operate from within projects. Every project has access to different subsets of datasets. Dutch descriptions on all datasets being maintained by Statistics Netherlands can be found [here](https://www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen/catalogus-microdata). If researchers require access to a dataset not made available in their project, they can contact the data manager.
@@ -41,6 +37,3 @@ Currently, there are 6 projects available for researchers to work from.
     The exploration of the extent of which privacy sensitive information needs to be linked to support Population Health Management.
 - **Project 9269: Socio-demographic determinants of mental health issues and illnesses**
     The identification of socio-demographic determinants of the developmental course of mental health problems.
-
-{{< comment >}} Margot: bovenstaande verzetten naar blz 'external environment'? Lisette: Ik stel voor een aparte repo te maken voor de samengestelde variabelen! {{< /comment >}}
-

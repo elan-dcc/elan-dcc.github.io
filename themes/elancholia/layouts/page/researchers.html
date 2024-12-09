@@ -1,27 +1,9 @@
 {{ define "main" }}
 
 {{ .Content }}
-<div id="tilecontainer">
-  <div class="tile">
-    <a href="http://www.elanresearch.nl" target="_blank">Request a ticket</a>
-  </div>
-  <div class="tile">
-    <a href="{{ .Site.Params.codeBookGP }}">Codebook GP data</a><br/>
-    Version: 0<br />
-    Last update: 28-09-2023
-  </div>
-  <div class="tile">
-    <a href="{{ .Site.Params.codeBookCBS }}" target="_blank">Codebook other data</a><br/>
-    Version: 9.6<br />
-    Last update: 27-05-2024
-  </div>
-</div>
-
-
-
-<div id="tilecontainer">
+<div class="gridcontainer">
   <div class="researchertile">
-    <h2>General</h2>
+    <h2>General information about ELAN</h2>
     {{ if .Site.Menus.researchers_menu }}
     <ul>
     {{ range .Site.Menus.researchers_menu.ByWeight }}
@@ -29,23 +11,36 @@
     {{ end }}
     </ul>
     {{ end }}
+    <div class="subgridcontainer">
+      <div class="subresearchertile">
+        <h3>The external environment (CBS-RA)</h2>
+        <ul>
+        {{ range .Site.Menus.researchers_menu_ext }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+        </ul>
+        <a href="{{ .Site.Params.codeBookCBS }}" class="button" target="_blank">Codebook CBS data</a>
+      </div>
+      <div class="subresearchertile">
+        <h3>The internal environment (I-Drive)</h2>
+        <ul>
+          {{ range .Site.Menus.researchers_menu_int }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        <a href="{{ .Site.Params.codeBookGP }}" class="button" target="_blank">Codebook GP data</a>
+      </div>
+    </div>
   </div>
   <div class="researchertile">
-      <h2>External environment</h2>
+    <h2>Community & Support</h2>
     <ul>
-    {{ range .Site.Menus.researchers_menu_ext }}
-      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-    {{ end }}
-  </ul>
-  </div>
-  <div class="researchertile">
-    <h2>Internal environment</h2>
-    <ul>
-      {{ range .Site.Menus.researchers_menu_int }}
+      {{ range .Site.Menus.support_menu }}
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
       {{ end }}
     </ul>
-</div>
+    <a href="https://lumconline.sharepoint.com/sites/ELANKnowledgeSharing" class="button" target="_blank">Join the weekly meetings!</a>    
+  </div>
 </div>
 
 

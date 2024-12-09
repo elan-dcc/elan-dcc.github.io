@@ -1,7 +1,6 @@
 +++
 title = 'The PHEG Science Committee'
 layout = 'page'
-menu = 'researchers_menu'
 +++
 
 # Obtaining approval from the PHEG Science Committee

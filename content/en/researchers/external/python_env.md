@@ -1,10 +1,13 @@
 +++
-title = 'Requesting Python Packages'
+title = 'Requesting Sofware Packages'
 layout = 'page'
 menu = 'researchers_menu_ext'
+weight = 40
 +++
+# Requesting R Packages from CBS
+To request R packages, simply email CBS with the names of the packages you require.
 
-# Requesting Python packages at CBS
+# Requesting Python packages from CBS
 Follow the procedure outlined below to get Python packages installed in your account in the external environment at CBS.
 
 In the instructions below, replace 0000 with the code of your project at CBS.

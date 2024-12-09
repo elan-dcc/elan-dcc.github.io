@@ -158,14 +158,60 @@ main{
     color: var(--secondary-color)
 }
 
-.researchertile{
-    padding: 10px 30px 30px 30px;
-    box-shadow: var(--primary-color) 0px 8px 10px -10px;
-    border-radius: 25px;
-    background-color: #fcfcfc;
-    position: relative;  
-    width: 33%;    
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
 }
+
+.gridcontainer a{
+    color: var(--primary-color)
+}
+
+.researchertile > ul, .subresearchertile > ul {
+    list-style-type: none;
+}
+.subgridcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.researchertile > ul {
+    padding-left: 25px;
+}
+.subresearchertile > ul {
+    padding-left: 50px;
+}
+
+.subresearchertile > h3{
+    background-color: #bf9ae5;
+    font-family: inherit;
+    color: #FFF;
+    font-weight: normal;
+    padding: 5px 50px 5px;
+}
+
+  
+.researchertile > h2{
+    background-color: var(--primary-color);
+    font-family: inherit;
+    color: #FFF;
+    font-weight: normal;
+    padding: 5px 25px 5px;
+}
+
+.researchertile:first-child {
+    grid-column: 1 / span 2; /* make this item span two columns */
+  }
+
 
 #postcontainer{
     display: flex;
@@ -326,7 +372,8 @@ ol li ul li{
 
 #bottomcontainer{
     width: 100%;
-    background-color: #fff;
+    background-color: var(--primary-color);
+    color: #FFF;
 }
 
 #bottomcontent{
@@ -336,7 +383,7 @@ ol li ul li{
     flex-direction: row;
     display: flex;
     margin: 0 auto;
-    width: var(--width)
+    width: var(--width);
 }
 
 footer{
@@ -386,7 +433,6 @@ footer a{
     width: 100%;
 }
 
-
 #hcdhlogo{
     width: 100px;
     height: auto;
@@ -411,13 +457,13 @@ footer a{
     gap: 10px;
 }
 
+/* button magic */
+
 .button > img{
     height: 30px;
     margin-left: 20px;
     vertical-align: middle;
 }
-
-/* button magic */
 
 .button {
     width: 200px;
@@ -426,7 +472,7 @@ footer a{
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 300% auto;
-    color: white;
+    color: white !important;
     border-radius: 10px;
     display: block;
     border: 0px;
@@ -450,6 +496,15 @@ footer a{
     transform: scale(0.95);
 }
 
+.subresearchertile > .button,
+.researchertile > .button{
+    margin: 0 auto;
+    margin-top: 10px;
+    text-transform: none;
+    background-color: var(--tertiary-color);
+    background-image: none;
+    font-weight: normal;
+}
 
 /* Navigation */
 
@@ -854,3 +909,51 @@ li.key{
 #main-content > ul > li > ul > li{
     margin-left: 40px;
 }
+
+
+/* footer */
+
+
+.waves > use {
+    animation: move-forever 40s -90s linear infinite;
+    fill: #786ebd;
+    fill-opacity: .2;
+  }
+  
+  .waves > use:nth-child(2) {
+    animation-delay: -20s;
+    animation-duration: 30s;
+    fill-opacity:.5;
+  }
+
+  .waves > use:nth-child(3) {
+    animation-delay: -10s;
+    animation-duration: 20s;
+    fill-opacity:1;
+  }
+  
+  @keyframes move-forever {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  #footertop{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#footertop > svg {
+    max-height: 100px;
+    width: 100%;
+  }

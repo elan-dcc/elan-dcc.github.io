@@ -2,6 +2,7 @@
 title = 'Exporting data'
 layout = 'page'
 menu = 'researchers_menu_ext'
+weight = 30
 +++
 
 # Exporting data from the external environment

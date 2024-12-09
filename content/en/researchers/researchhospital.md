@@ -1,7 +1,6 @@
 +++
 title = 'Requesting data or doing research at a contracted hospital'
 layout = 'page'
-menu = 'researchers_menu'
 +++
 
 # Accessing Hospital Data from Contracted Hospitals

@@ -1,9 +1,10 @@
 +++
-title = 'Overview of steps to initiate data analysis'
+title = 'Requesting Data: A Step-by-Step Guide'
 menu = 'researchers_menu'
 layout = 'page'
+weight = 10
 +++
-# Overview of steps to initiate data analysis
+# Requesting Data: A Step-by-Step Guide
 To use the ELAN infrastructure and its data, you will need to take the steps shown in the flow chart below.
 Some of the providers of our data, and for certain types of research, some additional steps need to be taken. These are displayed in the flow chart by selecting the following buttons if they are applicable to your situation.
 

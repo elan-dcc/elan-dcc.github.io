@@ -1,11 +1,12 @@
 +++
 title = 'About the General Practitioner data'
 layout = 'page'
-menu = 'researchers_menu'
+menu = 'researchers_menu_int'
+weight = 10
 +++
 
 # About the General Practicioner data
-General practitioners (GPs) maintain *electronic patient records* (EPR) of all their patients through software systems called a *Huisartsen Informatie Systeem* (HIS). In the ELAN region, the HIS system Medicom from Pharmapartners is predominantly used. Each HIS enforces the use of structure and coding, facilitating data accessibility and uniformity. The *episode of care* forms the foundation of the EPR structure, linking patient encounters to specific health problems. Interventions and diagnostics can also be associate with particular episodes of care, a process referred to as *episode-oriented registration (episode gericht registreren)*. The GP code of conduct for adequate use of the EPR is available [here](https://www.nhg.org/praktijkvoering/informatisering/richtlijn-adequate-dossiervorming-epd/).
+Data from general affiliated general practices is available for research on the I-Drive and within certain projects in the CBS-RA environment. General practitioners (GPs) maintain *electronic patient records* (EPR) of all their patients through software systems called a *Huisartsen Informatie Systeem* (HIS). In the ELAN region, the HIS system Medicom from Pharmapartners is predominantly used. Each HIS enforces the use of structure and coding, facilitating data accessibility and uniformity. The *episode of care* forms the foundation of the EPR structure, linking patient encounters to specific health problems. Interventions and diagnostics can also be associate with particular episodes of care, a process referred to as *episode-oriented registration (episode gericht registreren)*. The GP code of conduct for adequate use of the EPR is available [here](https://www.nhg.org/praktijkvoering/informatisering/richtlijn-adequate-dossiervorming-epd/).
 
 ## Data Sources and Availability
 

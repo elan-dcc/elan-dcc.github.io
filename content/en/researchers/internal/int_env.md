@@ -1,11 +1,11 @@
 +++
-title = 'About the internal environment'
+title = 'Step-by-step Access Guide: I-Drive (internal environment)'
 layout = 'page'
 menu = 'researchers_menu_int'
+weight = 15
 +++
 
-# The internal environment: ELAN-GP data on the I-drive
-
+# Requesting Access to the I-Drive (internal environment)
 Research data from the ELAN-GP data warehouse is made available on the I-drive of the LUMC network. While the I-drive is accessible to all LUMC staff, subfolders are restricted to authorised personnel directly involved in specific projects. For instance, access to a research project folder containing ELAN-GP data is limited to the designated researchers.
 
 ## Data Source and Updates
