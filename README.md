@@ -18,16 +18,18 @@ Follow Hugo's [quick start](https://gohugo.io/getting-started/quick-start/) to
 install the required software for static site generation.
 
 Above will allow you to preview most functionality, but the search feature.
-To preview that, install [Scoop](https://scoop.sh/). And run the command that installs nodejs and nvm,
+To preview that, you can either install [Scoop](https://scoop.sh/), and run the commands that installs nodejs and nvm,
 which will allow us to install everything required to build the search feature:
 
 ```sh
 scoop install nodejs nvm
 ```
 
+or you can install the [prebuilt Nodejs installer](https://nodejs.org/en/download/prebuilt-installer).
+
 ## Running everything locally
 
-To get everything up and going locally, just run:
+To get everything up and going locally, run:
 
 ```sh
 hugo && npx -y pagefind --site public --serve
