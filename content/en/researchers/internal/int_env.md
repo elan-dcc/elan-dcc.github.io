@@ -1,5 +1,5 @@
 +++
-title = 'Step-by-step Access Guide: I-Drive (internal environment)'
+title = 'Step-by-step Access Guide: I-Drive'
 layout = 'page'
 menu = 'researchers_menu_int'
 weight = 15

@@ -1,5 +1,5 @@
 +++
-title = 'Step-by-step Access Guide: CBS Environment (external environment)'
+title = 'Step-by-step Access Guide: CBS Environment'
 layout = 'page'
 menu = 'researchers_menu_ext'
 weight = 15

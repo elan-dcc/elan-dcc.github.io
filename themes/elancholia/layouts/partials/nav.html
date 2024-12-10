@@ -1,6 +1,9 @@
 <div class="toggle">Menu</div>
 <div id="logo">
-  <a href="{{ relURL .Site.Home.RelPermalink }}" class="title">{{ .Site.Title }}</a>
+  <!-- {{ .Site.Title }} -->
+    
+  {{ $logo := resources.Get "images/logo_elan.svg" }}
+  <a href="{{ relURL .Site.Home.RelPermalink }}" class="title"><img src="{{ $logo.RelPermalink }}" alt="ELAN" /></a>
 </div>
 <ul class="menu">
   {{ if .Site.Menus.main }}
