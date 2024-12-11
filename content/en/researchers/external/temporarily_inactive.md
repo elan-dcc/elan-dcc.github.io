@@ -6,9 +6,8 @@ weight = 50
 +++
 
 # What to do when temporarily inactive?
-Researchers may need to pause their research for various reasons. If your break extends for several months, inform the ELAN scientific board and your Principal Investigator (PI).
+Researchers may, for various reasons, need to temporarily pause their work. If your period of inactivity extends beyond several months, you are required to notify the ELAN Scientific Board and your Principal Investigator (PI). Additionally, please inform the data manager ({{< person who="external" >}}) of your circumstances.
 
-## If you're using the external environment
-If you are active in the external environment, notify the data manager. Your account will be temporarily suspended, preserving all intermediate results and code.
+During this period, your account and its associated costs will be temporarily suspended, ensuring that all intermediate results and code are securely preserved.
 
-Once you are able to resume your analysis, inform the data manager to reinstate your account.
+When you are ready to resume your research activities, contact the data manager to reactivate your account.

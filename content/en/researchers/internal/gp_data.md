@@ -6,7 +6,7 @@ weight = 10
 +++
 
 # About the General Practicioner data
-Data from general affiliated general practices is available for research on the I-Drive and within certain projects in the CBS-RA environment. General practitioners (GPs) maintain *electronic patient records* (EPR) of all their patients through software systems called a *Huisartsen Informatie Systeem* (HIS). In the ELAN region, the HIS system Medicom from Pharmapartners is predominantly used. Each HIS enforces the use of structure and coding, facilitating data accessibility and uniformity. The *episode of care* forms the foundation of the EPR structure, linking patient encounters to specific health problems. Interventions and diagnostics can also be associate with particular episodes of care, a process referred to as *episode-oriented registration (episode gericht registreren)*. The GP code of conduct for adequate use of the EPR is available [here](https://www.nhg.org/praktijkvoering/informatisering/richtlijn-adequate-dossiervorming-epd/).
+Data from general affiliated practices are available for research on the I-Drive and within certain projects in the CBS-RA environment. General practitioners (GPs) maintain *electronic patient records* (EPR) of all their patients through software systems called a *Huisartsen Informatie Systeem* (HIS). In the ELAN region, the HIS system Medicom from Pharmapartners is predominantly used. Each HIS enforces the use of structure and coding, facilitating data accessibility and uniformity. The *episode of care* forms the foundation of the EPR structure, linking patient encounters to specific health problems. Interventions and diagnostics can also be associate with particular episodes of care, a process referred to as *episode-oriented registration (episode gericht registreren)*. The GP code of conduct for adequate use of the EPR is available [here](https://www.nhg.org/praktijkvoering/informatisering/richtlijn-adequate-dossiervorming-epd/).
 
 ## Data Sources and Availability
 
@@ -62,7 +62,7 @@ As noted earlier, data is collected quarterly. Patient data evolves over time, s
     - If records are modified, the original remains unchanged, and a new record is created with the day after the retrieval date.
 
 ## Background on Data Standardisation
-GP data is collected by [STIZON](https://stizon.nl/), which standardises it before sharing it. Standardised attributes start with a 'd'; researchers are encouraged to use these fields, though non-standard attributes may also be useful.
+GP data is collected by [STIZON](https://stizon.nl/), a trusted third party, which standardises it before sharing it. Standardised attributes start with a 'd'; researchers are encouraged to use these fields, though non-standard attributes may also be useful.
 
 {{< accent >}}
 We strongly recommend researchers review the {{< link type="codebookGP" text="codebook">}} for guidance. Additional information on challenges and potential solutions can be found <a href = "https://github.com/elan-dcc/org/blob/main/QandA.md" target="_blank" alt="Q and A">here</a>.

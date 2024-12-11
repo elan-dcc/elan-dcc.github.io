@@ -39,12 +39,17 @@
     }
 }
 
+html {
+    background-color: var(--primary-color);
+}
+
 body {
     overscroll-behavior: none;
     margin: 0 auto;
     padding: 0;
     font-family: var(--myfont);
     color: var(--fontcolor);
+    background-color: #FFF;
 }
 
 a{

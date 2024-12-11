@@ -9,17 +9,17 @@ weight = 30
 
 | Name     | Position | Role ELAN | 
 | -------- | ------- | ------- |
-| J. Struijs  | Chief of ELAN and senior researcher | Initiator ELAN and member of ELAN core committee |
-| D. Mook | Chief of ELAN, general practitioner, and senior researcher | Chair ELAN steering committee and member ELAN core committee   |
-| M. de Waal | Epidemiologist and senior researcher | Chair ELAN core committee, member ELAN steering committee and chair PHEG science committee |
-| R. Middelburg | Epidemiologist and senior researcher | Member ELAN core committee and ELAN steering committee |
-| J. Kist | General practitioner and researcher | Member ELAN Core committee, steering group and ELAN-DCC |
-| F. Ardesch | Data manager | Data manager ELAN and member ELAN-DCC |
-| H. de Jong | Data manager | Data manager ELAN and member ELAN-DCC |
-| M. Haas | Senior data scientist | Head ELAN-DCC |
-| A. Faiq | Data scientist | member ELAN-DCC |
-| A. Lefebvre | Data scientist | member ELAN-DCC |
-| L. de Schipper | Data scientist | member ELAN-DCC |
+| Jeroen Struijs  | Chief of ELAN and senior researcher | Initiator ELAN and member of ELAN core committee |
+| Dennis Mook | Chief of ELAN, general practitioner, and senior researcher | Chair ELAN steering committee and member ELAN core committee   |
+| Margot de Waal | Epidemiologist and senior researcher | Chair ELAN core committee, member ELAN steering committee and chair PHEG science committee |
+| Rutger Middelburg | Epidemiologist and senior researcher | Member ELAN core committee and ELAN steering committee |
+| Janet Kist | General practitioner and researcher | Member ELAN Core committee, steering group and ELAN-DCC |
+| Frank Ardesch | Data manager | Data manager ELAN and member ELAN-DCC |
+| Henk de Jong | Data manager | Data manager ELAN and member ELAN-DCC |
+| Marcel Haas | Senior data scientist | Head ELAN-DCC |
+| Ammar Faiq | Data scientist | member ELAN-DCC |
+| Armel Lefebvre | Data scientist | member ELAN-DCC |
+| Lisette de Schipper | Data scientist | member ELAN-DCC |
 
 ## ELAN Data Competence Center (ELAN-DCC)
 The Data Competence Center of ELAN is one of the core teams. This is the team that concerns itself with the technicalities of the data infrastructure(s). Data managers and people who perform data engineering tasks (typically our data managers as well) work in this team, but there are also data scientists and people with skills around visualization and dashboarding, may you need further assistance with that.
@@ -27,10 +27,10 @@ The Data Competence Center of ELAN is one of the core teams. This is the team th
 Click [here]({{< relref "dcc" >}} "Data Competence Center") for more information on the Data Competence Center.
 
 ## ELAN Research Committee
-This is the second coolest group.
+The ELAN Research Committee, also referred to as the ELAN core committee,  is responsible for coordinating all research requests submitted via [the ticketing system](www.elanresearch.nl). The committee facilitates communication with applicants and, in cases where GP data is requested, liaises with the GP Steering Committee for review and approval. Additionally, the ELAN Research Committee oversees communication and procedural workflows, while managing relationships with GPs and other stakeholders.
 
 ## ELAN GP Steering Committee
-Geepers Peepers!
+The GP Steering Committee conducts a monthly review of all data requests to ensure the quality, impact, and relevance of research involving ELAN GP data. This committee includes GP representatives from the region, alongside members of the ELAN Research Committee, to provide comprehensive oversight and maintain high standards of research integrity.
 
 ## ELAN Scientific Board
 The ELAN Scientific Board (SB) is responsible for maintaining the quality of research

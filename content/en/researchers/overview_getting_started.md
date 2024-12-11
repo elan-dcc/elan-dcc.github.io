@@ -24,7 +24,3 @@ The purple boxes are links to additional information or to platforms that allow 
 You may have already finished writing your research protocol, in which case you can submit that to your ELAN ticket.
 {{< flowchart >}}
 **Note that you need to follow *all* paths coming from each box**
-
-{{< comment >}}
-Ik heb niet duidelijk in mijn aantekeningen aangegeven waarom we "I want to use GP data" gingen toevoegen. Ik weet dat het iets te maken had met de steering committee.
-{{< /comment >}}

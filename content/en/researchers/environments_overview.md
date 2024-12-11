@@ -6,7 +6,6 @@ weight = 20
 +++
 
 # Overview of the data environments
-{{< comment >}}Tabel hier{{< /comment >}}
 In case you are going to work with encrypted routine (care) data, ELAN offers two distinct environments: one within the LUMC and the other through Remote Access (RA) provided by Statistics Netherlands (SN, CBS in Dutch). Please read the information below for the distinction between the two environments. 
 
 Both environments provide access to encrypted GP-care data from affiliated GPs within the GP research partnership of ELAN.

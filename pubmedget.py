@@ -22,7 +22,30 @@ if __name__ == '__main__':
     tree = ET.parse(location)
     root = tree.getroot()
 
-    
+    def monthToNum(stringMonth):
+        m = {
+                'jan': 1,
+                'feb': 2,
+                'mar': 3,
+                'apr': 4,
+                'may': 5,
+                'jun': 6,
+                'jul': 7,
+                'aug': 8,
+                'sep': 9, 
+                'oct': 10,
+                'nov': 11,
+                'dec': 12
+        }
+        s = stringMonth.strip()[:3].lower()
+
+        try:
+            out = m[s]
+            return out
+        except:
+            raise ValueError('not a month.')
+
+
     def find_tag(tag):
         """Finds the first occurence of a tag."""
         for item in root.findall('.//' + tag):
@@ -46,7 +69,17 @@ if __name__ == '__main__':
 
     def find_date():
         mydate = root.find('.//History/PubMedPubDate[@PubStatus="{}"]'.format("pmc-release"))
-        return  f"{mydate[0].text}-{int(mydate[1].text):02d}-{int(mydate[2].text):02d}"
+        if mydate is None:
+            mydate = root.find('.//JournalIssue/PubDate')
+
+        month = mydate[1].text
+        if not month.isnumeric():
+            month = monthToNum(month)
+
+        if len(mydate) == 2:
+            return  f"{mydate[0].text}-{int(month):02d}-01"
+        else:
+            return  f"{mydate[0].text}-{int(month):02d}-{int(mydate[2].text):02d}"
 
     authors = find_authors()
     abstract = find_tag('AbstractText')
