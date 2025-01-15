@@ -71,7 +71,7 @@ for key, value in graphs.items():
 
 with open(outputdir + "commands.sh", "w", encoding = "utf8") as output: 
     for file in outputfiles:
-        output.write("aa-exec --profile=chrome mmdc --configFile .github/config.json -i  {}/{}.mmd -o {}/{}.svg \n".format(outputdir, file, svgdir, file))
+        output.write("aa-exec --profile=chrome mmdc --configFile .github/config.json -i  {}/{}.mmd -o {}/{}.svg -b transparent \n".format(outputdir, file, svgdir, file))
      
 
 

@@ -69,7 +69,7 @@
 
     <div id="postcontainer">
         {{ $paginator := .Paginate (where .Site.Pages "Params.Category" "News")}}
-        {{ range last 2 $paginator.Pages}}
+        {{ range first 2 $paginator.Pages}}
         {{ partial "summary.html" . }}
         <!-- <p>{{ .Content }}</p> -->
         {{ end }}
