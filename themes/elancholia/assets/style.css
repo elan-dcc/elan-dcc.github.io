@@ -101,11 +101,6 @@ header{
     padding: 20px 0 20px 0;
 }
 
-/* for the flowchart: */
-.section_A{
-    background-color: #FFFFFF;
-}
-
 section{
     position: relative;
     margin: 0 auto;
@@ -474,7 +469,7 @@ footer a{
     vertical-align: middle;
 }
 
-.button {
+.button, #closesearch {
     width: 200px;
     padding: 15px 0px;
     text-align: center;
@@ -521,12 +516,12 @@ nav{
 
 nav a{
     font-family: 'Oswald', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
   }
 
 /* mobile first */
@@ -542,8 +537,26 @@ nav a{
 
 }
 
-.menu > .item > a.highlight{
-    color: #00b0f0;
+
+.menu > .item > a:before{
+    content: '';
+    background: var(--tertiary-color);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu > .item > a:hover {
+    background-position: 0;
+    color: var(--secondary-color);
+}
+
+.menu > .item > a:hover::before{
+    width: 100%;
 }
 
 .page-link { 
