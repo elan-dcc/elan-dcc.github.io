@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: '20.x'
       - name: Install mermaid
-        run: npm install -g @mermaid-js/mermaid-cli
+        run: aa-exec --profile=chrome npm install -g @mermaid-js/mermaid-cli
       - name: Make subdir for output
         run: mkdir mermaidchartsoutputs
       - name: Generate mmd files
