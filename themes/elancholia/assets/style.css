@@ -10,21 +10,22 @@
     --myfont: "Open Sans", sans-serif;
     --width: 75%;
     --primary-color: #786ebd;
-    --background-color: #fff;
-    --secondary-color: #ef033e; 
-    --tertiary-color: #5a99f8;
+    --background-color: #e4e2f2;
+    --secondary-color: #001158; 
+    --tertiary-color: #5cb1eb;
     --fontcolor: #6a6874;
     --pagefind-ui-scale: 1;
     --pagefind-ui-primary: #034ad8;
-    --pagefind-ui-text: #ffffff;
-    --pagefind-ui-background: #b1a9e0;
-    --pagefind-ui-border: #eeeeee;
+    --pagefind-ui-text: #6a6874;
+    --pagefind-ui-background: #e4e2f2;
+    --pagefind-ui-border: #6a6874;
     --pagefind-ui-tag: #eeeeee;
-    --pagefind-ui-border-width: 2px;
+    --pagefind-ui-border-width: 1px;
     --pagefind-ui-border-radius: 8px;
     --pagefind-ui-image-border-radius: 8px;
     --pagefind-ui-image-box-ratio: 3 / 2;
     --pagefind-ui-font: "Open Sans", sans-serif;
+    --pagefind-ui-primary: #786ebd;
     --marquee-width: 100%;
     --marquee-height: 300px;
     /* --marquee-elements: 12; */ /* defined with JavaScript */
@@ -32,6 +33,11 @@
     --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
     --marquee-animation-duration: calc(var(--marquee-elements) * 7s);
 }
+
+.pagefind-ui__search-clear, .pagefind-ui__button.svelte-e9gkc3{
+    border: 0px;
+}
+
 
 @media all and (max-width: 960px) {
     :root {
@@ -41,6 +47,8 @@
 
 html {
     background-color: var(--primary-color);
+    overflow-x: hidden;
+
 }
 
 body {
@@ -49,7 +57,8 @@ body {
     padding: 0;
     font-family: var(--myfont);
     color: var(--fontcolor);
-    background-color: #FFF;
+    overflow-x: hidden;
+    background-color: var(--background-color);
 }
 
 a{
@@ -66,46 +75,47 @@ h1:first-of-type{
 }
 
 #logo{
-    width: fit-content;
     float: left;
-    margin: 10px 0 0 10px;
-    width: 50px;
+    margin: 10px 0 10px 10px;
+    max-width: 150px;
     height: 100%;
+    width: 100%;
 }
-
 
 nav li{
     display: inline;
     padding-right: 5px;
 }
 
-
-#headercontainer{
+header{
     width: 100%;
     background-color: var(--primary-color);
     color: #fff;
     margin: 0 auto;
-    height: auto;
-}
-
-#headercontent{
-    position: relative;
-    width: var(--width);
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    padding: 0 0 10px 0;
+    min-height: 70px;
 }
 
 #projects{
     color: var(--primary-color);
+    background: #cecbe8;
+    padding: 20px 0 20px 0;
 }
 
-main{
+/* for the flowchart: */
+.section_A{
+    background-color: #FFFFFF;
+}
+
+section{
     position: relative;
     margin: 0 auto;
-    width: var(--width);
+    max-width: var(--width);
     padding: 20px 0;
+}
+
+
+main{
+    background-color: var(--background-color);
 }
 
 #tilecontainer{
@@ -130,11 +140,6 @@ main{
 .tile_map{
     display: flex;
     justify-content: center;
-}
-
-.tilemore{
-    position: absolute;
-    bottom: 20px;
 }
 
 .tile_circles{
@@ -170,7 +175,7 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    grid-gap: 1rem;
+    grid-gap: 5rem;
     justify-content: space-between;
     width: 100%;
 }
@@ -187,7 +192,7 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    grid-gap: 1rem;
+    grid-gap: 5rem;
     justify-content: space-between;
     width: 100%;
     margin-top: 20px;
@@ -207,7 +212,6 @@ main{
     font-weight: normal;
     padding: 5px 50px 5px;
 }
-
   
 .researchertile > h2{
     background-color: var(--primary-color);
@@ -219,24 +223,46 @@ main{
 
 .researchertile:first-child {
     grid-column: 1 / span 2; /* make this item span two columns */
-  }
+}
+
+.abouttile:first-child {
+    grid-column: 1 / span 2; /* make this item span two columns */
+}
+
+h1{
+    font-weight: 300;
+    color: var(--primary-color);
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.tilelink, a.morearticles{
+    clear: both;
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 20px;
+    display: block;
+}
+
+.tilelink:after, .postextra a:after, a.morearticles:after{
+    content: ">";
+    padding-left: 10px;
+}
 
 
 #postcontainer{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
 }
 
 .post{
-    width: 50%;
+    width: 45%;
     margin: 5px;
-    height: 300px;
-    box-shadow: var(--primary-color) 0px 8px 10px -10px;
-    border-radius: 25px;
-    background-color: #fcfcfc;
-    overflow: hidden;
+    min-height: 300px;
     position: relative;
 }
 
@@ -253,28 +279,28 @@ main{
     padding: 10px 10px 30px 10px;
 }
 
+.newsdescription > p{
+    margin: 0;
+}
+
 .postextra{
     height: 30px;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     text-align: right;
     padding: 5px;
     margin: 0;
-    background-color: var(--pagefind-ui-background);
     padding: 5px 20px 0 20px;
-    color: #fff;
+    color: var(--primary-color);
+    border-radius: 10px;
 }
 
 .postextra a{
     font-weight: bold;
-    color: #fff;
+    color: var(--primary-color);
 }
 
 a.morearticles{
-    color: var(--tertiary-color);
     float: right;
-    margin: 30px 0 30px 0;
 }
 
 .paginationmenu{
@@ -285,22 +311,15 @@ a.morearticles{
     float: left;
 }
 
-.element{
-    clear: both;
-    width: 100%;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-
 @media only screen and (max-width: 1000px) {
     .tile{
         width: 100%;
     }
 
-    main{
+    section{
         width: 95%;
     }
+    
     
     .researchertile{
         width: 100%;
@@ -316,7 +335,7 @@ a.morearticles{
     
 
     #postcontainer{
-        position:relative;
+        position: relative;
         flex-wrap: wrap;
         flex-direction: column;
     }
@@ -333,15 +352,6 @@ a.morearticles{
         flex-wrap: wrap;
     }
 
-    #headercontent{
-        flex-wrap: wrap;
-    }
-
-    .headerelement{
-        width: 100%;
-        margin: 0 auto;
-        clear: both;
-    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -366,7 +376,6 @@ a.morearticles{
 
 }
 
-
 p{
     margin: 30px 0 0 0;
 }
@@ -375,16 +384,13 @@ ol li ul li{
     margin-left: 50px
 }
 
-#about{
-    background-color: var(--primary-color);
-    color: #fff;
-}
-
 .accent{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: #fff;
     display: block;
     clear: both;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 #about img{
@@ -459,24 +465,6 @@ footer a{
     height: auto;
 }
 
-.sociallogo{
-    opacity: 0.5;
-    width: 30px;
-    padding: 10px;
-}
-
-#about_menu{
-    width: 100%;
-    padding-bottom: 10px;
-}
-
-#about_menu ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
 
 /* button magic */
 
@@ -490,7 +478,6 @@ footer a{
     width: 200px;
     padding: 15px 0px;
     text-align: center;
-    text-transform: uppercase;
     transition: 0.5s;
     background-size: 300% auto;
     color: white !important;
@@ -498,7 +485,7 @@ footer a{
     display: block;
     border: 0px;
     font-weight: 500;
-    background-image: linear-gradient(45deg, #e0062a 0%, #ef033e  51%, #e0062a  54%);
+    background-color: var(--tertiary-color);
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
@@ -521,21 +508,10 @@ footer a{
 .researchertile > .button{
     margin: 0 auto;
     margin-top: 10px;
-    text-transform: none;
-    background-color: var(--tertiary-color);
-    background-image: none;
-    font-weight: normal;
+
 }
 
 /* Navigation */
-
-
-#navcontainer{
-    width: 100%;
-    background-color: var(--primary-color);
-    color: #fff;
-    min-height: 100px;
-}
 
 nav{
     width: 100%;
@@ -562,8 +538,8 @@ nav a{
     clear: both;
     width: 100%;
     margin: 0 auto;
-    min-height: 25px;
     padding: 0;
+
 }
 
 .menu > .item > a.highlight{
@@ -583,12 +559,20 @@ nav a{
 }
 .toggle {
     order: 1;
-    font-size: 20px;
-    margin-top: 20px;
+    display: inline-block;
+}
+.uppermenu{
     position: absolute;
     right: 20px;
     top: 10px;
 }
+
+.searchicon{
+    width: 20px;
+    margin-right: 10px;
+    position: relative;  
+}
+
 .item.button {
     order: 2;
 }
@@ -605,6 +589,34 @@ nav a{
 .active{
     padding: 0;
 }
+
+/* really small phones */
+
+@media (max-width: 300px) {
+
+.uppermenu{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    /* border: 1px solid red; */
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+
+}
+
+#logospartners > a > img{
+    width: 50px;
+    margin: 5px;
+}
+#logospartners{
+    clear: both;
+    margin-bottom: 15px;
+}
+
 /* Desktop nav */
 
 @media all and (min-width: 960px) {
@@ -619,13 +631,15 @@ nav a{
         width: auto;
         clear: none;
         justify-content: flex-end;
+        position: relative;
     }
     .logo {
         order: 0;
     }
 
     #logo{
-        margin-top: 15px;
+        position: relative;
+        float: left;
     }
     
     .item {
@@ -633,6 +647,11 @@ nav a{
         position: relative;
         display: block; 
         width: auto;
+        margin-top: 10px;
+    }
+
+    .searchicon{
+        top: -10px;
     }
     .button {
         order: 2;
@@ -655,9 +674,12 @@ nav a{
         width: auto;
     }
 
-    #about_menu ul{
-        flex-direction: row;
+    .uppermenu{
+        position: relative;
+        top: 0;
+        right: 10px;        
     }
+
 }
 
 
@@ -668,13 +690,39 @@ nav a{
     clear: both;
 }
 
+#searchcontainer {
+    display: none;
+    position: absolute;
+    top: 100px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    backdrop-filter: blur(10px);
+}
+
+
 mark {
     background-color: var(--tertiary-color);
     color: var(--secondary-color);
 }
 
 .pagefind-ui__drawer{
-    background-color: #b1a9e0;
+    background-color: #e4e2f2;
 }
 
 .pagefind-ui__message.svelte-e9gkc3{
@@ -872,10 +920,8 @@ ul.publicationauthors, ul.publicationauthors > li {
 
 .projectContent{
     display: none;
-    position: absolute;
     right: 0;
     bottom: 0;
-    width: 65%;
     align-items: center;
     flex-direction: column;
     margin: 0;
@@ -883,11 +929,11 @@ ul.publicationauthors, ul.publicationauthors > li {
     height: 100%;
     flex: 0 0 auto;
     justify-content: center;
-    box-shadow: var(--primary-color) 0px 8px 10px -10px;
     border-radius: 25px;
-    background-color: #fcfcfc;
+    background-color: #FFFFFF;
 }
 
+ 
 
 .projectContent > p{
     margin: 0;
@@ -901,14 +947,47 @@ ul.publicationauthors, ul.publicationauthors > li {
     display: flex;
 }
 
-.projectLink{
-    width: 35%;
+.active_block{
     display: block;
-    color: var(--tertiary-color);
+}
+
+.projectLink{
+    display: block;
+    width: 30%;
+    color: var(--secondary-color);
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+
 }
 
 .projectName{
-    cursor: pointer;
+    cursor: pointer;    
+}
+
+#projectLinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+@media (min-width: 1000px) {
+
+    .projectContent{ 
+        position: absolute;
+        width: 65%;
+    }
+
+    #projectLinks{
+        display: block;
+        margin-bottom: 0;
+    }
+    .projectLink{
+        margin-top: 4px;
+    }
+    
 }
 
 /* Publications per author */
@@ -919,15 +998,19 @@ li.key{
     color: #ffffff;
 }
 
+.publicationlist{
+    list-style-type: none
+}
 .publicationitems{
     list-style-type: none;
+    margin-left: 20px;
 }
 
-#main-content > ul, #main-content > ol {
+main > ul, main > ol {
     margin-top: 20px;
 }
 
-#main-content > ul > li > ul > li{
+main > ul > li > ul > li{
     margin-left: 40px;
 }
 
@@ -965,7 +1048,7 @@ li.key{
   #footertop{
     margin: 0 auto;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--background-color);
     padding: 0;
     display: flex;
     justify-content: space-around;

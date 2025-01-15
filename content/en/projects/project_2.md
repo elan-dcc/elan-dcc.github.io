@@ -1,6 +1,6 @@
 +++
 title = "Gezond en Gelukkig Den Haag"
-url =  "www.ggdh-dashboard.onrender.com"
+url =  "ggdh-dashboard.onrender.com"
 category = "Project"
 featured = true
 draft = false

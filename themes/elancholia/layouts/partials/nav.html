@@ -1,17 +1,23 @@
-<div class="toggle">Menu</div>
+{{ $search := resources.Get "images/search.svg" }}
+
+
 <div id="logo">
   <!-- {{ .Site.Title }} -->
     
-  {{ $logo := resources.Get "images/logo_elan.svg" }}
+  {{ $logo := resources.Get "images/logo_elan_hor.svg" }}
   <a href="{{ relURL .Site.Home.RelPermalink }}" class="title"><img src="{{ $logo.RelPermalink }}" alt="ELAN" /></a>
 </div>
+
 <ul class="menu">
   {{ if .Site.Menus.main }}
   {{ range .Site.Menus.main.ByWeight }}
     <li class="item"><a href="{{ .URL }}">{{ .Name }}</a></li>
   {{ end }}
   {{ end }}
-
+  <div class="uppermenu">
+    <img src="{{ $search.RelPermalink }}" alt="search" class="searchicon"/>
+    <div class="toggle">Menu</div>
+  </div>
 <!-- <a href='{{ absURL "index.xml" }}'>RSS</a> -->
 
 <!-- Convert this page's translations into a dict -->
@@ -36,20 +42,16 @@
 
 </ul>
 
-<div id="search"></div>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: false, pageSize: 3, showImages: false, resetStyles: false });
-    });
-</script>
+<div id="overlay"></div>
+<div id="searchcontainer">
 
-<div id="about_menu">
-  {{ if .Site.Menus.about_menu }}
-  <ul>
-  {{ range .Site.Menus.about_menu.ByWeight }}
-    <li><a href="{{ .URL }}"  class="button">{{ .Name }}</a></li>
-  {{ end }}
-</ul>
-  {{ end }}
-
+  <div id="search"></div>
+  <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+          new PagefindUI({ element: "#search", showSubResults: false, pageSize: 3, showImages: false, resetStyles: false });
+      });
+  </script>
+  <button onclick="closeFn()" id= "closesearch">
+    Close
+</button>
 </div>

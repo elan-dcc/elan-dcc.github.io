@@ -29,5 +29,5 @@
   other = "Click here to read more articles"
 
 [read-publications]
-  one = "Click here to read more about this publication."
-  other = "Click here to read about all {{ . }} publications."
+  one = "Click here to read more about this publication"
+  other = "Click here to read about all {{ . }} publications"

@@ -4,7 +4,7 @@
 
 {{ .Content }}
 
-<ul>
+<ul class="publicationlist">
     {{ range $key, $taxonomy := .Site.Taxonomies.year }}
       <li class="key">{{ $key }} </li>
       <ul class="publicationitems">

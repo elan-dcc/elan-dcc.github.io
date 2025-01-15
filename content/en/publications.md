@@ -4,5 +4,3 @@ layout = 'publications'
 +++
 
 # Publications
-
-We be publishing, yo.

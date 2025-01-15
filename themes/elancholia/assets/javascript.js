@@ -53,23 +53,44 @@ function closeSubmenu(e) {
   document.addEventListener("click", closeSubmenu, false);
 
 
-  /* Project carousel */
-var projectItems = document.querySelectorAll(".projectItem");
-var projectContents = document.querySelectorAll(".projectContent");
+// SEARCH 
+  
+  const overlay = document.getElementById("overlay");
+  const searchcontainer = document.getElementById("searchcontainer");
 
-function toggleProject() {
-  for(let content of projectContents){
-    if (content.classList.contains(this.dataset.projectcontent)){
-      content.classList.add("active");
-    } else{
-      content.classList.remove("active");      
-    }
+  function popupFn(e) {
+      console.log("werer");
+      overlay.style.display = "block";
+      searchcontainer.style.display = "block";
   }
-}
+  function closeFn() {
+      overlay.style.display = "none";
+      searchcontainer.style.display = "none";
+  }
 
-/* Event Listeners */
-for (let item of projectItems) {
-    item.addEventListener("click", toggleProject, false);
-    item.addEventListener("keypress", toggleProject, false);
-}
-window.onload = projectContents[0].classList.add("active");
+  
+  const searches = document.getElementsByClassName("searchicon");
+  
+  for (let item of searches) {
+      item.addEventListener("click", popupFn);
+  }
+
+    /* Close overlay From Anywhere and scroll to bottom when extending */
+  function closeOverlay(e) {
+      if (overlay.style.display == "block" && !e.target.classList.contains("searchicon")) {
+        let isClickInside = searchcontainer.contains(e.target);
+        
+        if (!isClickInside) {
+          overlay.style.display = "none";
+          searchcontainer.style.display = "none";
+        }
+        else if (e.target.classList.contains("pagefind-ui__button")) {
+          var screenh = window.innerHeight; 
+          var toScroll = ''+screenh/10;
+          document.getElementById('closesearch').scrollIntoView(false);
+          window.scrollBy(0,toScroll);
+        }
+      }
+    }
+    /* Event listener */
+    document.addEventListener("click", closeOverlay, false);

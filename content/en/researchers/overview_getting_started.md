@@ -22,5 +22,6 @@ Note that you can also get access to free data for text mining when using genera
 The purple boxes are links to additional information or to platforms that allow you to perform the action in question.
 
 You may have already finished writing your research protocol, in which case you can submit that to your ELAN ticket.
-{{< flowchart >}}
+
 **Note that you need to follow *all* paths coming from each box**
+{{< flowchart >}}

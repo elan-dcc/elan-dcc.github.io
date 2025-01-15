@@ -29,5 +29,5 @@
   other = "Klik hier voor meer nieuws"
 
 [read-publications]
-  one = "Klik hier voor meer over deze publicatie."
-  other = "Klik hier voor alle {{ . }} publicaties."
+  one = "Klik hier voor meer over deze publicatie"
+  other = "Klik hier voor alle {{ . }} publicaties"

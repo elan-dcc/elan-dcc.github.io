@@ -3,7 +3,7 @@ languageCode = 'en-GB'
 title = 'ELAN'
 copyright = 'Health Campus Den Haag'
 theme = 'elancholia'
-paginate = 2
+paginate = 5
 
 # Multilingual mode config. More for information about how to setup translation,
 # see https://gohugo.io/content-management/multilingual/

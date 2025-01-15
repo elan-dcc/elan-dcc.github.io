@@ -1,53 +1,51 @@
 {{ define "main" }}
 
-
-<div id="tilecontainer">
-    <div class="tile">
-        <h1>{{ i18n "latest-publication" }}</h1>
-        
-        {{ $publications :=  (where .Site.Pages "Params.Category" "Publication") }}
-                
-        {{ range last 1 $publications }}
-            {{ .Title }}
-        {{ end }}
-
-
-        <div class="tilemore"><a href="/publications">{{ i18n "read-publications" (len $publications) }}</a></div>
-    </div>
-    <div class="tile tile_circles">
-        <div class="subtile">
-            <h1>{{ i18n "patients" }}</h1>
-            {{partial "svgs/patients.svg" (dict "class" "stat_circle") .}}
-        </div>
-        <div class="subtile">
-            <h1>{{ i18n  "practices" }}</h1>
-            {{partial "svgs/practices.svg" (dict "class" "stat_circle") .}}
-        </div>
-    </div>
-    <div class="tile tile_map">
-        Routine data on all people in NL!
-    </div>
-</div>
-<div id="about" class="element">
-    <h1>About</h1>
-    <p>
-        {{ .Content }}
-    </p>
-</div>
-
-<div class="element" id="projects">
-    <h1>{{ i18n "projects" }}</h1>
-    <ul class="projectCarousel">
-        {{ $projects :=  ( where .Site.Pages "Params.Category" "Project") }}
-        {{ $projects :=  ( where $projects "Params.Featured" true) }}
-        {{ $iterator := 1 }}
-        {{ range $projects }}
-            <li class="projectItem" data-projectcontent="projectContent_{{ $iterator }}"> 
-                <div class="projectLink">
-                    <span class="projectName">               
-                        {{ .Title }}
-                    </span>
+    <div class="gridcontainer">
+        <div class="abouttile">
+            <h1> What is ELAN?</h1>
+            {{ .Content }}
+            <div class="subgridcontainer">
+                <div class="subresearchertile">
+                    <a class="button" href="/about_data" class="tilelink">About ELAN</a>
                 </div>
+                <div class="subresearchertile">
+                    <a class="button" href="/about_elan" class="tilelink">About the data</a> 
+                </div>
+            </div>
+        </div>
+        <div class="abouttile">
+            <h1>{{ i18n "latest-publication" }}</h1>
+            
+            {{ $publications :=  (where .Site.Pages "Params.Category" "Publication") }}
+                    
+            {{ range last 1 $publications }}
+                <p>{{ .Title }}</p>
+            {{ end }}
+
+
+            <a href="/publications" class="tilelink">{{ i18n "read-publications" (len $publications) }}</a>    
+        </div>
+    </div>
+</section>
+
+<div id="projects">
+    <section>
+        <h1>{{ i18n "projects" }}</h1>
+            {{ $projects :=  ( where .Site.Pages "Params.Category" "Project") }}
+            {{ $projects :=  ( where $projects "Params.Featured" true) }}
+            {{ $iterator := 1 }}
+            <div id="projectLinks">
+                {{ range $projects }}
+                    <div class="projectLink projectItem" data-projectcontent="projectContent_{{ $iterator }}">
+                        <span class="projectName">               
+                            {{ .Title }}
+                        </span>
+                    </div>
+                    {{ $iterator = add $iterator 1}}
+                {{ end }}
+            </div>
+            {{ $iterator := 1 }}
+            {{ range $projects }}
                 <div class="projectContent projectContent_{{ $iterator }}">
                     {{ .Content }}
                     <div class = "projectPage">
@@ -56,12 +54,15 @@
                         to read more about it.
                     </div>
                 </div>
-            </li>
-            {{ $iterator = add $iterator 1}}
-        {{ end }}
-    </ul>
-</div>
+                {{ $iterator = add $iterator 1}}
+            {{ end }}
 
+
+
+    </section>
+    {{ .Page.Store.Set "hasProjectCaroussel" true }}
+</div>
+<section>
 
 <div id="news" class="element">
     <h1>{{ i18n "news" }}</h1>
@@ -77,12 +78,13 @@
     <!-- SO UGLY -->
     {{ $pre := "news" }}
     {{ if(eq site.Language.Lang "nl") }}
-     {{ $pre := "/nl/nieuws" }}
+    {{ $pre := "/nl/nieuws" }}
     {{ end }}
     <a class="morearticles" href= "{{ print $pre }}">{{ i18n "read-articles" }}</a>
 </div>
 
 {{ partial "partners.html" . }}
+</section>
 {{ end }}
 
 
