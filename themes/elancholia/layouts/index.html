@@ -2,14 +2,14 @@
 
     <div class="gridcontainer">
         <div class="abouttile">
-            <h1> What is ELAN?</h1>
+            <h1>{{ i18n "what-is-elan" }}</h1>
             {{ .Content }}
             <div class="subgridcontainer">
                 <div class="subresearchertile">
-                    <a class="button" href="/about_data" class="tilelink">About ELAN</a>
+                    <a class="button" href="/about_elan" class="tilelink">{{ i18n "about-elan" }}</a>
                 </div>
                 <div class="subresearchertile">
-                    <a class="button" href="/about_elan" class="tilelink">About the data</a> 
+                    <a class="button" href="/about_data" class="tilelink">{{ i18n "about-data" }}</a> 
                 </div>
             </div>
         </div>
@@ -49,9 +49,7 @@
                 <div class="projectContent projectContent_{{ $iterator }}">
                     {{ .Content }}
                     <div class = "projectPage">
-                        Click 
-                        <a href="https://{{ .Params.Url }}" target="_blank">here</a> 
-                        to read more about it.
+                        <a href="https://{{ .Params.Url }}" target="_blank">{{ i18n "more-project" }}</a>
                     </div>
                 </div>
                 {{ $iterator = add $iterator 1}}

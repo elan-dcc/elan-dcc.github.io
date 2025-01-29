@@ -72,7 +72,6 @@ hugo new content en/projects/NAME.md
 The front matters and contents of all generated md-files can be edited 
 in the respective folders.
 
-
 Existing content in the content folders can be edited.
 
 ### Content summary
@@ -103,7 +102,7 @@ summary = "Summary
 +++
 ```
 
-## How to link
+### How to link
 There are two types of links: those that link to pages on this website and those
 that link to pages on other websites.
 
@@ -117,14 +116,75 @@ Below is an example for an external link
 [LUMC](https://lumc.nl)
 ```
 
-## Updating the map of ELAN and the statistics
+### Adding charts dynamically
+You can generate charts on the fly using Chart.js. For a complete overview of the available options and customisation possibilities, refer to the [Chart.js documentation](https://www.chartjs.org/docs/latest/).
+
+To add a chart within a page or post, insert the following shortcode into your content. Ensure that each chart has a unique `id`:
+
+```
+{{< chart id = "population" >}}
+{
+    type: 'bar',
+    data: {
+        labels: [
+          'CBS',
+          'General Practitioners',
+          'Hospitals',
+          'Mental Health Care',
+          'Perined Children',
+          'Perined Mothers',
+          'The Netherlands'
+        ],
+        datasets: [{
+            label: 'persons',
+            data: [2611953, 734519, 2168282, 409020, 371035, 239615, 16829289],
+            backgroundColor: '#9895bc',
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                display: false
+            },
+            title: {
+                display: true,
+                text: 'Total population'
+            },
+            tooltip: {
+                displayColors: false
+            }
+        },
+        scales: {
+            y: {
+                border: {
+                    display: false
+                }
+            },
+            x: {
+                grid: {
+                    display : false
+                },
+                border: {
+                    display: false
+                }
+            }
+        }
+
+    }
+}
+{{< /chart >}}
+```
+This will render a bar chart displaying population data for the various ELAN datasets as shown [here](https://elan-dcc.github.io/about_data/).
+
+## Updating the map of ELAN
 The theme elancholia includes a folder "visual_generator". You can
-update the data used by the notebook (and potentially the notebook), and run it.
-The SVGs will be updated automatically. The hugo command needs to be
-ran to update the
+update the data used by the notebook (and potentially the notebook), and run it. Do make sure you have installed the most recent
+wijk- en buurtenkaart from [CBS](https://www.cbs.nl/nl-nl/dossier/nederland-regionaal/geografische-data) in `themes\elancholia\visual_generators`.
 
 ## Updating the flowchart
-The map charts contains all the mmd files that are used to generate charts.
+The directory `charts` contains all the mmd files that are used to generate charts with [mermaid](https://mermaid.js.org/), including the flowchart.
 For the "flowcharts" subdirectory, the "main.mmd" is considered to be the
-main body of the flowcharts shown in [here](https://elan-dcc.github.io/researchers/overview_getting_started/).
-All other charts are just expansions of this chart.
+main body of the flowcharts shown [here](https://elan-dcc.github.io/researchers/overview_getting_started/).
+All other mmd files are expansions of this chart.

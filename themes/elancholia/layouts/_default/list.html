@@ -1,6 +1,8 @@
 {{ define "main" }}
 
+</section>
 <content>
+  <section>
   {{ if .Data.Singular }}
     <h3 class="blog-filter">{{ i18n "filtering-for" }} "{{ .Title }}"</h3>
   {{ end }}
@@ -8,38 +10,46 @@
   {{ $paginator := .Paginate (where .Site.Pages "Params.Category" "News")}}    
   {{ partial "pagination.html" .}}
 
-  <ul class="blog-posts">
+  {{ range $paginator.Pages}}
 
+  </section>
+  <div class="flipflop">
+    <section>
+        <div class = "circle">
 
-    {{ range $paginator.Pages}}
-    <li>
-      <span>
-        <i>
           <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
             {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
           </time>
-        </i>
-      </span>
-      {{ if .Params.link }}
-        <a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
-      {{ else }}
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ end }}
-    </li>
-    {{ else }}
-    <li>
-      {{ i18n "no-posts" }}
-    </li>
-    {{ end }}
-  </ul>
-  {{ if not .Data.Singular }}
-    <div>
-      {{ range .Site.Taxonomies.tags }}
-        <a class="blog-tags" href="{{ .Page.RelPermalink }}">#{{ lower .Page.Title }}</a>
-      {{ end }}
+
+        </div>
+        <h1>
+          {{ if .Params.link }}
+            <a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
+          {{ else }}
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ end }}
+        </h1>
+        <div class="blogdescription">
+        {{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end}}
+        </div>
+      </section>
     </div>
-  {{ end }}
+ 
+
+{{ else }}
+
+  {{ i18n "no-posts" }}
+
+{{ end }}
 
 
-</content>
+    {{ if not .Data.Singular }}
+      <div>
+        {{ range .Site.Taxonomies.tags }}
+          <a class="blog-tags" href="{{ .Page.RelPermalink }}">#{{ lower .Page.Title }}</a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </content>
+<section>
 {{ end }}

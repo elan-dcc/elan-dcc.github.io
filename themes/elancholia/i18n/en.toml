@@ -16,9 +16,6 @@
 [practices]
  other = "Practices"
  
-[practicesgrowth]
- other = "Number of affiliated practices"
-
 [projects]
   other = "Projects"
 
@@ -31,3 +28,15 @@
 [read-publications]
   one = "Click here to read more about this publication"
   other = "Click here to read about all {{ . }} publications"
+
+[about-data]
+  other = "About the data"
+
+[about-elan]
+  other = "About ELAN"
+
+[more-project]
+  other = "Click here to read more about it."
+
+[what-is-elan]
+  other = "What is ELAN?"

@@ -19,9 +19,6 @@
 [projects]
   other = "Projecten"
 
-[practicesgrowth]
- other = "Groei aangesloten praktijken"
-
 [read-article]
   other = "Lees meer"
 
@@ -31,3 +28,15 @@
 [read-publications]
   one = "Klik hier voor meer over deze publicatie"
   other = "Klik hier voor alle {{ . }} publicaties"
+
+[about-data]
+  other = "over de data"
+
+[about-elan]
+  other = "over ELAN"
+
+[more-project]
+  other = "Klik hier voor meer informatie."
+
+[what-is-elan]
+  other = "Wat is ELAN?"

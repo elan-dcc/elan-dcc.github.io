@@ -1,6 +1,6 @@
 <div class="publication {{ range  .Params.Themes }} clickert-{{ . }}  {{ end }} {{ range .Params.Datasources}} clickerd-{{ . }} {{ end }}">
 
-    <b>
+    <h3 class = "citation">
     <ul class ="publicationauthors">
         {{ range .Params.Authors }}
         <li>{{ . }}</li>
@@ -10,19 +10,21 @@
     ({{ .Params.Year }}). {{ .LinkTitle }} {{ .Params.Journal }}, 
     <i> {{ .Params.Volume }}</i>({{ .Params.Issue }}){{ if .Params.PageRange }}, {{ .Params.PageRange }}{{ end }}.
     
-    {{ .Params.DOI }} </b> 
+    {{ .Params.DOI }} </h3> 
     
-    
-    <br /><br />
-    Themes: {{ range  .Params.Themes }} {{ . }}  {{ end }}, Datasources: {{ range .Params.Datasources}} {{ . }} {{ end }}
+    <div class = "publ_tag">
+        <span class = "publ_bold">Themes:</span> <ul>{{ range  .Params.Themes }} <li class = "publ_param">{{ . }}</li> {{ end }}</ul>
+    </div>
+    <div class = "publ_tag">
+        <span class = "publ_bold">Datasources:</span> <ul>{{ range .Params.Datasources}} <li class = "publ_datasource">{{ . }}</li> {{ end }}</ul>
+    </div>
 
-    <br/><br/>
+    <p>
     {{ if eq $.Site.Language.LanguageName "nl-NL" }}
     {{ .Params.summarynl }}
     {{ else }}
     {{ .Params.summaryeng }}
     {{ end }}
-
+    </p>
     <!-- <a href="{{ .Permalink }}">test</a> -->
-    <br/><br />
 </div>

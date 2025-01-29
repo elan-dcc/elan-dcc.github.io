@@ -1,16 +1,11 @@
 {{ define "main" }}
 
-
-<br />
 {{ $author := .Data}} 
 
 <h1>{{ $author.Term }}</h1>
-<br />
 
-<ul>
 {{ range $author.Pages }}
-    <li>{{- partial "publication.html" . -}}</li>
-{{ end }} 
-</ul>
+    {{- partial "publication.html" . -}}
+{{ end }}
 
 {{ end }}

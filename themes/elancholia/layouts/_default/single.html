@@ -4,15 +4,20 @@
   {{ if eq .Params.category "Publication"}}
     {{- partial "single_publication.html" . -}}
   {{ else }}
-  
-    <h1>{{ .Title }}</h1>
-    <p class="byline">
-      <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-        {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
-      </time>
-      {{ with .Params.author }}· {{.}}{{ end }}
-    </p>
-    {{ end }}
+  </section>
+  <div class="titlesection">
+    <section>
+      <h1>{{ .Title }}</h1>
+      <p class="byline">
+        <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+          {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+        </time>
+        {{ with .Params.author }}· {{.}}{{ end }}
+      </p>
+      {{ end }}
+    </section>
+  </div>
+  <section>
     <content>
       {{ .Content }}
     </content>

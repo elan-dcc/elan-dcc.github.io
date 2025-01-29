@@ -1,0 +1,6 @@
+{{ $id := .Get "id" }}
+
+<div class = "subtile">
+    <h1>{{ i18n $id }}</h1>
+    {{ .Inner }}
+</div>

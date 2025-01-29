@@ -10,6 +10,7 @@
     --myfont: "Open Sans", sans-serif;
     --width: 75%;
     --primary-color: #786ebd;
+    --alternative-primary-color: #cecbe8;
     --background-color: #e4e2f2;
     --secondary-color: #001158; 
     --tertiary-color: #5cb1eb;
@@ -120,16 +121,16 @@ main{
     align-items: flex-start;
     margin-top: 20px;
     width: 100%;
+    gap: 20px;
 }
 
 .tile{
-    width: 33%;
+    width: 50%;
     height: 250px;
     padding: 10px 30px 30px 30px;
-    box-shadow: var(--primary-color) 0px 8px 10px -10px;
     border-radius: 25px;
     background-color: #fcfcfc;
-    position: relative;    
+    position: relative;
 }
 
 .tile_map{
@@ -148,11 +149,15 @@ main{
 
 .subtile{
     width: 50%;
+    position: relative;
 }
 
-.stat_circle{
+
+.chart-subtile{
+    position: relative; /* required for the responsiveness of chartjs charts */
+    width: auto;
+    height: 100%;
     max-height: 150px;
-    width: 100%;
 }
 
 .tile h1{
@@ -388,6 +393,31 @@ ol li ul li{
     margin-top: 20px;
 }
 
+content > ul, .accent > ul{
+    margin: 1em 2em 1em 2em;
+
+}
+
+.titlesection{
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: var(--alternative-primary-color);
+}
+
+.titlesection > section > h1{
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.byline{
+    color: var(--primary-color);
+    letter-spacing: 2px;
+}
+
+.titlesection > section{
+    margin-top: -40px;
+}
 #about img{
     float: left;
 }
@@ -537,7 +567,6 @@ nav a{
 
 }
 
-
 .menu > .item > a:before{
     content: '';
     background: var(--tertiary-color);
@@ -559,9 +588,24 @@ nav a{
     width: 100%;
 }
 
+.menu > .item > a > img{
+    width: 20px;
+    height: auto;
+}
+
+.menu > .item > a.language:before {
+    transition: none;
+    background-color: transparent;
+}
+
 .page-link { 
+    color: var(--tertiary-color);
+}
+
+.page-link:hover { 
     color: var(--secondary-color);
 }
+
 
 .menu li a {
     display: block;
@@ -754,7 +798,6 @@ ul.publicationauthors, ul.publicationauthors > li {
     padding: 0;
 }
 
-
 .publicationauthors li::after{
     content: ",";
 }
@@ -845,7 +888,7 @@ ul.publicationauthors, ul.publicationauthors > li {
   /* End marquee magic */
   /* Button styles */
   .checked-mode{
-    background-color: red;
+    background-color: var(--secondary-color) !important;
   }
 
   .processselector{
@@ -907,14 +950,6 @@ ul.publicationauthors, ul.publicationauthors > li {
     color: red;
   }
 
-  /* chartjs */
-
-  .chartcontainer{
-    position: relative; /* required for the responsiveness of chartjs charts */
-    width: 100%;
-    height: 100%;
-    height: 450px;
-}
 
 /* Project carousel */
 
@@ -956,7 +991,7 @@ ul.publicationauthors, ul.publicationauthors > li {
     width: 100%;
 }
 
-.active{
+#projects > section > .active{
     display: flex;
 }
 
@@ -1005,18 +1040,15 @@ ul.publicationauthors, ul.publicationauthors > li {
 
 /* Publications per author */
 
-li.key{
-    width: 100%;
-    background-color: var(--primary-color);
-    color: #ffffff;
+h2.key{
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 40px;
 }
 
-.publicationlist{
-    list-style-type: none
-}
-.publicationitems{
-    list-style-type: none;
-    margin-left: 20px;
+h2.key:first-of-type{
+    margin-top: 0;
 }
 
 main > ul, main > ol {
@@ -1025,6 +1057,106 @@ main > ul, main > ol {
 
 main > ul > li > ul > li{
     margin-left: 40px;
+}
+
+div.publication{
+    padding: 20px;
+}
+
+:nth-child(even of div.publication) {
+    background-color: transparent;
+}
+
+:nth-child(odd of div.publication) {
+    background-color: var(--alternative-primary-color);
+}
+
+.themedisplay > :nth-child(odd of div.publication) {
+    background-color: transparent;
+}
+
+
+.authordisplay{
+    list-style: none;
+}
+
+.authordisplay > li{
+    padding: 10px 0 10px 0;
+}
+
+.publ_bold{
+    width: 150px;
+    font-weight: 600;
+    color: var(--primary-color);
+    display: inline-block;
+}
+
+.publ_tag > ul{
+    list-style: none;
+    display: inline;
+}
+
+.publ_tag > ul > li{
+    display: inline;
+}
+
+.publ_tag{
+    width: 100%;
+}
+
+.publ_param::after, .publ_datasource::after{
+    content: ",";
+}
+
+.publ_param:last-child::after, .publ_datasource:last-child::after{
+    content: "";
+}
+
+.buttons{
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.thememenu{
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #FFF;
+    margin: 20px 10px 10px 10px;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.selectionform-submit-button {
+    width: 200px;
+    padding: 5px 0px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 300% auto;
+    color: white !important;
+    border-radius: 10px;
+    display: inline-block;
+    border: 0px;
+    font-weight: 500;
+    background-color: var(--tertiary-color);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: "Roboto Mono", monospace;
+    margin: 10px 10px;
+}
+
+.publication > p{
+    margin: 0 0 40px 20px;
+}
+
+h3.citation{
+    color: var(--secondary-color);
+    font-weight: 400;
+    letter-spacing: 1.5px;
 }
 
 
@@ -1074,3 +1206,53 @@ main > ul > li > ul > li{
     max-height: 100px;
     width: 100%;
   }
+
+div.flipflop{
+    overflow: auto;
+    padding: 10px 0 30px 0;
+}
+
+:nth-child(even of div.flipflop) {
+    background-color: transparent;
+}
+
+:nth-child(odd of div.flipflop) {
+    background-color: var(--alternative-primary-color);
+}
+
+.blogdescription > p{
+    margin: 0;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-style: italic;
+    color: var(--fontcolor);
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+
+.flipflop > section > h1{
+    letter-spacing: 2px;
+}
+
+:nth-child(odd of div.flipflop) > section > .circle {
+    background-color: var(--background-color);
+}
+
+:nth-child(even of div.flipflop) > section > .circle {
+    background-color: var(--alternative-primary-color);
+}
+
+.circle > time{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+}

@@ -4,15 +4,11 @@
 
 {{ .Content }}
 
-<ul class="publicationlist">
     {{ range $key, $taxonomy := .Site.Taxonomies.year }}
-      <li class="key">{{ $key }} </li>
-      <ul class="publicationitems">
-        {{ range $taxonomy.Pages }}
-          <li> {{- partial "publication.html" . -}} </li>
-        {{ end }}
-      </ul>
-    {{ end }}
-</ul>
 
+    <h2 class="key">{{ $key }} </h2>
+      {{ range $taxonomy.Pages }}  
+        {{- partial "publication.html" . -}}
+      {{ end }}
+  {{ end }}
 {{ end }}

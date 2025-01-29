@@ -17,3 +17,107 @@ One of the elements of the ELAN data warehouse is the primary care data from aff
 Through ELAN over 100 affiliated general practitioners and their patients from the following regions can be reached:
 
 {{< regionstats >}}
+
+    {{< subtile id = "patients" >}}
+        {{< chart id = "patientgraph" >}}
+        {
+            type: 'doughnut',
+            data: {
+                labels: [
+                "Pink",
+                "Blue",
+                'Purple'
+                ],
+                datasets: [{
+                    label: 'patients',
+                    data: [631797, 363171, 200730],
+                    backgroundColor: ['rgba(231, 7, 119, 1)', 'rgba(0, 176, 240, 1)', 'rgba(112, 48, 160, 1)'],
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    title: {
+                        display: false
+                    },
+                    tooltip: {
+                        displayColors: false
+                    }
+                }
+            },
+            plugins: [{
+                    beforeDraw: function (chart, _) {
+                        let ctx = chart.ctx;
+                        total = (chart.config._config.data.datasets[0].data.reduce((partialSum, a) => partialSum + a, 0)/1e6).toFixed(1) + " M";
+                        label = chart.config._config.data.datasets[0].label;
+                        ctx.textAlign = 'center';
+                        ctx.textBaseline = 'middle';
+                        ctx.font = '25px Arial';
+                        ctx.fillText(total, 
+                                    chart.width/2, 
+                                    chart.height/2);
+                        ctx.restore();
+                    }
+                }
+
+        ]
+        }
+        {{< /chart >}}
+
+    {{< /subtile >}}
+    {{< subtile id = "practices" >}}
+        {{< chart id = "practicegraph" >}}
+        {
+            type: 'doughnut',
+            data: {
+                labels: [
+                "Pink",
+                "Blue",
+                'Purple'
+                ],
+                datasets: [{
+                    label: 'practices',
+                    data: [75, 30, 52],
+                    backgroundColor: ['rgba(231, 7, 119, 1)', 'rgba(0, 176, 240, 1)', 'rgba(112, 48, 160, 1)'],
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    title: {
+                        display: false
+                    },
+                    tooltip: {
+                        displayColors: false
+                    }
+                }
+            },
+            plugins: [{
+                    beforeDraw: function (chart, _) {
+                        let ctx = chart.ctx;
+                        total = chart.config._config.data.datasets[0].data.reduce((partialSum, a) => partialSum + a, 0);
+                        label = chart.config._config.data.datasets[0].label;
+                        ctx.textAlign = 'center';
+                        ctx.textBaseline = 'middle';
+                        ctx.font = '25px Arial';
+                        ctx.fillText(total, 
+                                    chart.width/2, 
+                                    chart.height/2);
+                        ctx.restore();
+                    }
+                }
+
+        ]
+        }
+        {{< /chart >}}
+    {{< /subtile >}}
+{{< /regionstats >}}
+

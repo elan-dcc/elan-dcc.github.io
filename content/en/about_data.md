@@ -4,19 +4,25 @@ layout = 'page'
 +++
 
 # ELAN data
-The data within the research infrastructure allows researchers to investigate the current and past states of health affairs in the region Haaglanden and Hollands Midden, while also enabling the development of exploratory and predictive models using the available data as input.  With its extensive data sets the ELAN research infrastructure serves as an ideal platform for conducting a wide range of studies, including both clinical and societal research.
-
+The data research infrastructure allows researchers to investigate the current and past states of health affairs in the region Haaglanden and Hollands Midden, while also enabling the development of exploratory and predictive models using the available data as input.  With its extensive data sets the ELAN research infrastructure serves as an ideal platform for conducting a wide range of studies, including both clinical and societal research.
 
 {{< accent >}}
-The datasets are housed in two separate data infrastructures, one is referred to as the internal one, as it is hosted on the servers of LUMC, whereas the other is referred to as the external infrastructure, as it is hosted on the servers of CBS. For an overview of the advantages and disadvantages of each, click <a href="../researchers/environments_overview", alt="An overview of the data environments">here</a>.
+The datasets are housed in two separate data infrastructures: 
+<ul> 
+<li>the <b>I-Drive</b>: hosted on the secure servers of LUMC. </li>
+<li>the <b>CBS-RA</b>: hosted on the servers of the Statistics Netherlands (CBS). </li>
+</ul>
+Each infrastructure has unique advantages and limitations. For a detailed comparision, visit <a href="../researchers/environments_overview", alt="An overview of the data environments">the data environments overview</a>.
 {{< /accent >}}
 
-Within the regional research infrastructure, data from multiple sources are being linked at the individual level. Periodically, the data sources securely upload data to the research infrastructure, which transforms the data in such a way that allows for linkage between multiple data sets while minimising the risk of identifying individuals, even when multiple data sets are combined.
+# Data Sources and Coverage
+ELAN securely links data from multiple sources at the individual level, ensuring privacy by minimising the risk of identification, even when datasets are combined. The table below provides an overview of the available data sources and their populations:
 
 | Type of data | Source(s) | Population |
 |--------------|-----------|-----------|
 | [Primary care health data](https://elan-dcc.github.io/researchers/gp_data/) | General Practitioners | patients in the ELAN region |
 | Data from Statistics Netherlands | Statistics Netherlands | the Netherlands |
+| Health Insurance data | [Vektis](https://www.vektis.nl/) | the Netherlands | 
 | Patient health data | Hospitals | patients from the hospitals HagaZiekenhuis or HMC |
 | Acute and chronical care data | Hadoks | patients in Haaglanden | 
 | Mental health data | Parnassia | patients in Haaglanden |
@@ -25,4 +31,64 @@ Within the regional research infrastructure, data from multiple sources are bein
 | WMO data  | Municipality of The Hague | citizens of The Hague |
 | Cardiovascular data | Hospital | patients from the Reinier de Graaf hospital |
 | Your own data | You | A population with an overlap to any of the sources above |
+
+{{< chart id = "population" >}}
+{
+    type: 'bar',
+    data: {
+        labels: [
+          'CBS',
+          'General Practitioners',
+          'Hospitals',
+          'Mental Health Care',
+          'Perined Children',
+          'Perined Mothers',
+          'The Netherlands'
+        ],
+        datasets: [{
+            label: 'persons',
+            data: [2611953, 734519, 2168282, 409020, 371035, 239615, 16829289],
+            backgroundColor: '#9895bc',
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                display: false
+            },
+            title: {
+                display: true,
+                text: 'Total population'
+            },
+            tooltip: {
+                displayColors: false
+            }
+        },
+        scales: {
+            y: {
+                border: {
+                    display: false
+                }
+            },
+            x: {
+                grid: {
+                    display : false
+                },
+                border: {
+                    display: false
+                }
+            }
+        }
+
+    }
+}
+{{< /chart >}}
+
+{{< accent >}}
+For a detailed statistical overview of the data sets, including key insights and research potential, refer to <a href="https://academic.oup.com/ije/article/53/4/dyae099/7720610)" target="_blank">this article</a>.
+{{< /accent >}}
+
+By combining comprehensive datasets with secure linkage capabilities, ELAN enables cutting-edge research that bridges the gap between clinical outcomes and societal health determinants.
 

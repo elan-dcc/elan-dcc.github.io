@@ -4,7 +4,7 @@
 
 {{ .Content }}
 
-<ul>
+<ul class = "authordisplay">
 	{{ range .Site.Taxonomies.authors }}
 	  <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
 	{{ end }}
