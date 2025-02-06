@@ -73,10 +73,12 @@ p > img, .post_index_img_single{
 
 
 html {
+    overflow-x: hidden;
     background-color: var(--primary-color);
 }
 
 body {
+    overflow-x: hidden;
     overscroll-behavior: none;
     margin: 0 auto;
     padding: 0;
@@ -1289,6 +1291,8 @@ div.flipflop{
     bottom: -5px;
 }
 
+
+
 div.abouttile {
     width: 100%;
     text-align: center;
@@ -1299,6 +1303,16 @@ div.abouttile > p{
     font-size: 40px;
     font-weight: 200;
     letter-spacing: 2px;
+}
+
+@media all and (max-width: 300px) {
+    .circlescontainer{
+        display: none;
+    }
+
+    div.abouttile > p{
+        font-size: 20px;
+    }
 }
 
 
@@ -1478,5 +1492,4 @@ div.abouttile > p{
         height: 179px;
         width: 179px;
     }
-
 }
