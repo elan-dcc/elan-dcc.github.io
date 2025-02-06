@@ -12,26 +12,15 @@
         <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
           {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
         </time>
-        {{ with .Params.author }}· {{.}}{{ end }}
+        {{ with .Params.author }} · {{.}}{{ end }}
       </p>
       {{ end }}
     </section>
   </div>
   <section>
     <content>
+      <img class="post_index_img_single" src="../../{{ .Params.image }}" alt = "{{ .Title }}" />
       {{ .Content }}
     </content>
-    <p>
-      {{ range (.GetTerms "tags") }}
-        <a class="blog-tags" href="{{ .RelPermalink }}">#{{ lower .LinkTitle }}</a>
-      {{ end }}
-    </p>
-    {{ with .Site.Params.author.email }}
-      <p>
-        <a href='mailto:{{ . }}?subject={{ i18n "email-subject" }}"{{ default $.Site.Title $.Page.Title }}"'>
-          {{ i18n "email-reply" }} ↪
-        </a>
-      </p>
-    {{ end }}
   {{ end }}
 {{ end }}

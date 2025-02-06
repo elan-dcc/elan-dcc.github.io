@@ -18,13 +18,15 @@ These data are available in both the internal environent and, for certain projec
 | Contraindications | CIA          | Contraindications, logged at multiple levels. |
 | Correspondence    | COR          | Incoming and outgoing correspondence, including referrals. Note: not available for HIS Promedico. |
 Episodes | EPS | Episodes of care per patient, registered symptoms and conditions, coded with the [ICPC](https://www.nhg.org/praktijkvoering/informatisering/registratie-adviezen-icpc-nhg-standaarden/). Includes start and possible end dates. |
-Journalen | JRN | Records every consultation between a patient and a practitioner. |
+Journals | JRN | Records every consultation between a patient and a practitioner. |
 | Lab measurements | LAB | Measured values/readings in accordance with NHG table 45, including labt tests, BMI, and blood pressure. |
 Medication | MED | Prescriptions of medication, coded using [ATC](https://go.drugbank.com/atc). |
 Patients | PAT | Characteristics of all registered patients, including those who have moved or passed away. |
-Indicators | RUI | Indicators for selecting groups of patients, categorized based on NHG table 16. An example of an indicator is the code ‘GV,’ which indicates whether a patient is eligible for an annual flu vaccination. |
+Indicators | RUI | Indicators (in Dutch: ruiters) for selecting groups of patients, categorized based on NHG table 16. An example of an indicator is the code ‘GV,’ which indicates whether a patient is eligible for an annual flu vaccination. |
+Smoking (derived) | JRN-Roken | Smoking status, derived from the Journal dataset. |
+Referrals (derived) | JRN-Zorgdomein | Referrals recorded in the Journal dataset when processed through the digital platform Zorgdomein. | 
 
-The NHG tables can be accessed [here](https://github.com/elan-dcc/org/tree/main/NHG_tables).
+You can access the preview PDF files of the NHG tables [here](https://referentiemodel.nhg.org/tabellen/inkijkexemplaren). For convenience, CSV versions of the tables are available [here](https://github.com/elan-dcc/org/tree/main/NHG_tables).
 
 ## Data Structure and Coding Practices
 The records of a consultation in the *journaal* dataset are structured by GPs using the [SOEP](https://nl.wikipedia.org/wiki/SOEPstatus) system, which stands for:

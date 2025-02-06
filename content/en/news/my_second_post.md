@@ -3,6 +3,7 @@ title = 'My second post'
 category = "News"
 date = 2024-03-26T21:14:19+01:00
 draft = false
+image = "images/post_default_background.png"
 +++
 
 The Eurovision Song Contest (French: Concours Eurovision de la chanson), often known simply as Eurovision or by its initialism ESC, is an international song competition organised annually by the European Broadcasting Union. Each participating country submits an original song to be performed live and transmitted to national broadcasters via the Eurovision and Euroradio networks, with competing countries then casting votes for the other countries' songs to determine a winner.

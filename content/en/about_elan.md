@@ -1,6 +1,8 @@
 +++
 title = 'About ELAN'
 layout = 'page'
+menu = 'researchers_menu'
+weight = 5
 +++
 
 # About ELAN

@@ -1,31 +1,59 @@
 {{ define "main" }}
-
-    <div class="gridcontainer">
-        <div class="abouttile">
-            <h1>{{ i18n "what-is-elan" }}</h1>
-            {{ .Content }}
-            <div class="subgridcontainer">
-                <div class="subresearchertile">
-                    <a class="button" href="/about_elan" class="tilelink">{{ i18n "about-elan" }}</a>
+</section>
+<div class="introductionsection">
+    <div class="introductionChartContainer">
+        <div class="introductionChart">
+            <canvas id="IntroductionChart" width="400" height="400"></canvas>
+        </div>
+    </div>
+    <section>
+        <div class="introductioncontent">
+            <div class="abouttile">
+                {{ .Content }}
+                <div class="subgridcontainer">
+                    <div class="subresearchertile">
+                        <a class="button" href="/about_elan" class="tilelink">{{ i18n "about-elan" }}</a>
+                    </div>
+                    <div class="subresearchertile">
+                        <a class="button" href="/about_data" class="tilelink">{{ i18n "about-data" }}</a> 
+                    </div>
                 </div>
-                <div class="subresearchertile">
-                    <a class="button" href="/about_data" class="tilelink">{{ i18n "about-data" }}</a> 
+            </div>
+            <div class="circlescontainer">
+                <div id="smallcircleintroduction" class="circlesintroduction">
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
+                </div>
+
+                <div id="bigcircleintroduction" class="circlesintroduction">
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
                 </div>
             </div>
         </div>
-        <div class="abouttile">
-            <h1>{{ i18n "latest-publication" }}</h1>
+        
+    </section>
+</div>
+{{ .Page.Store.Set "hasGraph" true }}
+{{ .Page.Store.Set "introductionGraph" true }}
+
+
+<section>
+    <h1>{{ i18n "latest-publication" }}</h1>
             
-            {{ $publications :=  (where .Site.Pages "Params.Category" "Publication") }}
-                    
-            {{ range last 1 $publications }}
-                <p>{{ .Title }}</p>
-            {{ end }}
+    {{ $publications :=  (where .Site.Pages "Params.Category" "Publication") }}
+            
+    {{ range last 1 $publications }}
+        <p>{{ .Title }}</p>
+    {{ end }}
 
 
-            <a href="/publications" class="tilelink">{{ i18n "read-publications" (len $publications) }}</a>    
-        </div>
-    </div>
+    <a href="/publications" class="tilelink">{{ i18n "read-publications" (len $publications) }}</a>    
+
 </section>
 
 <div id="projects">
@@ -54,11 +82,10 @@
                 </div>
                 {{ $iterator = add $iterator 1}}
             {{ end }}
-
-
+            {{ .Page.Store.Set "hasProjectCaroussel" true }}
 
     </section>
-    {{ .Page.Store.Set "hasProjectCaroussel" true }}
+
 </div>
 <section>
 

@@ -1,6 +1,8 @@
 +++
 title = 'About the data'
 layout = 'page'
+menu = 'researchers_menu'
+weight = 5
 +++
 
 # ELAN data
@@ -37,17 +39,16 @@ ELAN securely links data from multiple sources at the individual level, ensuring
     type: 'bar',
     data: {
         labels: [
-          'CBS',
+          'Haaglanden',
           'General Practitioners',
           'Hospitals',
           'Mental Health Care',
           'Perined Children',
-          'Perined Mothers',
-          'The Netherlands'
+          'Perined Mothers'
         ],
         datasets: [{
             label: 'persons',
-            data: [2611953, 734519, 2168282, 409020, 371035, 239615, 16829289],
+            data: [2611953, 734519, 2168282, 409020, 371035, 239615],
             backgroundColor: '#9895bc',
         }]
     },
@@ -60,7 +61,10 @@ ELAN securely links data from multiple sources at the individual level, ensuring
             },
             title: {
                 display: true,
-                text: 'Total population'
+                text: 'Total population (2022)',
+                font: {
+                        size: 18
+                     }
             },
             tooltip: {
                 displayColors: false
@@ -70,6 +74,11 @@ ELAN securely links data from multiple sources at the individual level, ensuring
             y: {
                 border: {
                     display: false
+                },
+                ticks: {
+                    font: {
+                        size: 18
+                     }
                 }
             },
             x: {
@@ -78,6 +87,11 @@ ELAN securely links data from multiple sources at the individual level, ensuring
                 },
                 border: {
                     display: false
+                },
+                ticks: {
+                    font: {
+                        size: 18
+                     }
                 }
             }
         }

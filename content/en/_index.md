@@ -1,4 +1,4 @@
 +++
 title = 'Home'
 +++
-Welcome to ELAN —a groundbreaking data infrastructure offering an unparalleled platform for population health research. By linking diverse datasets at the individual level, ELAN enables researchers to explore critical health disparities, evaluate healthcare policies, and design interventions addressing both medical and social determinants of health. More than a repository, ELAN fosters collaboration and innovation, connecting researchers with general practitioners and healthcare professionals to deploy targeted surveys and interventions. Transforming raw data into actionable insights, ELAN drives a learning healthcare system dedicated to improving population health and reducing inequalities.
+From data to impact—ELAN fuels innovation, sharpens policies, and strengthens public health.

@@ -2,6 +2,14 @@ function isDatasource(category){
     return category.startsWith("clickerd");
 }
 
+function test(word, element){
+    if (word === "block"){
+        element.classList.add("public-visible");
+    }
+    else if (word === "none"){
+        element.classList.remove("public-visible");
+    }
+}
 function tagmagician(category, element) {
 
     element.classList.toggle("checked-mode");
@@ -33,6 +41,7 @@ function tagmagician(category, element) {
                 break;
             }
         }
-        x[i].style.display = display;
+        test(display, x[i]);
+        // x[i].style.display = display;
     }   
 }

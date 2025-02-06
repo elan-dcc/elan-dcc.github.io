@@ -1,4 +1,4 @@
 +++
 title = 'Home'
 +++
-Welkom bij ELAN—een baanbrekende data-infrastructuur die een ongeëvenaard platform biedt voor onderzoek naar volksgezondheid. Door diverse datasets op individueel niveau te koppelen, stelt ELAN onderzoekers in staat om kritieke gezondheidsverschillen te onderzoeken, zorgbeleid te evalueren en interventies te ontwerpen die zowel medische als sociale factoren aanpakken. Echter, ELAN is meer dan alleen een databank; het is een dynamisch ecosysteem dat samenwerking en innovatie stimuleert. Onderzoekers werken samen met huisartsen en zorgprofessionals om gerichte onderzoeken en interventies uit te voeren. Met ELAN wordt ruwe data omgezet in waardevolle inzichten, waarmee we werken aan een lerend zorgsysteem dat de volksgezondheid verbetert en ongelijkheden verkleint.
+Van data naar impact—ELAN drijft innovatie, verfijnt beleid en versterkt de volksgezondheid.

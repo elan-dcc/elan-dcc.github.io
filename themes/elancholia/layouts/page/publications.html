@@ -4,11 +4,16 @@
 
 {{ .Content }}
 
-    {{ range $key, $taxonomy := .Site.Taxonomies.year }}
-
-    <h2 class="key">{{ $key }} </h2>
-      {{ range $taxonomy.Pages }}  
+{{ $year := 0 }}
+    {{ range $key, $taxonomy := .Site.Taxonomies.year.Alphabetical.Reverse }}
+    {{ range .WeightedPages }}
+      {{ if not (eq $year .Params.Year) }}
+        <h2 class="key">{{ .Params.Year }}</h2>
+        {{ $year = .Params.Year}}
+      {{ end }}
+      {{ range $taxonomy.WeightedPages }}  
         {{- partial "publication.html" . -}}
       {{ end }}
+    {{end}}
   {{ end }}
 {{ end }}

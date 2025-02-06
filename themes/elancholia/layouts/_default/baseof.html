@@ -84,6 +84,13 @@
 
   <script src="{{ $js.RelPermalink }}"></script>
 {{ end }}
+
+
+{{ if .Store.Get "introductionGraph" }}
+  {{ $js := resources.Get "introductionchart.js" | minify }}
+
+  <script src="{{ $js.RelPermalink }}"></script>
+{{ end }}
 </body>
 
 </html>

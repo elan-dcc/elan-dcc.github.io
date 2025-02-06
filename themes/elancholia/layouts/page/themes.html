@@ -23,13 +23,13 @@
 
 <div id="tagmagicianstoraget" class="{{ range .Site.Taxonomies.themes }}clickert-{{ .Page.Title }} {{ end }}"></div>
 <div id="tagmagicianstoraged" class="{{ range .Site.Taxonomies.datasources }}clickerd-{{ .Page.Title }} {{ end }}"></div>
-<div class="themedisplay">
+
   {{ range $key, $taxonomy := .Site.Taxonomies.year }}
       {{ range $taxonomy.Pages }}
         {{- partial "publication.html" . -}}
       {{ end }}
   {{ end }}
-</div>
+
 
 {{ $js := resources.Get "tagmagician.js" | minify }}
 
