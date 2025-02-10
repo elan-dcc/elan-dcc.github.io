@@ -54,15 +54,19 @@ for f in files_graphs:
         contents = contents.read()
         graphs[name] = contents
 
+def re_pattern(line):
+    return rf'{(re.escape(line))}\s*\n(.*?)\s*\nend'
 
 def extract_subgraphs(line, content):
-    match = re.search(rf'{(re.escape(line))}\s*\n(.*?)\s*\nend', content, re.DOTALL)
+    match = re.search(re_pattern(line), content, re.DOTALL)
     if match:
         items = []
         for line in match.group(1).strip().split("\n"):
             items.append(line.strip())
         return items
     return []
+
+
 
 outputfiles = []
 # make the mmd files with the different combinations
@@ -78,11 +82,9 @@ for x in range(len(graphs_flowchart) + 1):
             my_subgraphs = [] #mermaid needs all subcharts to be together
             for graph in combination:
                 subchart = extract_subgraphs(subgraphs[0], graphs_flowchart[graph])
-                print(subchart)
                 my_subgraphs.extend(subchart)
-                cleaned_chart = re.sub(rf'({re.escape(subgraphs[0])})\s*\n(.*?)\s*\nend', '', graphs_flowchart[graph], flags = re.DOTALL).strip()
+                cleaned_chart = re.sub(re_pattern(line), '', graphs_flowchart[graph], flags = re.DOTALL).strip()
                 if cleaned_chart:
-                    print(cleaned_chart)
                     output.write(cleaned_chart + "\n")
             if my_subgraphs:
                 output.write(f"{subgraphs[0]}\n")
