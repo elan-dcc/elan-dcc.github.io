@@ -1,6 +1,7 @@
 import itertools
 import glob
 import os
+import re
 
 # get flowchart files
 flowchart = [os.path.normpath(i) for i in glob.glob("charts/flowchart/*.mmd")]
@@ -30,6 +31,11 @@ for f in flowchart:
         contents = contents.read()
         graphs_flowchart[name] = contents
 
+# get lists of reoccuring subgraphs
+subgraphs = []
+if "subgraphs" in graphs_flowchart:
+    subgraphs = graphs_flowchart.pop(subgraph).splitlines()
+
 # sort keys
 sorted_graphs = list(graphs_flowchart.keys())
 sorted_graphs.sort()
@@ -47,6 +53,16 @@ for f in files_graphs:
         contents = contents.read()
         graphs[name] = contents
 
+
+def extract_subgraphs(line, content):
+    match = re.search(rf'{line}\n(.*?)\nend', content, re.DOTALL)
+    if match:
+        items = set()
+        for line in match.group(1).strip().split("\n"):
+            items.add(line.strip())
+        return items
+    return set()
+
 outputfiles = []
 # make the mmd files with the different combinations
 for x in range(len(graphs_flowchart) + 1):
@@ -58,8 +74,18 @@ for x in range(len(graphs_flowchart) + 1):
             output.write(graph_main + "\n")
             if combination == ():
                 break
+            subgraphs = set() #mermaid needs all subcharts to be together
             for graph in combination:
-                output.write(graphs_flowchart[graph] + "\n")
+                subchart = extract_section_items(subgraphs[0], graphs_flowchart[graph])
+                subgraphs.update(subchart)
+                cleaned_chart = re.sub(subgraphs[0], '', graphs_flowchart[graph], flags = re.DOTALL).strip()
+                if cleaned_chart:
+                    output.write(cleaned_chart + "\n")
+            if subgraphs:
+                output.write(f"{subgraphs[0]}\n")
+                for item in subgraphs:
+                    output.write(f"{item}\n")
+                output.write("end\n\n")
 
 for key, value in graphs.items():
     output = outputdir + "".join(key) + ".mmd"
