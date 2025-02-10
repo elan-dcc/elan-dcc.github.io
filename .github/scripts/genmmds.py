@@ -58,11 +58,11 @@ for f in files_graphs:
 def extract_subgraphs(line, content):
     match = re.search(rf'{(re.escape(line))}\s*\n(.*?)\s*\nend', content, re.DOTALL)
     if match:
-        items = set()
+        items = []
         for line in match.group(1).strip().split("\n"):
-            items.add(line.strip())
+            items.append(line.strip())
         return items
-    return set()
+    return []
 
 outputfiles = []
 # make the mmd files with the different combinations
