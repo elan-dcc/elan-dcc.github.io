@@ -26,16 +26,17 @@ graphs_flowchart = {}
 
 for f in flowchart:
     with open(f, "r", encoding = "utf8") as contents:
-        contents.readline() # skip first line
         name = f.rsplit('/', 1)[-1][:-4]
+        if name != "subgraphs":
+            contents.readline() # skip first line
         contents = contents.read()
         graphs_flowchart[name] = contents
-print(graphs_flowchart)
+
 # get lists of reoccuring subgraphs
 subgraphs = []
 if "subgraphs" in graphs_flowchart:
     subgraphs = graphs_flowchart.pop("subgraphs").splitlines()
-print(subgraphs)
+
 # sort keys
 sorted_graphs = list(graphs_flowchart.keys())
 sorted_graphs.sort()
