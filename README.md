@@ -3,7 +3,7 @@
 A static site featuring information for ELAN researchers and stakeholders.
 It is made and build using the static site generator [Hugo](https://gohugo.io/).
 
-Click [here]( https://elan-dcc.github.io/) to visit the site.
+Click [here](https://elan-dcc.github.io/) to visit the site. You can also visit it at [elan.healthcampusdenhaag.nl](https://elan.healthcampusdenhaag.nl).
 
 ## Installation
 If you just want to add or edit a post or publication, you only need to clone
@@ -84,6 +84,7 @@ title = "title"
 date = {{ .Date }}
 draft = false
 type = "News"
+image = "images/post_default_background.png"
 +++
 Some text
 <!--more -->
@@ -98,6 +99,7 @@ title = "title"
 date = {{ .Date }}
 draft = false
 type = "News"
+image = "images/post_default_background.png"
 summary = "Summary
 +++
 ```
@@ -178,13 +180,30 @@ To add a chart within a page or post, insert the following shortcode into your c
 ```
 This will render a bar chart displaying population data for the various ELAN datasets as shown [here](https://elan-dcc.github.io/about_data/).
 
+### Adding/updating images
+There are two types of images: the **cover image**, which appears at the top of each post, and **inline images**, used within your post.
+
+To add or update an image, upload the image to the `static/images` directory. 
+
+#### Changing the cover image
+To change the cover image, update the following line in your post to reference the new image:
+```image = "images/post_default_background.png"```
+*(By default, this is set to ``"images/post_default_background.png"``.)*
+
+#### Adding inline images
+To include an image within your post, use the following Markdown syntax:
+```![Brief description of your image](/images/YOURIMAGE)```
+Replace ``YOURIMAGE`` with the filename of your image, ensuring it is stored in the ``static.images`` directory.
+
 ## Updating the map of ELAN
 The theme elancholia includes a folder "visual_generator". You can
 update the data used by the notebook (and potentially the notebook), and run it. Do make sure you have installed the most recent
 wijk- en buurtenkaart from [CBS](https://www.cbs.nl/nl-nl/dossier/nederland-regionaal/geografische-data) in `themes\elancholia\visual_generators`.
 
 ## Updating the flowchart
-The directory `charts` contains all the mmd files that are used to generate charts with [mermaid](https://mermaid.js.org/), including the flowchart.
-For the "flowcharts" subdirectory, the "main.mmd" is considered to be the
+The directory `charts` contains all the ``.mmd`` files that are used to generate charts with [mermaid](https://mermaid.js.org/), including the flowchart.
+
+- For the ``flowcharts`` subdirectory, the ``main.mmd`` is considered to be the
 main body of the flowcharts shown [here](https://elan-dcc.github.io/researchers/overview_getting_started/).
-All other mmd files are expansions of this chart.
+- "subcharts.mdd" is a special file that stores the names of subcharts across multiple charts. It should be updated as needed.
+- All other mmd files are expansions of the mainchart.

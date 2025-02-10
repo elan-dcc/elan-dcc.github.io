@@ -14,4 +14,4 @@ There are two classes of redox reactions:
 * Atom transfer:An atom transfers from one substrate to another. For example, in the rusting of iron, the oxidation state of iron atoms increases as the iron converts to an oxide, and simultaneously the oxidation state of oxygen decreases as it accepts electrons released by the iron. Although oxidation reactions are commonly associated with the formation of oxides, other chemical species can serve the same function.In hydrogenation, bonds like C=C are reduced by transfer of hydrogen atoms.
 
 
-![Scenario 1: Across columns](/images/woman.png)
+![Woman](/images/woman.png)
