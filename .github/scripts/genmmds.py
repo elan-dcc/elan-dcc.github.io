@@ -7,7 +7,7 @@ flowchart = [os.path.normpath(i) for i in glob.glob("charts/flowchart/*.mmd")]
 main = os.path.normpath(glob.glob("charts/flowchart/main.mmd")[0])
 flowchart.remove(main)
 
-#get other possible flow charts
+# get other possible flow charts
 files_graphs = [os.path.normpath(i) for i in glob.glob("charts/*.mmd")]
 
 outputdir = "mermaidchartsoutputs/"

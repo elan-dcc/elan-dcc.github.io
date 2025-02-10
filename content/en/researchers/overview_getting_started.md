@@ -10,13 +10,14 @@ Some of the providers of our data, and for certain types of research, some addit
 
 Note that you can also get access to free data for text mining when using general practitioner data and hospital data.
 
-{{< processselection class="content-gallery" >}}
-    {{< processselectionoption value="gp" text="I want to use general practitioner data." >}}
-    {{< processselectionoption value="mentalhealth" text="I want to use mental health data." >}}
-    {{< processselectionoption value="hospital" text="I want to use hospital data." >}}
-    {{< processselectionoption value="hadoks" text="I want to use hadoks data." >}}
-    {{< processselectionoption value="perined" text="I want to use perined data." >}}
-    {{< processselectionoption value="wmo" text="I want to use wmo data." >}}
+
+{{< processselection class="content-gallery" text="Select what data you plan on using">}}
+    {{< processselectionoption value="gp" text="General practitioner data" >}}
+    {{< processselectionoption value="mentalhealth" text="Mental health data" >}}
+    {{< processselectionoption value="hospital" text="Hospital data" >}}
+    {{< processselectionoption value="hadoks" text="Hadoks data" >}}
+    {{< processselectionoption value="perined" text="Perined data" >}}
+    {{< processselectionoption value="wmo" text="WMO data" >}}
 {{< /processselection >}}
 
 The purple boxes are links to additional information or to platforms that allow you to perform the action in question.
