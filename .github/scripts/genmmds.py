@@ -87,7 +87,7 @@ for x in range(len(graphs_flowchart) + 1):
             if my_subgraphs:
                 output.write(f"{subgraphs[0]}\n")
                 for item in my_subgraphs:
-                    output.write(f"{item}\n")
+                    output.write(item + "\n")
                 output.write("end\n\n")
 
 for key, value in graphs.items():
