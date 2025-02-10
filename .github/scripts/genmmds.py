@@ -87,12 +87,13 @@ for x in range(len(graphs_flowchart) + 1):
                     cleaned_chart = re.sub(re_pattern(item), '', graphs_flowchart[graph], flags = re.DOTALL).strip()
                 if cleaned_chart:
                     output.write(cleaned_chart + "\n")
-            if my_subgraphs:
-                for key, value in my_subgraphs.items():
-                    output.write(f"{key}\n")
-                    for item in value:
-                        output.write(item + "\n")
-                    output.write("end\n\n")
+            for key, value in my_subgraphs.items():
+                if not value:
+                    break
+                output.write(f"{key}\n")
+                for item in value:
+                    output.write(item + "\n")
+                output.write("end\n\n")
 
 for key, value in graphs.items():
     output = outputdir + "".join(key) + ".mmd"
