@@ -76,7 +76,7 @@ for x in range(len(graphs_flowchart) + 1):
                 break
             subgraphs = set() #mermaid needs all subcharts to be together
             for graph in combination:
-                subchart = extract_section_items(subgraphs[0], graphs_flowchart[graph])
+                subchart = extract_subgraphs(subgraphs[0], graphs_flowchart[graph])
                 subgraphs.update(subchart)
                 cleaned_chart = re.sub(subgraphs[0], '', graphs_flowchart[graph], flags = re.DOTALL).strip()
                 if cleaned_chart:
