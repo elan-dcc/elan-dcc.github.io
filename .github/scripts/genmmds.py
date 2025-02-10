@@ -34,7 +34,7 @@ for f in flowchart:
 # get lists of reoccuring subgraphs
 subgraphs = []
 if "subgraphs" in graphs_flowchart:
-    subgraphs = graphs_flowchart.pop(subgraph).splitlines()
+    subgraphs = graphs_flowchart.pop(subgraphs).splitlines()
 
 # sort keys
 sorted_graphs = list(graphs_flowchart.keys())
