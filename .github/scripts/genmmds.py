@@ -30,12 +30,12 @@ for f in flowchart:
         name = f.rsplit('/', 1)[-1][:-4]
         contents = contents.read()
         graphs_flowchart[name] = contents
-
+print(graphs_flowchart)
 # get lists of reoccuring subgraphs
 subgraphs = []
 if "subgraphs" in graphs_flowchart:
     subgraphs = graphs_flowchart.pop("subgraphs").splitlines()
-
+print(subgraphs)
 # sort keys
 sorted_graphs = list(graphs_flowchart.keys())
 sorted_graphs.sort()
