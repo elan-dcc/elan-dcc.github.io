@@ -74,16 +74,16 @@ for x in range(len(graphs_flowchart) + 1):
             output.write(graph_main + "\n")
             if combination == ():
                 break
-            subgraphs = set() #mermaid needs all subcharts to be together
+            my_subgraphs = set() #mermaid needs all subcharts to be together
             for graph in combination:
                 subchart = extract_subgraphs(subgraphs[0], graphs_flowchart[graph])
-                subgraphs.update(subchart)
+                my_subgraphs.update(subchart)
                 cleaned_chart = re.sub(subgraphs[0], '', graphs_flowchart[graph], flags = re.DOTALL).strip()
                 if cleaned_chart:
                     output.write(cleaned_chart + "\n")
             if subgraphs:
                 output.write(f"{subgraphs[0]}\n")
-                for item in subgraphs:
+                for item in my_subgraphs:
                     output.write(f"{item}\n")
                 output.write("end\n\n")
 
