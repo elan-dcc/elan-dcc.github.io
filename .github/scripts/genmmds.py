@@ -66,8 +66,6 @@ def extract_subgraphs(line, content):
         return items
     return []
 
-
-
 outputfiles = []
 # make the mmd files with the different combinations
 for x in range(len(graphs_flowchart) + 1):
@@ -87,6 +85,7 @@ for x in range(len(graphs_flowchart) + 1):
                     cleaned_chart = re.sub(re_pattern(item), '', graphs_flowchart[graph], flags = re.DOTALL).strip()
                 if cleaned_chart:
                     output.write(cleaned_chart + "\n")
+            # write subgraphs
             for key, value in my_subgraphs.items():
                 if not value:
                     break
@@ -102,7 +101,6 @@ for key, value in graphs.items():
             output.write(value + "\n")
 
 # generate cli commands
-
 with open(outputdir + "commands.sh", "w", encoding = "utf8") as output: 
     for file in outputfiles:
         output.write("aa-exec --profile=chrome mmdc --configFile .github/config.json -i  {}/{}.mmd -o {}/{}.svg -b transparent \n".format(outputdir, file, svgdir, file))
