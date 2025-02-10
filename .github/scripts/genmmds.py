@@ -79,7 +79,7 @@ for x in range(len(graphs_flowchart) + 1):
             for graph in combination:
                 subchart = extract_subgraphs(subgraphs[0], graphs_flowchart[graph])
                 my_subgraphs.update(subchart)
-                cleaned_chart = re.sub(subgraphs[0], '', graphs_flowchart[graph], flags = re.DOTALL).strip()
+                cleaned_chart = re.sub(rf'{subgraphs[0]}\n(.*?)\nend', '', graphs_flowchart[graph], flags = re.DOTALL).strip()
                 if cleaned_chart:
                     output.write(cleaned_chart + "\n")
             if subgraphs:
