@@ -79,18 +79,20 @@ for x in range(len(graphs_flowchart) + 1):
             output.write(graph_main + "\n")
             if combination == ():
                 break
-            my_subgraphs = [] #mermaid needs all subcharts to be together
+            my_subgraphs = {item: [] for item in subgraphs} #mermaid needs all subcharts to be together
             for graph in combination:
-                subchart = extract_subgraphs(subgraphs[0], graphs_flowchart[graph])
-                my_subgraphs.extend(subchart)
-                cleaned_chart = re.sub(re_pattern(line), '', graphs_flowchart[graph], flags = re.DOTALL).strip()
+                for item in subgraphs:
+                    subchart = extract_subgraphs(item, graphs_flowchart[graph])
+                    my_subgraphs[item].extend(subchart)
+                    cleaned_chart = re.sub(re_pattern(item), '', graphs_flowchart[graph], flags = re.DOTALL).strip()
                 if cleaned_chart:
                     output.write(cleaned_chart + "\n")
             if my_subgraphs:
-                output.write(f"{subgraphs[0]}\n")
-                for item in my_subgraphs:
-                    output.write(item + "\n")
-                output.write("end\n\n")
+                for key, value in my_subgraphs:
+                    output.write(f"{key}\n")
+                    for item in value:
+                        output.write(item + "\n")
+                    output.write("end\n\n")
 
 for key, value in graphs.items():
     output = outputdir + "".join(key) + ".mmd"
