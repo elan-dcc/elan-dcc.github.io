@@ -19,7 +19,7 @@
   </div>
   <section>
     <content>
-      <img class="post_index_img_single" src="../../{{ .Params.image }}" alt = "{{ .Title }}" />
+      <img class="post_index_img_single" src="{{ .Site.BaseURL }}../../{{ .Params.image }}" alt = "{{ .Title }}" />
       {{ .Content }}
     </content>
   {{ end }}

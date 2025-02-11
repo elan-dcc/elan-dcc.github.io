@@ -2,7 +2,7 @@
 	<div class="postcontent">
 		
 		<div class = "post_thumbnail_container">
-			<a href="{{ .Permalink }}"> {{ if .Params.image }}<img class="post_index_img" src="{{ .Params.image }}" alt = "postimage" />{{ end }}</a>
+			<a href="{{ .Permalink }}"> {{ if .Params.image }}<img class="post_index_img" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt = "postimage" />{{ end }}</a>
 		</div>
 		<a href="{{ .Permalink }}"><h1> {{ .Title }}</h1></a>
 
