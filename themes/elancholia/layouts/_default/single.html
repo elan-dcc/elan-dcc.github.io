@@ -4,23 +4,23 @@
   {{ if eq .Params.category "Publication"}}
     {{- partial "single_publication.html" . -}}
   {{ else }}
-  </section>
-  <div class="titlesection">
-    <section>
-      <h1>{{ .Title }}</h1>
-      <p class="byline">
-        <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-          {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
-        </time>
-        {{ with .Params.author }} · {{.}}{{ end }}
-      </p>
-      {{ end }}
     </section>
-  </div>
-  <section>
-    <content>
-      <img class="post_index_img_single" src="{{ .Site.BaseURL }}../../{{ .Params.image }}" alt = "{{ .Title }}" />
-      {{ .Content }}
-    </content>
+    <div class="titlesection">
+      <section>
+        <h1>{{ .Title }}</h1>
+        <p class="byline">
+          <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+            {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+          </time>
+          {{ with .Params.author }} · {{.}}{{ end }}
+        </p>
+      </section>
+    </div>
+    <section>
+      <content>
+        <img class="post_index_img_single" src="{{ .Site.BaseURL }}../../{{ .Params.image }}" alt = "{{ .Title }}" />
+        {{ .Content }}
+      </content>
+    {{ end }}
   {{ end }}
 {{ end }}

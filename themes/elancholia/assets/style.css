@@ -96,6 +96,13 @@ a {
 h2, h1 {
     margin-top: 50px;
 }
+ul{
+    list-style-position: inside;
+}
+
+li::marker {
+    color: var(--primary-color);
+}
 
 #flowchartdisplay {
 
@@ -127,10 +134,30 @@ header {
     min-height: 70px;
 }
 
-#projects {
+.sectionaccent {
     color: var(--primary-color);
     background: #cecbe8;
-    padding: 20px 0 20px 0;
+}
+
+.pubdate{
+    clear: left;
+    display: block;
+    font-size: 25px;
+}
+
+.publicationtitle{
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+.publicationtitle > a{
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+.publicationChart{
+    margin-top: 50px;
 }
 
 section {
@@ -141,11 +168,14 @@ section {
     width: 95%;
 }
 
+.nostylingsection{
+    padding: 0;
+    overflow: auto;
+}
 
 main {
     background-color: var(--background-color);
 }
-
 
 h1 {
     font-weight: 300;
@@ -162,17 +192,21 @@ h2 {
     line-height: 40px;
     margin-bottom: 10px;
 }
+.more {
+    text-align: right;
+}
 
-.tilelink, a.morearticles {
+.tilelink {
     clear: both;
     color: var(--primary-color);
     letter-spacing: 2px;
     font-weight: 700;
     margin-top: 20px;
     display: block;
+    margin: 30px 0 30px 0;
 }
 
-.tilelink:after, .postextra a:after, a.morearticles:after {
+.tilelink:after, .postextra a:after {
     content: ">";
     padding-left: 10px;
 }
@@ -269,12 +303,13 @@ ol li ul li {
 }
 
 .accent {
-    background-color: var(--secondary-color);
-    color: #fff;
+    color: var(--primary-color);
+    background-color: #fff;
     display: block;
     clear: both;
-    padding: 20px;
+    padding: 30px;
     margin-top: 20px;
+    border-radius: 20px;
 }
 
 content > ul, .accent > ul {
@@ -511,19 +546,6 @@ nav.subnav {
     padding: 0;
 }
 
-/* really small phones */
-
-@media (max-width: 300px) {
-    .uppermenu {
-        position: relative;
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        left: 0;
-        top: 0;
-        text-align: center;
-    }
-}
 
 #logospartners > a > img {
     width: 50px;
@@ -657,7 +679,7 @@ ul.publicationauthors, ul.publicationauthors > li {
 }
 
 .publicationauthors li::after {
-    content: ",";
+    content: ", ";
 }
 
 .publicationauthors li:last-child::after {
@@ -933,6 +955,7 @@ div.marquee {
 .researchertile > ul {
     padding-left: 25px;
 }
+
 .subresearchertile > ul {
     padding-left: 50px;
 }
@@ -1037,92 +1060,32 @@ pre code {
     margin-right: 10px;
 }
 
-/* Project carousel */
-
-.projectCarousel{
-    position: relative;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    margin: 0 auto;
-    height: 200px;
-    justify-content: center;
-}
-
-.projectContent{
-    display: none;
-    right: 0;
-    bottom: 0;
-    align-items: center;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    flex: 0 0 auto;
-    justify-content: center;
-    border-radius: 25px;
-    background-color: #FFFFFF;
-}
-
- 
-
-.projectContent > p{
-    margin: 0;
-}
-
-.projectItem{
-    width: 100%;
-}
-
-#projects > section > .active{
-    display: flex;
-}
-
-.active_block{
+/* Projects on the splash page */
+#projects{
     display: block;
+
 }
 
-.projectLink{
-    display: block;
-    width: 30%;
-    color: var(--secondary-color);
-    background-color: #FFFFFF;
-    border-radius: 4px;
+.projectitemcontainer{
+    padding: 10px;
+}
+
+
+.projectitem{
     text-align: center;
-
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 20px;    
 }
 
-.projectName{
-    cursor: pointer;    
-}
-
-#projectLinks{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 10px;
+.projectitem > h2{
+    margin: 0;
+    font-size: 200%;
+    line-height: 30px;
+    min-height: 90px;
 }
 
 
-@media (min-width: 1000px) {
-
-    .projectContent{ 
-        position: absolute;
-        width: 65%;
-    }
-
-    #projectLinks{
-        display: block;
-        margin-bottom: 0;
-    }
-    .projectLink{
-        margin-top: 4px;
-    }
-    
-}
 
 /* Publications per author */
 
@@ -1191,7 +1154,7 @@ div.publication{
 }
 
 .publ_param::after, .publ_datasource::after{
-    content: ",";
+    content: ", ";
 }
 
 .publ_param:last-child::after, .publ_datasource:last-child::after{
@@ -1288,30 +1251,30 @@ table tr:last-child td:last-child {
     animation: move-forever 40s -90s linear infinite;
     fill: #786ebd;
     fill-opacity: .2;
-  }
+}
   
-  .waves > use:nth-child(2) {
-    animation-delay: -20s;
-    animation-duration: 30s;
-    fill-opacity:.5;
-  }
+.waves > use:nth-child(2) {
+animation-delay: -20s;
+animation-duration: 30s;
+fill-opacity:.5;
+}
 
-  .waves > use:nth-child(3) {
-    animation-delay: -10s;
-    animation-duration: 20s;
-    fill-opacity:1;
-  }
+.waves > use:nth-child(3) {
+animation-delay: -10s;
+animation-duration: 20s;
+fill-opacity:1;
+}
   
-  @keyframes move-forever {
-    0% {
-      transform: translate(-90px, 0%);
-    }
-    100% {
-      transform: translate(85px, 0%);
-    }
-  }
-  
-  #footertop{
+@keyframes move-forever {
+0% {
+    transform: translate(-90px, 0%);
+}
+100% {
+    transform: translate(85px, 0%);
+}
+}
+
+#footertop{
     margin: 0 auto;
     width: 100%;
     background-color: var(--background-color);
@@ -1326,7 +1289,7 @@ table tr:last-child td:last-child {
 #footertop > svg {
     max-height: 100px;
     width: 100%;
-  }
+}
 
 div.flipflop{
     overflow: auto;
@@ -1413,6 +1376,31 @@ div.abouttile > p{
     font-weight: 200;
     letter-spacing: 2px;
 }
+
+/* really small phones */
+
+@media (max-width: 300px) {
+
+    :root {
+        --marquee-elements-displayed: 1.5;
+    }
+    
+    .uppermenu {
+        position: relative;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        left: 0;
+        top: 0;
+        text-align: center;
+    }
+
+    .projectitem > h2{
+        font-size: 150%;
+    }
+}
+
+/* bigger screens */
 
 @media all and (max-width: 300px) {
     .circlescontainer{
@@ -1596,4 +1584,25 @@ div.abouttile > p{
         height: 179px;
         width: 179px;
     }
+
+    #projects{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sectiontwo{
+        display: flex;
+        gap: 20px;
+    }
+
+    .latestpub, .publicationChart{
+        flex-grow: 1;
+    }
+
+    .publicationChart{
+        margin: 0;
+        max-width: 400px;
+    }
+
+
 }

@@ -43,71 +43,77 @@
 
 
 <section>
-    <h1>{{ i18n "latest-publication" }}</h1>
-            
-    {{ $publications :=  (where .Site.Pages "Params.Category" "Publication") }}
-            
-    {{ range last 1 $publications }}
-        <p>{{ .Title }}</p>
-    {{ end }}
+    <div id="news" class="element">
+        <h1>{{ i18n "news" }}</h1>
 
+        <div id="postcontainer">
+            {{ $paginator := .Paginate (where .Site.Pages "Params.Category" "News")}}
+            {{ range first 2 $paginator.Pages}}
+            {{ partial "summary.html" . }}
+            <!-- <p>{{ .Content }}</p> -->
+            {{ end }}
+        </div>
 
-    <a href="/publications" class="tilelink">{{ i18n "read-publications" (len $publications) }}</a>    
+        <!-- SO UGLY -->
+        {{ $pre := "news" }}
+        {{ if(eq site.Language.Lang "nl") }}
+        {{ $pre := "/nl/nieuws" }}
+        {{ end }}
+        <div class="more">
+            <a class="tilelink" href= "{{ print $pre }}">{{ i18n "read-articles" }}</a>
+        </div>
+    </div>
 
 </section>
 
-<div id="projects">
-    <section>
-        <h1>{{ i18n "projects" }}</h1>
-            {{ $projects :=  ( where .Site.Pages "Params.Category" "Project") }}
-            {{ $projects :=  ( where $projects "Params.Featured" true) }}
-            {{ $iterator := 1 }}
-            <div id="projectLinks">
-                {{ range $projects }}
-                    <div class="projectLink projectItem" data-projectcontent="projectContent_{{ $iterator }}">
-                        <span class="projectName">               
-                            {{ .Title }}
-                        </span>
-                    </div>
-                    {{ $iterator = add $iterator 1}}
-                {{ end }}
-            </div>
-            {{ $iterator := 1 }}
-            {{ range $projects }}
-                <div class="projectContent projectContent_{{ $iterator }}">
-                    {{ .Content }}
-                    <div class = "projectPage">
-                        <a href="https://{{ .Params.Url }}" target="_blank">{{ i18n "more-project" }}</a>
-                    </div>
+<div class="sectionaccent">
+    <section class="sectiontwo">
+        <div class="publicationChart">
+            <canvas id="publicationChart"></canvas>
+        </div>
+        <div class="latestpub">
+            <h1>{{ i18n "latest-publication" }} </h1>
+
+            {{ .Page.Store.Set "publicationGraph" true }}
+                
+            {{ $publications := (where .Site.Pages "Params.Category" "Publication") }}        
+            {{ range first 1 $publications }}
+                <div class="publicationtitle">
+                    <a href = "{{ .Permalink }}">{{ .Title }}</a>
+                    <time class="pubdate" datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+                        {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+                    </time>
                 </div>
-                {{ $iterator = add $iterator 1}}
             {{ end }}
-            {{ .Page.Store.Set "hasProjectCaroussel" true }}
+        </div>
+        
+    </section>
+    <section class="nostylingsection">
+        <div class="more">
+            <a href="/publications" class="tilelink">{{ i18n "read-publications" (len $publications) }}</a>    
+        </div>
 
     </section>
-
 </div>
 <section>
 
-<div id="news" class="element">
-    <h1>{{ i18n "news" }}</h1>
+    <h1>{{ i18n "projects" }}</h1>
+    {{ $projects :=  ( where .Site.Pages "Params.Category" "Project") }}
+    {{ $projects :=  ( where $projects "Params.Featured" true) }}
 
-    <div id="postcontainer">
-        {{ $paginator := .Paginate (where .Site.Pages "Params.Category" "News")}}
-        {{ range first 2 $paginator.Pages}}
-        {{ partial "summary.html" . }}
-        <!-- <p>{{ .Content }}</p> -->
+    <div id="projects">
+        {{ range $projects }}
+            <div class="projectitemcontainer">
+                <a href="https://{{ .Params.Url }}" target="_blank">
+                    <div class="projectitem">
+                        <h2> {{ .Title }} </h2>
+                        {{ .Content }}
+                    </div>
+                </a>
+            </div>
         {{ end }}
     </div>
-
-    <!-- SO UGLY -->
-    {{ $pre := "news" }}
-    {{ if(eq site.Language.Lang "nl") }}
-    {{ $pre := "/nl/nieuws" }}
-    {{ end }}
-    <a class="morearticles" href= "{{ print $pre }}">{{ i18n "read-articles" }}</a>
-</div>
-
+   
 {{ partial "partners.html" . }}
 </section>
 {{ end }}

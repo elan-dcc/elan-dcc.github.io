@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
        datasets: [{
            label: '',
            data: Array(amount).fill().map(getRandomValue),
-           backgroundColor: '#9895bc',
            // cubicInterpolationMode: 'monotone',
            pointRadius: 10,
            borderColor: "rgba(255, 255, 255, 0.2)",

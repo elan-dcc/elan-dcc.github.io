@@ -46,11 +46,6 @@
     url = "/publications/"
     weight = 3
 [[footer_menu]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects/"
-    weight = 4
-[[footer_menu]]
     identifier = "researchers"
     name = "Research Hub"
     url = "/researchers/"
