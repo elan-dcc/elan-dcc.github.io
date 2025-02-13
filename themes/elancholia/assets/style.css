@@ -50,6 +50,7 @@
 p > img, .post_index_img_single {
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .post_index_img_single {
@@ -312,10 +313,6 @@ ol li ul li {
     border-radius: 20px;
 }
 
-content > ul, .accent > ul {
-    margin: 1em 2em 1em 2em;
-}
-
 .titlesection {
     max-width: 100%;
     width: 100%;
@@ -334,6 +331,10 @@ content > ul, .accent > ul {
 }
 
 .titlesection > section {
+    margin-top: var(--counter-first-section);
+}
+
+.undofirstsection{
     margin-top: var(--counter-first-section);
 }
 
@@ -457,23 +458,6 @@ nav.subnav {
 
 }
 
-.menu > .item > a:before {
-    content: '';
-    background: var(--tertiary-color);
-    display: block;
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    width: 0;
-    height: 3px;
-    transition: all 0.3s ease-in-out;
-}
-
-.menu > .item > a:hover {
-    background-position: 0;
-    color: var(--secondary-color);
-}
-
 .menu > .item > a:hover::before {
     width: 100%;
 }
@@ -515,6 +499,8 @@ nav.subnav {
 .toggle {
     order: 1;
     display: inline-block;
+    cursor: pointer;
+    width: 40px;
 }
 .uppermenu {
     position: absolute;
@@ -1604,5 +1590,21 @@ div.abouttile > p{
         max-width: 400px;
     }
 
+    .menu > .item > a:before {
+        content: '';
+        background: var(--tertiary-color);
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .menu > .item > a:hover {
+        background-position: 0;
+        color: var(--secondary-color);
+    }
 
 }

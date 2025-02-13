@@ -1,8 +1,7 @@
 {{ define "main" }}
 
 </section>
-<content>
-  <section>
+  <section class="undofirstsection">
   {{ if .Data.Singular }}
     <h3 class="blog-filter">{{ i18n "filtering-for" }} "{{ .Title }}"</h3>
   {{ end }}
@@ -50,6 +49,5 @@
         {{ end }}
       </div>
     {{ end }}
-  </content>
 <section>
 {{ end }}

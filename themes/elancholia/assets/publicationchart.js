@@ -33,7 +33,8 @@ scales: {
         ticks: {
             z: 2,
             font: {
-                size: 18
+                size: 18,
+                weight: "bold"
             },
             color: "#786ebd",
             showLabelBackdrop: false,
