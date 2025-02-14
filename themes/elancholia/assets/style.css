@@ -915,12 +915,9 @@ div.marquee {
     margin-top: 20px;
 }
 
-.researchertile > ul {
-    padding-left: 25px;
-}
-
+.researchertile > ul
 .subresearchertile > ul {
-    padding-left: 50px;
+    padding-left: 25px;
 }
 
 .subresearchertile > h3 {
@@ -1144,7 +1141,10 @@ table{
 thead {
     background-color: var(--secondary-color);
     color: #FFF;
+}
 
+td{
+    padding: 2px;
 }
 
 table th{
