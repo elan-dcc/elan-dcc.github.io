@@ -143,7 +143,7 @@ header {
 .pubdate{
     clear: left;
     display: block;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .publicationtitle{
@@ -551,7 +551,7 @@ nav.subnav {
 }
 
 .searchicon {
-    width: 20px;
+    height: 25px;
     margin-right: 10px;
     position: relative;
     cursor: pointer;
@@ -583,71 +583,6 @@ nav.subnav {
     clear: both;
     margin-bottom: 15px;
 }
-
-/* Desktop nav */
-
-@media all and (min-width: 960px) {
-
-    nav {
-        width: var(--width);
-    }
-    .menu {
-        align-items: flex-end;     
-        flex-wrap: nowrap;
-        background: none;
-        width: auto;
-        clear: none;
-        justify-content: flex-end;
-        position: relative;
-    }
-    .logo {
-        order: 0;
-    }
-
-    #logo {
-        position: relative;
-        float: left;
-    }
-    
-    .item {
-        order: 1;
-        position: relative;
-        display: block; 
-        width: auto;
-        margin-top: 10px;
-    }
-
-    .searchicon {
-        top: -10px;
-    }
-    .button {
-        order: 2;
-    }
-    .submenu-active .submenu {
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 68px;
-        background: #111;
-    }
-    .toggle {
-        display: none;
-    }
-    .submenu-active {
-        border-radius: 0;
-    }
-        
-    .footerelement {
-        width: auto;
-    }
-
-    .uppermenu {
-        position: relative;
-        top: 0;
-        right: 10px;        
-    }    
-}
-
 
 /* Start search result madness */
 #search {
@@ -1008,46 +943,6 @@ div.marquee {
     grid-column: 1 / span 2; /* make this item span two columns */
 }
 
-@media only screen and (min-width: 1000px) {
-    .tile {
-        width: 50%;
-    }
-
-    section {
-        width: 100%;
-    }
-    
-    .researchertile{
-        width: 100%;
-        grid-template-columns: initial;
-    }
-
-    .gridcontainer{
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 5rem;
-    }
-    
-    .subgridcontainer{
-        grid-template-columns: repeat(2, 1fr);
-     }
-
-    #postcontainer{
-        position: initial;
-        flex-wrap: initial;
-        flex-direction: initial;
-    }
-    
-    .post{
-        width: 45%;
-        margin: 5px;
-    }
-
-    #tilecontainer{
-        flex-direction: row;
-        flex-wrap: initial;
-    }
-
-}
 /* Code block render per language */
 
 code {
@@ -1586,7 +1481,70 @@ div.abouttile > p{
     }
 }
 
+
+
+/* Desktop nav */
+
 @media all and (min-width: 960px) {
+    nav {
+        width: var(--width);
+    }
+    .menu {
+        align-items: flex-end;     
+        flex-wrap: nowrap;
+        background: none;
+        width: auto;
+        clear: none;
+        justify-content: flex-end;
+        position: relative;
+    }
+    .logo {
+        order: 0;
+    }
+
+    #logo {
+        position: relative;
+        float: left;
+    }
+    
+    .item {
+        order: 1;
+        position: relative;
+        display: block; 
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .searchicon {
+        top: -10px;
+    }
+    .button {
+        order: 2;
+    }
+    .submenu-active .submenu {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 68px;
+        background: #111;
+    }
+    .toggle {
+        display: none;
+    }
+    .submenu-active {
+        border-radius: 0;
+    }
+        
+    .footerelement {
+        width: auto;
+    }
+
+    .uppermenu {
+        position: relative;
+        top: 0;
+        right: 10px;        
+    }    
+    
     .introductioncontent {
         display: flex;
         flex-wrap: nowrap;
@@ -1660,6 +1618,47 @@ div.abouttile > p{
 
     .flipflop > section{
         width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .tile {
+        width: 50%;
+    }
+
+    section {
+        width: 100%;
+    }
+    
+    .researchertile{
+        width: 100%;
+        grid-template-columns: initial;
+    }
+
+    .gridcontainer{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5rem;
+    }
+    
+    .subgridcontainer{
+        grid-template-columns: repeat(2, 1fr);
+     }
+
+    #postcontainer{
+        position: initial;
+        flex-wrap: initial;
+        flex-direction: initial;
+    }
+    
+    .post{
+        width: 45%;
+        margin: 5px;
+    }
+
+    #tilecontainer{
+        flex-direction: row;
+        flex-wrap: initial;
     }
 
 }
