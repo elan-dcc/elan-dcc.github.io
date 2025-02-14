@@ -1,53 +1,48 @@
-{{ define "main" }}
-
-</section>
-  <section class="undofirstsection">
-  {{ if .Data.Singular }}
-    <h3 class="blog-filter">{{ i18n "filtering-for" }} "{{ .Title }}"</h3>
-  {{ end }}
-  
-  {{ $paginator := .Paginate (where .Site.Pages "Params.Category" "News")}}    
-  {{ partial "pagination.html" .}}
-
-  {{ range $paginator.Pages}}
+{{- define "main" -}}
 
   </section>
-  <div class="flipflop">
-    <section>
-        <div class = "circle">
+    <section class="undofirstsection">
+    {{- if .Data.Singular -}}
+      <h3 class="blog-filter">{{- i18n "filtering-for" -}} "{{- .Title -}}"</h3>
+    {{- end -}}
+    
+    {{- $paginator := .Paginate (where .Site.Pages "Params.Category" "News") -}}    
+    {{- partial "pagination.html" . -}}
 
-          <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-            {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
-          </time>
+    {{- range $paginator.Pages -}}
 
-        </div>
-        <h1>
-          {{ if .Params.link }}
-            <a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
-          {{ else }}
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          {{ end }}
-        </h1>
-        <div class="blogdescription">
-        {{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end}}
-        </div>
-      </section>
-    </div>
- 
+    </section>
+    <div class="flipflop">
+      <section>
+          {{- if .Params.image -}}
+          <a href="{{- .RelPermalink -}}"><img src="{{- .Site.BaseURL -}}{{- .Params.image -}}" alt = "postimage" /></a>
+          {{- end -}}
+          
+            <time datetime='{{- .Date.Format "2006-01-02" -}}' pubdate>
+              {{- .Date.Format (default "2006-01-02" .Site.Params.dateFormat) -}}
+            </time>
 
-{{ else }}
-
-  {{ i18n "no-posts" }}
-
-{{ end }}
-
-
-    {{ if not .Data.Singular }}
-      <div>
-        {{ range .Site.Taxonomies.tags }}
-          <a class="blog-tags" href="{{ .Page.RelPermalink }}">#{{ lower .Page.Title }}</a>
-        {{ end }}
+          <div class="blogdescription">
+            <h1>
+              {{- if .Params.link -}}
+                <a href="{{- .Params.link -}}" target="_blank">{{- .Title -}} ↪</a>
+              {{- else -}}
+                <a href="{{- .RelPermalink -}}">{{- .Title -}}</a>
+              {{- end -}}
+            </h1>
+            {{- if .Description -}}{{- .Description -}}{{- else -}}{{- .Summary -}}{{- end -}}
+            
+            <br /><a class="button" href="{{- .RelPermalink -}}">Read more</a>
+          </div>
+        </section>
       </div>
-    {{ end }}
-<section>
-{{ end }}
+  
+
+  {{- else -}}
+
+    {{- i18n "no-posts" -}}
+
+  {{- end -}}
+
+  <section>
+{{- end -}}
