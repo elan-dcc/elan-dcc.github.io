@@ -1,8 +1,20 @@
+let selected_sources = [],
+    selected_themes = [];
+
+function toggleArray(myArray, item) {
+    var index = myArray.indexOf(item);
+    if (index === -1) {
+        myArray.push(item); // Add if not in array
+    } else {
+        myArray.splice(index, 1); // Remove if already in array
+    }
+}
+
 function isDatasource(category){
     return category.startsWith("clickerd");
 }
 
-function test(word, element){
+function toggle(word, element){
     if (word === "block"){
         element.classList.add("public-visible");
     }
@@ -10,20 +22,22 @@ function test(word, element){
         element.classList.remove("public-visible");
     }
 }
+
 function tagmagician(category, element) {
 
     element.classList.toggle("checked-mode");
 
     // updating the "storage"
     if (isDatasource(category)){
-        var storage = document.getElementById("tagmagicianstoraged").classList;
-        var storageother = document.getElementById("tagmagicianstoraget").classList;
+        var storage = selected_sources;
+        var storageother = selected_themes;
     }
     else{
-        var storage = document.getElementById("tagmagicianstoraget").classList;
-        var storageother = document.getElementById("tagmagicianstoraged").classList;
+        var storage = selected_themes;
+        var storageother = selected_sources;
     }
-    storage.toggle(category);
+    toggleArray(storage, category);
+
 
     // adjusting the publications
     var x = document.getElementsByClassName("publication " + category);
@@ -41,7 +55,6 @@ function tagmagician(category, element) {
                 break;
             }
         }
-        test(display, x[i]);
-        // x[i].style.display = display;
+        toggle(display, x[i]);
     }   
 }

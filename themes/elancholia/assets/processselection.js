@@ -1,3 +1,14 @@
+let selected_charts = [];
+
+function toggleArray(myArray, item) {
+    var index = myArray.indexOf(item);
+    if (index === -1) {
+        myArray.push(item); // Add if not in array
+    } else {
+        myArray.splice(index, 1); // Remove if already in array
+    }
+}
+
 function loadChart(charttype = "", element) {
     // Change the colour of the button
     element.classList.toggle("checked-mode");
@@ -9,9 +20,9 @@ function loadChart(charttype = "", element) {
             display.innerHTML = this.responseText;
         }
     };
-    display.classList.toggle(charttype);
+    toggleArray(selected_charts, charttype);
 
-    var chart = "../../charts/main" + [...display.classList].sort().join("") + ".svg";
+    var chart = "../../charts/main" + [...selected_charts].sort().join("") + ".svg";
     xhttp.open("GET", chart, true);
     xhttp.send();
 }
