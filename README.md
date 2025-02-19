@@ -100,7 +100,7 @@ date = {{ .Date }}
 draft = false
 type = "News"
 image = "images/post_default_background.png"
-summary = "Summary
+summary = "Summary"
 +++
 ```
 
@@ -207,3 +207,5 @@ The directory `charts` contains all the ``.mmd`` files that are used to generate
 main body of the flowcharts shown [here](https://elan-dcc.github.io/researchers/overview_getting_started/).
 - "subcharts.mdd" is a special file that stores the names of subcharts across multiple charts. It should be updated as needed.
 - All other mmd files are expansions of the mainchart.
+
+After triggering the GitHub action to update the flowchart, the website must be built again to display the updated flowchart.
