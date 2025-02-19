@@ -3,12 +3,14 @@
     <h3 class = "citation">
     <ul class ="publicationauthors">
         {{ range .Params.Authors }}
-        <li>{{ . }}</li>
+        <li><a href="{{ "/authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
         {{ end }}
     </ul>
 
     ({{ .Params.Year }}). {{ .LinkTitle }} {{ .Params.Journal }}, 
-    <i> {{ .Params.Volume }}</i>({{ .Params.Issue }}){{ if .Params.PageRange }}, {{ .Params.PageRange }}{{ end }}.
+    <i> {{ .Params.Volume }}</i>{{- if .Params.Issue }}
+    ({{- .Params.Issue -}})
+    {{- end -}}{{ if .Params.PageRange }}, {{ .Params.PageRange }}{{ end }}.
     
     {{ .Params.DOI }} </h3> 
     
