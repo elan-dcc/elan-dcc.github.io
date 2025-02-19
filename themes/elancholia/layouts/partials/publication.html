@@ -8,8 +8,8 @@
     </ul>
 
     ({{ .Params.Year }}). {{ .LinkTitle }} {{ .Params.Journal }}, 
-    <i> {{ .Params.Volume }}</i>
-    {{- if .Params.Issue }}
+    <i> {{- .Params.Volume -}}</i>
+    {{- if .Params.Issue -}}
     ({{- .Params.Issue -}})
     {{- end -}}{{ if .Params.PageRange }}, {{ .Params.PageRange }}{{ end }}.
     
