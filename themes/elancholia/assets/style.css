@@ -51,12 +51,8 @@ p > img, .post_index_img_single {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-}
-
-.post_index_img_single {
     border-radius: 20px;
 }
-
 
 .post_thumbnail_container {
     overflow: hidden;
