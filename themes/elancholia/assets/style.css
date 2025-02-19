@@ -578,6 +578,7 @@ nav.subnav {
     width: 50px;
     margin: 5px;
 }
+
 #logospartners {
     clear: both;
     margin-bottom: 15px;
@@ -739,6 +740,10 @@ div.marquee {
     height: 30px;
     margin-left: 20px;
     vertical-align: middle;
+}
+
+.button:hover > img {
+    filter: invert(42%);
 }
 
 
