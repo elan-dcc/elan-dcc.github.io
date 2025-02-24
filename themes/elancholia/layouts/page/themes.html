@@ -1,8 +1,7 @@
 {{ define "main" }}
-  <aside data-pagefind-ignore>
+  {{- partial "nav_publications.html" . -}}
+    <aside data-pagefind-ignore>
     <!-- above is to not index author pages in searches -->
-    {{- partial "nav_publications.html" . -}}
-
     {{ .Content }}
 
     <div class="thememenu">

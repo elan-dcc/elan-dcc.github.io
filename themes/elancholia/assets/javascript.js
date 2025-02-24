@@ -59,7 +59,6 @@ function closeSubmenu(e) {
   const searchcontainer = document.getElementById("searchcontainer");
 
   function popupFn(e) {
-      console.log("werer");
       overlay.style.display = "block";
       searchcontainer.style.display = "block";
   }
@@ -77,8 +76,9 @@ function closeSubmenu(e) {
 
     /* Close overlay From Anywhere and scroll to bottom when extending */
   function closeOverlay(e) {
+
       if (overlay.style.display == "block" && !e.target.classList.contains("searchicon")) {
-        let isClickInside = searchcontainer.contains(e.target);
+        let isClickInside = searchcontainer.contains(e.target) || e.target.classList.contains("pagefind-ui__button");
         
         if (!isClickInside) {
           overlay.style.display = "none";
