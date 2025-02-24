@@ -902,6 +902,10 @@ div.marquee {
     width: 100%;
 }
 
+.subresearchertile {
+    padding-bottom: 20px;
+}
+
 .researchertile > ul, .subresearchertile > ul {
     list-style-type: none;
 }
@@ -1350,6 +1354,7 @@ div.abouttile > p{
     min-width: 400px;
     max-width: 400px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .circlesintroduction {
@@ -1551,33 +1556,15 @@ div.abouttile > p{
         width: 100%;
         justify-content: space-between;
         align-items: flex-start;
+    }
 
+    .circlescontainer{
+        margin: 0 auto;
     }
 
     div.abouttile {
         flex-grow: 1;
         max-width: 1100px;
-    }
-
-    #smallcircleintroduction{
-        height: 76px;
-        width: 76px;
-    }
-    
-    #bigcircleintroduction{
-        height: 169px;
-        width: 169px;
-        bottom: -55px;
-    }
-    
-    #smallcircleintroduction:hover {
-        height: 86px;
-        width: 86px;
-    }
-
-    #bigcircleintroduction:hover {
-        height: 179px;
-        width: 179px;
     }
 
     #projects{

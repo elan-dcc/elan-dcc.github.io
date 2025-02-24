@@ -1,19 +1,21 @@
 {{ define "main" }}
+  <aside data-pagefind-ignore>
+    <!-- above is to not index author pages in searches -->
+    {{- partial "nav_publications.html" . -}}
 
-{{- partial "nav_publications.html" . -}}
+    {{ .Content }}
 
-{{ .Content }}
-
-{{ $year := 0 }}
-    {{ range $key, $taxonomy := .Site.Taxonomies.year.Alphabetical.Reverse }}
-    {{ range .WeightedPages }}
-      {{ if not (eq $year .Params.Year) }}
-        <h2 class="key">{{ .Params.Year }}</h2>
-        {{ $year = .Params.Year}}
+    {{ $year := 0 }}
+      {{ range $key, $taxonomy := .Site.Taxonomies.year.Alphabetical.Reverse }}
+        {{ range .WeightedPages }}
+          {{ if not (eq $year .Params.Year) }}
+            <h2 class="key">{{ .Params.Year }}</h2>
+            {{ $year = .Params.Year}}
+          {{ end }}
+          {{ range $taxonomy.WeightedPages }}  
+            {{- partial "publication.html" . -}}
+          {{ end }}
+        {{end}}
       {{ end }}
-      {{ range $taxonomy.WeightedPages }}  
-        {{- partial "publication.html" . -}}
-      {{ end }}
-    {{end}}
-  {{ end }}
+    </aside>
 {{ end }}

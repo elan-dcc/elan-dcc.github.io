@@ -1,36 +1,37 @@
 {{ define "main" }}
+  <aside data-pagefind-ignore>
+    <!-- above is to not index author pages in searches -->
+    {{- partial "nav_publications.html" . -}}
 
-{{- partial "nav_publications.html" . -}}
+    {{ .Content }}
 
-{{ .Content }}
+    <div class="thememenu">
+      Select theme
+      <div class="buttons">
+        {{ range .Site.Taxonomies.themes }}
+          <button id="check-logo" class="selectionform-submit-button" onclick="tagmagician('clickert-{{ .Page.Title }}', this)">{{ .Page.Title }}</button>
+        {{ end }}
+      </div>
+    </div>
+    <div class="thememenu">
+      Select datasource
+      <div class="buttons">
+        {{ range .Site.Taxonomies.datasources }}
+          <button id="check-logo" class="selectionform-submit-button" onclick="tagmagician('clickerd-{{ .Page.Title }}', this)">{{ .Page.Title }}</button>
+        {{ end }}
+      </div>
+    </div>
 
-<div class="thememenu">
-  Select theme
-  <div class="buttons">
-    {{ range .Site.Taxonomies.themes }}
-      <button id="check-logo" class="selectionform-submit-button" onclick="tagmagician('clickert-{{ .Page.Title }}', this)">{{ .Page.Title }}</button>
-    {{ end }}
-  </div>
-</div>
-<div class="thememenu">
-  Select datasource
-  <div class="buttons">
-    {{ range .Site.Taxonomies.datasources }}
-      <button id="check-logo" class="selectionform-submit-button" onclick="tagmagician('clickerd-{{ .Page.Title }}', this)">{{ .Page.Title }}</button>
-    {{ end }}
-  </div>
-</div>
-
-  {{ range $key, $taxonomy := .Site.Taxonomies.year }}
-      {{ range $taxonomy.Pages }}
-        {{- partial "publication.html" . -}}
+      {{ range $key, $taxonomy := .Site.Taxonomies.year }}
+          {{ range $taxonomy.Pages }}
+            {{- partial "publication.html" . -}}
+          {{ end }}
       {{ end }}
-  {{ end }}
 
 
-{{ $js := resources.Get "tagmagician.js" | minify }}
+    {{ $js := resources.Get "tagmagician.js" | minify }}
 
-<script src="{{ $js.RelPermalink }}"></script>
+    <script src="{{ $js.RelPermalink }}"></script>
 
-
+  </aside>
 {{ end }}
