@@ -13,7 +13,7 @@ These weekly meetings are a hub for discussions on **data, programming, and heal
 Hosted on our secure SharePoint platform, the ELAN Knowledge Sharing community is accessible to all ELAN researchers with a Microsoft or LUMC account. Whether you’re seeking guidance, offering advice, wanting to presnet (intermediate) results, or simply curious, this community is here to empower and support your journey.
 
 {{< accent >}}
-Join the <a href="https://lumconline.sharepoint.com/sites/ELANKnowledgeSharing)" alt="Elan Knowledge Sharing" target="_blank">ELAN knowledge sharing group</a>!
+Join the <a href="https://lumconline.sharepoint.com/sites/ELANKnowledgeSharing" alt="Elan Knowledge Sharing" target="_blank">ELAN knowledge sharing group</a>!
 {{</ accent>}}
 
 Together, let’s advance research through collaboration!
