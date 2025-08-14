@@ -1,0 +1,23 @@
+<!-- This code needs improvement. Rush job. -->
+
+<div id = chart data-chart = {{ .Get "src" }} >
+
+</div>
+
+<script>
+function initiateChart() {
+    var xhttp = new XMLHttpRequest();
+    var display = document.getElementById("chart");
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            display.innerHTML = this.responseText;
+        }
+    };
+    var chart = "../../charts/" + display.dataset.chart + ".svg";
+    console.log(chart);
+    xhttp.open("GET", chart, true);
+    xhttp.send();
+}
+
+window.onload = initiateChart();
+</script>

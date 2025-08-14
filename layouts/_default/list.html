@@ -1,0 +1,48 @@
+{{- define "main" -}}
+
+  </section>
+    <section class="undofirstsection">
+    {{- if .Data.Singular -}}
+      <h3 class="blog-filter">{{- i18n "filtering-for" -}} "{{- .Title -}}"</h3>
+    {{- end -}}
+    
+    {{- $paginator := .Paginate (where .Site.Pages "Params.Category" "News") -}}    
+    {{- partial "pagination.html" . -}}
+
+    {{- range $paginator.Pages -}}
+
+    </section>
+    <div class="flipflop">
+      <section>
+          {{- if .Params.image -}}
+          <a href="{{- .RelPermalink -}}"><img src="{{- .Site.BaseURL -}}{{- .Params.image -}}" alt = "postimage" /></a>
+          {{- end -}}
+          
+            <time datetime='{{- .Date.Format "2006-01-02" -}}' pubdate>
+              {{- .Date.Format (default "2006-01-02" .Site.Params.dateFormat) -}}
+            </time>
+
+          <div class="blogdescription">
+            <h1>
+              {{- if .Params.link -}}
+                <a href="{{- .Params.link -}}" target="_blank">{{- .Title -}} ↪</a>
+              {{- else -}}
+                <a href="{{- .RelPermalink -}}">{{- .Title -}}</a>
+              {{- end -}}
+            </h1>
+            {{- if .Description -}}{{- .Description -}}{{- else -}}{{- .Summary -}}{{- end -}}
+            
+            <br /><a class="button" href="{{- .RelPermalink -}}">Read more</a>
+          </div>
+        </section>
+      </div>
+  
+
+  {{- else -}}
+
+    {{- i18n "no-posts" -}}
+
+  {{- end -}}
+
+  <section>
+{{- end -}}

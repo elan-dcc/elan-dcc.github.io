@@ -1,0 +1,74 @@
+<div id="footertop">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28"
+  preserveAspectRatio="none"
+  >
+  <defs>
+    <path
+      id="gentle-wave"
+      d="M-160 44c30 0 
+    58-18 88-18s
+    58 18 88 18 
+    58-18 88-18 
+    58 18 88 18
+    v44h-352z"
+    />
+  </defs>
+    <g class="waves">
+      <use
+        xlink:href="#gentle-wave"
+        x="50"
+        y="0"
+      />
+      <use
+        xlink:href="#gentle-wave"
+        x="50"
+        y="3"
+      />
+      <use
+        xlink:href="#gentle-wave"
+        x="50"
+        y="3"
+      />
+    </g>
+  </svg>
+</div>
+
+<div id="footercontainer">
+  {{ $HCDH:= resources.Get "images/footer_logo_HCDH.svg" }}
+  {{ $LUMC := resources.Get "images/lumc-monogram-blauw-jpg.jpg" }}
+  {{ $LU := resources.Get "images/footer_logo_LU.svg" }}
+  {{ $github := resources.Get "images/logo_github.svg" }}
+
+  <div class="footerelement">
+    <ul>
+    <li><a href="https://github.com/elan-dcc" class="button" alt="GitHub">GitHub<img src="{{ $github.RelPermalink }}" alt="GitHub logo" /></a></li>
+    <li><a href="http://www.lumc.nl/elan" target="_blank">Information in Dutch</a></li>
+    </ul>
+  </div>
+  <div class="footerelement">
+    {{ if .Site.Menus.footer_menu }}
+    <ul>
+    {{ range .Site.Menus.footer_menu.ByWeight }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+    {{ end }}
+  </div>
+
+  <div class="footerelement">
+    <div id="logospartners">
+      <a href="https://healthcampusdenhaag.nl/" target="_blank"><img src="{{ $HCDH.RelPermalink }}" alt="Health Campus Den Haag" /></a>
+      <a href="https://lumc.nl" target="_blank"><img src="{{ $LUMC.RelPermalink }}" alt="LUMC" /></a>
+      <a href="https://universiteitleiden.nl/" target="_blank"><img src="{{ $LU.RelPermalink }}" alt="Leiden University"/></a>
+    </div>
+    elan.dcc@lumc.nl
+  </div>
+</div>
+<div id="bottomcontainer">
+  <div id="bottomcontent">
+    {{ .Site.Copyright }} | {{ markdownify .Site.Params.update }}
+  </div>
+</div>

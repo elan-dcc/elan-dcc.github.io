@@ -1,0 +1,27 @@
+{{ $DH := resources.Get "images/logo_gemDH.svg" }}
+{{ $GGD := resources.Get "images/logo_GGD.svg" }}
+{{ $hadoks := resources.Get "images/logo_hadoks.svg" }}
+{{ $haga := resources.Get "images/logo_haga.svg" }}
+{{ $HHS := resources.Get "images/logo_HHS.svg" }}
+{{ $HMC := resources.Get "images/logo_HMC.svg" }}
+{{ $LU := resources.Get "images/logo_LU.svg" }}
+{{ $LUMC := resources.Get "images/logo_LUMC.svg" }}
+{{ $parnassia := resources.Get "images/logo_pargroup.svg" }}
+{{ $reinier := resources.Get "images/logo_reinier.svg" }}
+
+<div class="marquee">
+    <ul class="marquee-content">'
+        <li><a href="https://www.denhaag.nl/" target="_blank"><img src="{{ $DH.RelPermalink }}" alt="Municipality The Hague" /></a></li>
+        <li><a href="https://www.ggdhaaglanden.nl/" target="_blank"><img src="{{ $GGD.RelPermalink }}" alt="GGD" /></a></li>
+        <li><a href="https://www.hadoks.nl/" target="_blank"><img src="{{ $hadoks.RelPermalink }}" alt="Hadoks" /></a></li>  
+        <li><a href="https://www.hagaziekenhuis.nl/" target="_blank"><img src="{{ $haga.RelPermalink }}" alt="HAGA hospital" /></a></li>
+        <li><a href="https://www.dehaagsehogeschool.nl/" target="_blank"><img src="{{ $HHS.RelPermalink }}" alt="The Hague University of Applied Sciences" /></a></li>
+        <li><a href="https://www.haaglandenmc.nl/" target="_blank"><img src="{{ $HMC.RelPermalink }}" alt="Haaglanden Medisch Centrum" /></a></li>
+        <li><a href="https://www.universiteitleiden.nl/" target="_blank"><img src="{{ $LU.RelPermalink }}" alt="Leiden University" /></a></li>
+        <li><a href="https://www.lumc.nl/" target="_blank"><img src="{{ $LUMC.RelPermalink }}" alt="Leiden University Medical Center" /></a></li>
+        <li><a href="https://www.parnassiagroep.nl/" target="_blank"><img src="{{ $parnassia.RelPermalink }}" alt="Parnassia Group" /></a></li>
+        <li><a href="https://reinierdegraaf.nl/" target="_blank"><img src="{{ $reinier.RelPermalink }}" alt="Reinier de Graaf Hospital" /></a></li>
+    </ul>
+</div>
+
+{{ .Page.Store.Set "hasMarquee" true }}

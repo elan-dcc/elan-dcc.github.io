@@ -1,0 +1,12 @@
+<div id="tilecontainer">
+    <div class="tile tile_circles">
+        {{ .Inner }}
+    </div>
+    <div class="tile tile_map">
+        {{partial "svgs/elan_map.svg" (dict "class" "stat_map") .}}
+    </div>
+</div>
+</div>
+{{ .Page.Store.Set "hasRegionStats" true }}
+
+{{ .Page.Store.Set "hasGraph" true }}

@@ -1,0 +1,11 @@
+{{ define "main" }}
+    {{ $author := .Data}} 
+
+    <h1>{{ $author.Term }}</h1>
+    <aside data-pagefind-ignore>
+        <!-- above is to not index author pages in searches -->
+    {{ range $author.Pages }}
+        {{- partial "publication.html" . -}}
+    {{ end }}
+    </aside>
+{{ end }}

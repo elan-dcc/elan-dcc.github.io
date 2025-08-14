@@ -1,0 +1,25 @@
+
+{{ $id := .Get "id" }}
+
+{{ if $id }}
+
+    {{ .Page.Store.Set "hasGraph" true }}
+
+    {{- with .Parent -}}
+        <div class="chart chart-subtile">
+    {{- else -}}
+        <div class="chart">
+    {{- end -}}
+
+
+        <canvas id='{{ .Get "id" }}'></canvas>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var ctx = document.getElementById('{{ .Get "id" }}')
+            var options = {{ .Inner | chomp | safeJS }};
+            new Chart(ctx, options);
+        });
+    </script>
+{{ else }}
+{{ end }}

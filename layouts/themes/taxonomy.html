@@ -1,0 +1,10 @@
+{{ define "main" }}
+<aside data-pagefind-ignore>
+  <!-- above is to not index author pages in searches -->
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  {{ end }}
+</aside>
+{{ end }}

@@ -1,0 +1,22 @@
+<div class="post">
+	<div class="postcontent">
+		
+		<div class = "post_thumbnail_container">
+			<a href="{{ .Permalink }}"> {{ if .Params.image }}<img class="post_index_img" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt = "postimage" />{{ end }}</a>
+		</div>
+		<a href="{{ .Permalink }}"><h1> {{ .Title }}</h1></a>
+
+		<div class="newsdescription">
+			{{ if   .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}
+		</div>
+	</div>
+	<div class="postextra">
+
+		<!-- {{/* - partial "tags.html" . - */}} -->
+		<time class="postdate"
+			datetime="{{ .Date.Format "2006-01-02" }}">
+			{{- .Date.Format (.Site.Params.PostDateFormat | default "2006-1-2") -}}
+		</time>
+		<a class="postextralink" href="{{ .Permalink }}">{{ i18n "read-article" }}</a>
+	</div>
+</div>
