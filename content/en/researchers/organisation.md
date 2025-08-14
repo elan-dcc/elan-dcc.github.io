@@ -26,7 +26,7 @@ The Data Competence Center of ELAN is one of the core teams. This is the team th
 Click [here]({{< relref "dcc" >}} "Data Competence Center") for more information on the Data Competence Center.
 
 ## ELAN Research Committee
-The ELAN Research Committee, also referred to as the ELAN core committee,  is responsible for coordinating all research requests submitted via [the ticketing system](www.elanresearch.nl). The committee facilitates communication with applicants and, in cases where GP data is requested, liaises with the GP Steering Committee for review and approval. Additionally, the ELAN Research Committee oversees communication and procedural workflows, while managing relationships with GPs and other stakeholders.
+The ELAN Research Committee, also referred to as the ELAN core committee,  is responsible for coordinating all research requests submitted via [the ticketing system](https://www.elanresearch.nl). The committee facilitates communication with applicants and, in cases where GP data is requested, liaises with the GP Steering Committee for review and approval. Additionally, the ELAN Research Committee oversees communication and procedural workflows, while managing relationships with GPs and other stakeholders.
 
 ## ELAN GP Steering Committee
 The GP Steering Committee conducts a monthly review of all data requests to ensure the quality, impact, and relevance of research involving ELAN GP data. This committee includes GP representatives from the region, alongside members of the ELAN Research Committee, to provide comprehensive oversight and maintain high standards of research integrity.

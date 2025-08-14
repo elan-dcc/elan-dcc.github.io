@@ -22,7 +22,7 @@ ELAN securely links data from multiple sources at the individual level, ensuring
 
 | Type of data | Source(s) | Population |
 |--------------|-----------|-----------|
-| [Primary care health data](https://elan-dcc.github.io/researchers/gp_data/) | General Practitioners | patients in the ELAN region |
+| [Primary care health data](https://elan-dcc.github.io/researchers/internal/gp_data/) | General Practitioners | patients in the ELAN region |
 | Data from Statistics Netherlands | Statistics Netherlands | the Netherlands |
 | Health Insurance data | [Vektis](https://www.vektis.nl/) | the Netherlands | 
 | Patient health data | Hospitals | patients from the hospitals HagaZiekenhuis or HMC |
