@@ -5,7 +5,7 @@ menu = 'researchers_menu_ext'
 weight = 10
 +++
 # About the Data at CBS
-At the server of CBS [microdata](https://www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen/catalogus-microdata) is available to you. Depending on the project, you may also have access to [General Practitioner Data]({{< ref "researchers/internal/gp_data" >}} "General Practitioner Data").
+At the server of CBS [microdata](https://www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen/catalogus-microdata) is available to you. Depending on the project, you may also have access to [General Practitioner Data](https://elan-dcc.github.io/researchers/internal/gp_data/ "General Practitioner Data").
 
 {{< accent >}}
 We strongly recommend researchers review the {{< link type="codebookCBS" text="codebook">}} for guidance. Additional information on challenges and potential solutions can be found <a href = "https://github.com/elan-dcc/org/blob/main/QandA.md" target="_blank" alt="Q and A">here</a>.
@@ -23,7 +23,7 @@ Contains all microdata files accessible to researchers.  Files accessible to you
 {{< /drive_explainer >}}
 
 {{< drive_explainer drive="H:" title="Analysis" >}}
-This Shared Workspace is where all active researchers perform their analyses. Each researcher has a personal directory. TO optimise storage, delete unecessary files and zip files for short-term storage. Some project data, such as <a href="../gp_data" alt="General Practitioner data">general practicioner data</a>, is stored here.
+This Shared Workspace is where all active researchers perform their analyses. Each researcher has a personal directory. TO optimise storage, delete unecessary files and zip files for short-term storage. Some project data, such as <a href="https://elan-dcc.github.io/researchers/internal/gp_data/" alt="General Practitioner data">general practicioner data</a>, is stored here.
 {{< /drive_explainer >}}
 
 {{< drive_explainer drive="K:" title="Metadata" >}}
