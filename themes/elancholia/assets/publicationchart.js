@@ -36,7 +36,7 @@ scales: {
                 size: 18,
                 weight: "bold"
             },
-            color: "#786ebd",
+            color: "#003c7d",
             showLabelBackdrop: false,
             callback: function(val, index) {
               return index % 2 === 0 ? this.getLabelForValue(val) : '';
