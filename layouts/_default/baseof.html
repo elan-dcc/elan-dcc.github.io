@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  {{ $favicon := resources.Get "images/favicon_elan.svg" }}
+
+  <link rel="shortcut icon" href="{{ $favicon.RelPermalink }}" />
+
+  <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
+
+  {{- partial "seo_tags.html" . -}}
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="/pagefind/pagefind-ui.js"></script>
+
+  {{ $style := print (default "original" .Site.Params.themeStyle) ".css" | resources.Get | minify }}
+  <link href="{{ $style.RelPermalink }}" rel="stylesheet">
+
+  {{ if (.Page.Store.Get "hasCodeBlock") }}
+    {{ $syntax := resources.Get "syntax.css" | minify }}
+    <link href="{{ $syntax.RelPermalink }}" rel="stylesheet">
+  {{ end }}
+
+  {{ with .Params.style }}
+    {{ $extra := resources.Get . | minify }}
+    <link href="{{ $extra.RelPermalink }}" rel="stylesheet">
+  {{ end }}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    {{- partial "header.html" . -}}
+  </header>
+  <main>
+    <section>
+      {{- block "main" . }}{{- end }}
+    </section>
+  </main>
+  </div>
+  <footer>
+    {{- partial "footer.html" . -}}
+  </footer>
+
+  {{ if .Store.Get "hasProcess" }}
+    {{ $js := resources.Get "processselection.js" | minify }}
+    <script src="{{ $js.RelPermalink }}"></script>
+  {{ end }}
+
+  {{ $js := resources.Get "javascript.js" | minify }}
+
+  <script src="{{ $js.RelPermalink }}"></script>
+
+  {{ if .Store.Get "hasMarquee" }}
+    {{ $js := resources.Get "marquee.js" | minify }}
+
+    <script src="{{ $js.RelPermalink }}"></script>
+  {{ end }}
+
+  {{ if .Store.Get "hasRegionStats" }}
+    {{ $js := resources.Get "map.js" | minify }}
+
+    <script src="{{ $js.RelPermalink }}"></script>
+  {{ end }}
+
+{{ if .Store.Get "hasGraph" }}
+  {{ $js := resources.Get "chart.umd.js" | minify }}
+
+  <script src="{{ $js.RelPermalink }}"></script>
+{{ end }}
+
+
+{{ if .Store.Get "introductionGraph" }}
+  {{ $js := resources.Get "introductionchart.js" | minify }}
+
+  <script src="{{ $js.RelPermalink }}"></script>
+{{ end }}
+
+{{ if .Store.Get "publicationGraph" }}
+
+  
+{{ $themes := slice }}
+{{ $counts := slice }}
+{{ $count := 0 }}
+{{ $taxonomyObject := .Site.Taxonomies.themes }}
+{{ range $taxonomyObject}}
+    {{ $themes = append .Page.Title $themes }}
+    {{ $count = $taxonomyObject.Count .Page.Title }}
+    {{ $counts = append $count $counts }}
+{{ end }}
+
+  {{ $js := resources.Get "publicationchart.js" }}
+  {{- $opts := dict 
+    "params" (dict "data" $counts "labels" $themes) 
+  -}}
+  {{- $js = $js | js.Build $opts -}}
+  <script src="{{ $js.RelPermalink }}"></script>
+{{ end }}
+</body>
+
+</html>

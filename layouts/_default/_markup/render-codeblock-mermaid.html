@@ -1,0 +1,7 @@
+
+{{ $class := or .Attributes.class "" }}
+
+<pre class="mermaid {{ $class }}">
+    {{- .Inner | safeHTML }}
+</pre>
+  {{ .Page.Store.Set "hasMermaid" true }}

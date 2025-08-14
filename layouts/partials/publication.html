@@ -1,0 +1,32 @@
+<div class="publication {{ range  .Params.Themes }} clickert-{{ . }}  {{ end }} {{ range .Params.Datasources}} clickerd-{{ . }} {{ end }} public-visible">
+
+    <h3 class = "citation">
+    <ul class ="publicationauthors">
+        {{ range .Params.Authors }}
+        <li><a href="{{ "/authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+    </ul>
+
+    ({{ .Params.Year }}). {{ .LinkTitle }} {{ .Params.Journal }}, 
+    <i> {{- .Params.Volume -}}</i>
+    {{- if .Params.Issue -}}
+    ({{- .Params.Issue -}})
+    {{- end -}}{{ if .Params.PageRange }}, {{ .Params.PageRange }}{{ end }}.
+    
+    {{ .Params.DOI }} </h3> 
+    
+    <div class = "publ_tag">
+        <span class = "publ_bold">Themes:</span> <ul>{{ range  .Params.Themes }} <li class = "publ_param">{{ . }}</li> {{ end }}</ul>
+    </div>
+    <div class = "publ_tag">
+        <span class = "publ_bold">Datasources:</span> <ul>{{ range .Params.Datasources}} <li class = "publ_datasource">{{ . }}</li> {{ end }}</ul>
+    </div>
+
+    <p>
+    {{ if eq $.Site.Language.LanguageName "nl-NL" }}
+    {{ .Params.summarynl }}
+    {{ else }}
+    {{ .Params.summaryeng }}
+    {{ end }}
+    </p>
+</div>

@@ -1,0 +1,120 @@
+{{ define "main" }}
+</section>
+<div class="introductionsection">
+    <div class="introductionChartContainer">
+        <div class="introductionChart">
+            <canvas id="IntroductionChart" width="400" height="400"></canvas>
+        </div>
+    </div>
+    <section>
+        <div class="introductioncontent">
+            <div class="abouttile">
+                {{ .Content }}
+                <div class="subgridcontainer">
+                    <div class="subresearchertile">
+                        <a class="button" href="/about_elan" class="tilelink">{{ i18n "about-elan" }}</a>
+                    </div>
+                    <div class="subresearchertile">
+                        <a class="button" href="/about_data" class="tilelink">{{ i18n "about-data" }}</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="circlescontainer">
+                <div id="smallcircleintroduction" class="circlesintroduction">
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
+                </div>
+
+                <div id="bigcircleintroduction" class="circlesintroduction">
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
+                    <div class="circleintroduction"></div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+</div>
+{{ .Page.Store.Set "hasGraph" true }}
+{{ .Page.Store.Set "introductionGraph" true }}
+
+
+<section>
+    <div id="news" class="element">
+        <h1>{{ i18n "news" }}</h1>
+
+        <div id="postcontainer">
+            {{ $paginator := .Paginate (where .Site.Pages "Params.Category" "News")}}
+            {{ range first 2 $paginator.Pages}}
+            {{ partial "summary.html" . }}
+            {{ end }}
+        </div>
+
+        <!-- SO UGLY -->
+        {{ $pre := "news" }}
+        {{ if(eq site.Language.Lang "nl") }}
+        {{ $pre := "/nl/nieuws" }}
+        {{ end }}
+        <div class="more">
+            <a class="tilelink" href= "{{ print $pre }}">{{ i18n "read-articles" }}</a>
+        </div>
+    </div>
+
+</section>
+
+<div class="sectionaccent">
+    <section class="sectiontwo">
+        <div class="publicationChart">
+            <canvas id="publicationChart"></canvas>
+        </div>
+        <div class="latestpub">
+            <h1>{{ i18n "latest-publication" }} </h1>
+
+            {{ .Page.Store.Set "publicationGraph" true }}
+                
+            {{ $publications := (where .Site.Pages "Params.Category" "Publication") }}        
+            {{ range first 1 $publications }}
+                <div class="publicationtitle">
+                    <a href = "{{ .Permalink }}">{{ .Title }}</a>
+                    <time class="pubdate" datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+                        {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+                    </time>
+                </div>
+            {{ end }}
+        </div>
+        
+    </section>
+    <section class="nostylingsection">
+        <div class="more">
+            <a href="/publications" class="tilelink">{{ i18n "read-publications" (len $publications) }}</a>    
+        </div>
+
+    </section>
+</div>
+<section>
+
+    <h1>{{ i18n "projects" }}</h1>
+    {{ $projects :=  ( where .Site.Pages "Params.Category" "Project") }}
+    {{ $projects :=  ( where $projects "Params.Featured" true) }}
+
+    <div id="projects">
+        {{ range $projects }}
+            <div class="projectitemcontainer">
+                <a href="https://{{ .Params.Url }}" target="_blank">
+                    <div class="projectitem">
+                        <h2> {{ .Title }} </h2>
+                        {{ .Content }}
+                    </div>
+                </a>
+            </div>
+        {{ end }}
+    </div>
+   
+{{ partial "partners.html" . }}
+</section>
+{{ end }}
+
+

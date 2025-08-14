@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-aa43f1a0-e1f5-4724-9a18-f549dd473c62" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.889 181.5">
+  <defs>
+    <style>
+      .uuid-56b8de02-faa1-4bac-89e6-81a5ccc0173d {
+        fill: #62b0e1;
+      }
+
+      .uuid-56b8de02-faa1-4bac-89e6-81a5ccc0173d, .uuid-18f1d730-f85d-46d8-9048-5d82fd8b2bf5, .uuid-0e77baf7-1219-435f-b193-3d755fa849c2 {
+        stroke-width: 0px;
+      }
+
+      .uuid-18f1d730-f85d-46d8-9048-5d82fd8b2bf5 {
+        fill: #fff;
+      }
+
+      .uuid-0e77baf7-1219-435f-b193-3d755fa849c2 {
+        fill: #1c1e54;
+      }
+    </style>
+  </defs>
+  <g id="uuid-37de69fa-c5f8-4536-ba91-f10df1602c96" data-name="Layer 2">
+    <path class="uuid-18f1d730-f85d-46d8-9048-5d82fd8b2bf5" d="m139.889,181.5h-5.386l-22.18-34.062h-.222c.296,3.997.443,7.662.443,10.993v23.068h-4.357v-40.585h5.329l22.125,33.923h.222c-.037-.5-.12-2.105-.25-4.816-.129-2.711-.176-4.649-.139-5.815v-23.292h4.414v40.585Z"/>
+    <path class="uuid-18f1d730-f85d-46d8-9048-5d82fd8b2bf5" d="m94.892,181.5l-5.052-12.908h-16.268l-4.997,12.908h-4.774l16.045-40.752h3.97l15.962,40.752h-4.886Zm-6.523-17.155l-4.719-12.575c-.611-1.592-1.24-3.544-1.888-5.858-.407,1.777-.99,3.73-1.749,5.858l-4.774,12.575h13.13Z"/>
+    <path class="uuid-18f1d730-f85d-46d8-9048-5d82fd8b2bf5" d="m32.113,181.5v-40.585h4.719v36.31h17.905v4.275h-22.625Z"/>
+    <path class="uuid-18f1d730-f85d-46d8-9048-5d82fd8b2bf5" d="m22.625,181.5H0v-40.585h22.625v4.192H4.719v13.075h16.822v4.164H4.719v14.935h17.905v4.22Z"/>
+  </g>
+  <g id="uuid-6fc2689b-75a5-47ff-b4db-df7f0b0f6a4f" data-name="Layer 1">
+    <g>
+      <circle class="uuid-0e77baf7-1219-435f-b193-3d755fa849c2" cx="101.377" cy="77.334" r="34" transform="translate(8.803 165.015) rotate(-80.783)"/>
+      <circle class="uuid-56b8de02-faa1-4bac-89e6-81a5ccc0173d" cx="31.593" cy="26" r="26" transform="translate(-4.518 45.238) rotate(-67.5)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+{{- partial "nav_publications.html" . -}}
+<aside data-pagefind-ignore>
+    <!-- above is to not index author pages in searches -->
+	{{ .Content }}
+
+	<ul class = "authordisplay">
+		{{ range .Site.Taxonomies.authors }}
+		<li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+		{{ end }}
+	</ul>	
+</aside>
+{{ end }}
