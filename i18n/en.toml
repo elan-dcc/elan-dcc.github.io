@@ -1,0 +1,36 @@
+[filtering-for]
+  other = "Filtering for"
+
+[no-posts]
+  other = "No posts yet"
+
+[news]
+  other = "News"
+
+[latest-publication]
+  other = "Latest publication"
+
+[patients]
+  other = "Patients"
+
+[practices]
+ other = "Practices"
+ 
+[projects]
+  other = "Projects"
+
+[read-article]
+  other = "Read article"
+
+[read-articles]
+  other = "Click here to read more articles"
+
+[read-publications]
+  one = "Click here to read more about this publication"
+  other = "Click here to read about all {{ . }} publications"
+
+[about-data]
+  other = "About the data"
+
+[about-elan]
+  other = "About ELAN"
