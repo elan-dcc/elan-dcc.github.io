@@ -9,16 +9,16 @@
 :root {
     --myfont: "Open Sans", sans-serif;
     --width: 75%;
-    --primary-color: #786ebd;
-    --alternative-primary-color: #cecbe8;
-    --background-color: #e4e2f2;
-    --secondary-color: #001158; 
+    --primary-color: #003c7d;
+    --alternative-primary-color: #cddef5;
+    --background-color: #f2f6fc;
+    --secondary-color: #003c7d; 
     --tertiary-color: #5cb1eb;
     --fontcolor: #6a6874;
     --pagefind-ui-scale: 1;
-    --pagefind-ui-primary: #034ad8;
+    --pagefind-ui-primary: #003c7d;
     --pagefind-ui-text: #6a6874;
-    --pagefind-ui-background: #e4e2f2;
+    --pagefind-ui-background: #f2f6fc;
     --pagefind-ui-border: #6a6874;
     --pagefind-ui-tag: #eeeeee;
     --pagefind-ui-border-width: 1px;
@@ -26,7 +26,7 @@
     --pagefind-ui-image-border-radius: 8px;
     --pagefind-ui-image-box-ratio: 3 / 2;
     --pagefind-ui-font: "Open Sans", sans-serif;
-    --pagefind-ui-primary: #786ebd;
+    --pagefind-ui-primary: #003c7d;
     --marquee-width: 100%;
     --marquee-height: 300px;
     --counter-first-section: -80px;
@@ -118,6 +118,12 @@ h1:first-of-type {
     width: 100%;
 }
 
+#logo img {
+    max-width: 150px;
+    height: auto;
+    width: auto;
+}
+
 nav li {
     display: inline;
     padding-right: 5px;
@@ -133,7 +139,7 @@ header {
 
 .sectionaccent {
     color: var(--primary-color);
-    background: #cecbe8;
+    background: #cddef5;
 }
 
 .pubdate{
@@ -618,7 +624,7 @@ mark {
 }
 
 .pagefind-ui__drawer {
-    background-color: #e4e2f2;
+    background-color: #f2f6fc;
 }
 
 .pagefind-ui__message.svelte-e9gkc3 {
@@ -925,7 +931,7 @@ div.marquee {
 }
 
 .subresearchertile > h3 {
-    background-color: #bf9ae5;
+    background-color: #007cc2;
     font-family: inherit;
     color: #FFF;
     font-weight: normal;
@@ -1176,7 +1182,7 @@ table tr:last-child td:last-child {
 
 .waves > use {
     animation: move-forever 40s -90s linear infinite;
-    fill: #786ebd;
+    fill: #003c7d;
     fill-opacity: .2;
 }
   

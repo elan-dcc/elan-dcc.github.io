@@ -49,7 +49,7 @@ ELAN securely links data from multiple sources at the individual level, ensuring
         datasets: [{
             label: 'persons',
             data: [2611953, 734519, 2168282, 409020, 371035, 239615],
-            backgroundColor: '#9895bc',
+            backgroundColor: '#8eb5ea',
         }]
     },
     options: {
