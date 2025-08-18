@@ -9,9 +9,9 @@ weight = 30
 
 | Name     | Position | Role ELAN | 
 | -------- | ------- | ------- |
-| Jeroen Struijs  | Chief of ELAN and senior researcher | Initiator ELAN and member of ELAN core committee |
+| Jeroen Struijs  | Chief of ELAN and senior researcher | Initiator ELAN and member ELAN core committee |
 | Dennis Mook | Chief of ELAN, general practitioner, and senior researcher | Chair ELAN steering committee and member ELAN core committee   |
-| Margot de Waal | Epidemiologist and senior researcher | Chair ELAN core committee, member ELAN steering committee and chair PHEG science committee |
+| Margot de Waal | Epidemiologist and senior researcher | Chair ELAN core committee, member ELAN steering committee |
 | Rutger Middelburg | Epidemiologist and senior researcher | Member ELAN core committee and ELAN steering committee |
 | Janet Kist | General practitioner and researcher | Member ELAN Core committee, steering group and ELAN-DCC |
 | Frank Ardesch | Data manager | Data manager ELAN and member ELAN-DCC |
@@ -19,6 +19,9 @@ weight = 30
 | Marcel Haas | Senior data scientist | Head ELAN-DCC |
 | Ammar Faiq | Data scientist | member ELAN-DCC |
 | Armel Lefebvre | Data scientist | member ELAN-DCC |
+| Joost van Son | Relationship manager | member ELAN core committee |
+| Willian van Dijk | General practitioner in training and PhD student | member ELAN core committee |
+| Rosalinde Poortvliet | General practicioner and researcher | member ELAN core committee and ELAN steering committee |
 
 ## ELAN Data Competence Center (ELAN-DCC)
 The Data Competence Center of ELAN is one of the core teams. This is the team that concerns itself with the technicalities of the data infrastructure(s). Data managers and people who perform data engineering tasks (typically our data managers as well) work in this team, but there are also data scientists and people with skills around visualization and dashboarding, may you need further assistance with that.
