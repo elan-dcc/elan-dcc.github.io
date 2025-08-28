@@ -22,6 +22,7 @@ weight = 30
 | Joost van Son | Relationship manager | member ELAN core committee |
 | Willian van Dijk | General practitioner in training and PhD student | member ELAN core committee |
 | Rosalinde Poortvliet | General practicioner and researcher | member ELAN core committee and ELAN steering committee |
+| Brenda Schakenbos | Data manager | member of the core committee | 
 
 ## ELAN Data Competence Center (ELAN-DCC)
 The Data Competence Center of ELAN is one of the core teams. This is the team that concerns itself with the technicalities of the data infrastructure(s). Data managers and people who perform data engineering tasks (typically our data managers as well) work in this team, but there are also data scientists and people with skills around visualization and dashboarding, may you need further assistance with that.
