@@ -25,7 +25,7 @@ Follow these steps to use data already available in the ELAN environment. **Star
 1. Find a Principal Investigator (PI) from Haga/HMC willing to co-author your research. Most departments at HAGA have a research nurse to help you contact a PI (step 2).
 1. Contact the PI
 
-    - For Haga: Create an account in Haga's [Castor SMS](https://haga.castorsms.com/user/login) and fill in the neccesary forms. Some examples of filled forms can be found [here](https://hagawetenschapsbureau.nl/index_const.php); 
+    - For Haga: Create an account in Haga's [Castor SMS](https://haga.castorsms.com/user/login) and fill in the neccesary forms. Some examples of filled forms can be found [here](https://hagawetenschapsbureau.nl/); 
     - For HMC: Create an account in HMC's [PaNaMa](https://www.haaglandenmc.nl/over-ons/opleiding-en-ontwikkeling/leerhuis-landsteiner/)
 
 1. Complete the forms required by the hospital(s). Make sure **you indicate in the title that it's an ELAN data research request if that's the case to expedite processing**. Include your research protocol and the nWMO approval in your Castor/PaNaMa file.
