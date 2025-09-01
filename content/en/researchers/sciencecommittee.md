@@ -12,8 +12,8 @@ The PHEG Science Committee ensures the quality of the department's research and 
 For review, submit the following documents (in Word) to the PHEG Science Committee (email Wetenschapscommissie_PHEG@lumc.nl):
 - [Application Form for the Research Protocol](https://www.lumc.nl/siteassets/over-het-lumc/afdelingen/pheg/bestanden/application-form-pheg-science-committee-version-21-09-2023-translated-23-08-24.pdf)
 - Final protocol (C1)
-- [Non-WMO submission letter (A1 Niet-WMO aanbiedingsbrief, template only available in Dutch)](https://www.metc-ldd.nl/nwmo-en-mdr-documenten)
-- [Non-WMO questionnaire (B2 Niet-WMO vragenlijst, template only available in Dutch)](https://www.metc-ldd.nl/nwmo-en-mdr-documenten)
+- [Non-WMO submission letter (A1 Niet-WMO aanbiedingsbrief, template only available in Dutch)](https://www.metc-ldd.nl/niet-wmo-en-niet-mdr-documenten)
+- [Non-WMO questionnaire (B2 Niet-WMO vragenlijst, template only available in Dutch)](https://www.metc-ldd.nl/niet-wmo-en-niet-mdr-documenten)
 
 On behalf of the PHEG science committee, members of the ELAN-research team will review and provide their advice by filling in an [ELAN-specific checklist](https://www.lumc.nl/siteassets/over-het-lumc/afdelingen/pheg/bestanden/checklist-advice-protocol-pheg-wecie-elan-data-version-17-04-2023-translation-23-8-24.pdf). The Science Committee will then communicate their final decision to the researcher.
 
