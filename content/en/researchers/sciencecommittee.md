@@ -17,7 +17,7 @@ For review, submit the following documents (in Word) to the PHEG Science Committ
 
 On behalf of the PHEG science committee, members of the ELAN-research team will review and provide their advice by filling in an [ELAN-specific checklist](https://www.lumc.nl/siteassets/over-het-lumc/afdelingen/pheg/bestanden/checklist-advice-protocol-pheg-wecie-elan-data-version-17-04-2023-translation-23-8-24.pdf). The Science Committee will then communicate their final decision to the researcher.
 
-Next step (see [flowchart](https://elan-dcc.github.io/researchers/overview_getting_started/)) is to submit all documents (A1, B2, C1) and the letter of approval (K1) to the nWMO-committee of division 3: see www.metc-ldd.nl/indienen-niet-wmo-en-mdr. Once you have received the WMO exception letter from the nWMO-committee, upload this letter and the final protocol to your ticket at www.elanresearch.nl.
+Next step (see [flowchart](https://elan-dcc.github.io/researchers/overview_getting_started/)) is to submit all documents (A1, B2, C1) and the letter of approval (K1) to the nWMO-committee of division 3: see www.metc-ldd.nl/indienen-niet-wmo-en-niet-mdr. Once you have received the WMO exception letter from the nWMO-committee, upload this letter and the final protocol to your ticket at www.elanresearch.nl.
 
 *We are working on simplifying this evaluation process!*
 
