@@ -5,11 +5,11 @@ menu = 'team-members'
 weight = 6  
 +++ 
 
-# MSc Frank Ardesch
+# Frank Ardesch, MSc
 
 **Position:** Researcher, data manager
 
-**Specialization:**
+**Specialization:** Data management
 
 **Role within ELAN:** Member of the Data Competence Center
 
