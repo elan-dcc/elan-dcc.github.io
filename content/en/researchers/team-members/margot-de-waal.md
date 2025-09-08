@@ -13,7 +13,7 @@ weight = 3
 
 **Role within ELAN:** Chair of the core committee, member of the steering committee
 
-After completing my studies in Health Sciences (specializing in epidemiology) and my doctoral research, I worked as a researcher at NIVEL and LUMC. Collaboration with the field and relevance to everyday practice have always been a central focus. Additionally, I have thoroughly enjoyed holding a coordinating role in academic collaboration with general practitioners in the region, particularly in the areas of patient-centered research and research utilizing routine care data.
+After my studies in Health Sciences (specializing in epidemiology), I worked as a researcher at NIVEL and LUMC and completed my doctoral research. Collaboration with the field and relevance to everyday practice have always been a central focus. Additionally, I have thoroughly enjoyed holding a coordinating role in academic collaboration with general practitioners in the region, particularly in the areas of patient-centered research and research utilizing routine care data.
 
 In recent years, my contributions to scientific research have focused primarily on vulnerable older adults, with collaborations at the LUMC Centre for Geriatric Medicine (LUMC Centrum voor Ouderengeneeskunde, LCO) and the UNC-ZH.
 
