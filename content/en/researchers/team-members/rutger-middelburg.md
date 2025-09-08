@@ -9,13 +9,13 @@ weight = 4
 
 **Position:** Assistant professor
 
-**Specializations:** Transfusion medicine; usage of routine healthcare data in research
+**Specializations:** Transfusion medicine; Usage of routine healthcare data in research
 
 **Role within ELAN:** Member of the core committee and of the steering committee
 
-After a Master’s in Biomedical Sciences and a PhD in clinical epidemiology, I spent nearly ten years conducting research in transfusion medicine. I have worked for various medical ethics review boards and served as an editor at the Dutch Medicines Bulletin (know as Geneesmiddelenbulletin, or Ge-Bu). I have been teaching since 2007 and, since 2020, I have been affiliated with the Department of Population Health and Primary Care (PHEG).
+After a Master’s in Biomedical Sciences and a PhD in Clinical Epidemiology, I spent nearly ten years in transfusion medicine research. I worked for two medical ethics review boards and still work as an editor at the Dutch Medicines Bulletin (Geneesmiddelenbulletin, or Ge-Bu). I’ve been teaching since 2007 and been affiliated with the Department of Population Health and Primary Care (PHEG) since 2020. 
 
-I currently serve on the ELAN core committee, act as module and track coordinator in the Master’s program Population Health Management, and supervise students and PhD candidates in primary care research. A common thread throughout my research is the consistent use of routine healthcare data.
+I’m currently a member of the ELAN core committee and a module and track coordinator in the Master’s program Population Health Management. I also supervise students and PhD candidates in primary care research. A common thread in my research is the use of routine healthcare data. 
 
 I live in Oegstgeest with my wife and two children. In my spare time I enjoy sports like cycling, speed skating, diving, swimming, and running. Other hobbies include photography, reading, and writing.
 
