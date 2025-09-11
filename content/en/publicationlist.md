@@ -6,6 +6,14 @@ type = "publicationlist"
 
 # Publication list
 
+1. Alfaraj SA, Kist JM, Groenwold RHH, Spruit M, Mook-Kanamori D, Vos RC. External validation of SCORE2-Diabetes in The Netherlands across various socioeconomic levels in native-Dutch and non-Dutch populations. Eur J Prev Cardiol. 2025 May 12;32(7):555-563. doi: 10.1093/eurjpc/zwae354. PMID: 39485827.
+
+1. Alfaraj S, Vos RC, Spruit M, Groenwold RHH, Mook-Kanamori D. Insulin Initiation in Type 2 Diabetes: Unraveling the Sociodemographic and Biological Dynamics using Routinely Collected Primary Care Data. Br J Gen Pract. 2025 Sep 2:BJGP.2024.0693. doi: 10.3399/BJGP.2024.0693. Epub ahead of print. PMID: 40897507.
+
+1. Al-Sabiry M, Slootweg I, Numans ME, van Mook WN, Barnhoorn P. Exploring residents' perspectives on their professional identity in general practice residency in the Netherlands: a qualitative study. BMJ Open. 2024 Dec 27;14(12):e088097. doi: 10.1136/bmjopen-2024-088097. PMID: 39732495; PMCID: PMC11683983.
+
+1. Ardesch FH, Geurten RJ, Struijs JN, Ruwaard D, Bilo HJG, Elissen AMJ. Investigating socioeconomic disparities in prescribing new diabetes medications in individuals with type 2 diabetes and very high cardiovascular risk in the Netherlands. Prim Care Diabetes. 2025 Apr;19(2):178-183. doi: 10.1016/j.pcd.2024.12.011. Epub 2025 Jan 14. PMID: 39809690.
+
 1. Ardesch FH, Meulendijk MC, Kist JM, Vos RC, Vos HMM, Kiefte-de Jong JC, et al. The introduction of a data-driven population health management approach in the Netherlands since 2019: The Extramural LUMC Academic Network data infrastructure. Health Policy. 2023 Jun;132:104769.
 
 1. Bakkera BFM, Rooijena J van, Toora L van. The System of social statistical datasets of Statistics Netherlands: An integral approach to the production of register-based social statistics. Statistical journal of the IAOS \[Internet\]. 2014 [cited 2024 Jan 23]; Available from: https://www.semanticscholar.org/paper/The-System-of-social-statistical-datasets-of-An-to-Bakkera-Rooijena/ff01e4aa828d2e6873ec16d8f0583d01dc66e806
@@ -16,9 +24,13 @@ type = "publicationlist"
 
 1. Girwar SAM, Verloop JC, Fiocco M, Sutch SP, Numans ME, Bruijnzeels MA. Identifying complex patients using Adjusted Clinical Groups risk stratification tool. Am J Manag Care. 2022 Apr 1;28(4):e140–5.
 
+1. Hageman SHJ, Kaptoge S, de Vries TI, et al. Prediction of individual lifetime cardiovascular risk and potential treatment benefit: development and recalibration of the LIFE-CVD2 model to four European risk regions. Eur J Prev Cardiol. 2024;31(14):1690-1699. doi:10.1093/eurjpc/zwae174
+
 1. Kist JM, Smit GWG, Mairuhu ATA, Struijs JN, Vos RC, Peet PG van, et al. Large health disparities in cardiovascular death in men and women, by ethnicity and socioeconomic status in an urban based population cohort. eClinicalMedicine \[Internet\]. 2021 Oct 1 [cited 2024 Jan 3];40. Available from: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00400-4/fulltext
 
 1. Kist JM, Vos RC, Mairuhu ATA, Struijs JN, Peet PG van, Vos HMM, et al. SCORE2 cardiovascular risk prediction models in an ethnic and socioeconomic diverse population in the Netherlands: an external validation study. eClinicalMedicine\ [Internet\]. 2023 Mar 1 [cited 2024 Jan 3];57. Available from: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(23)00039-1/fulltext
+
+1. Kist JM, Vos HMM, Vos RC, Mairuhu ATA, Struijs JN, Vermeiren RRJM, van Peet PG, van Os HJA, Ardesch FH, Beishuizen ED, Sijpkens YWJ, de Waal MWM, Haas MR, Groenwold RHH, Numans ME, Mook-Kanamori D. Data Resource Profile: Extramural Leiden University Medical Center Academic Network (ELAN). Int J Epidemiol. 2024 Jun 12;53(4):dyae099. doi: 10.1093/ije/dyae099. PMID: 39049713; PMCID: PMC11269676.
 
 1. Kitselaar WM, Büchner FL, van der Vaart R, Sutch SP, Bennis FC, Evers AW, et al. Early identification of persistent somatic symptoms in primary care: data-driven and theory-driven predictive modelling based on electronic medical records of Dutch general practices. BMJ Open. 2023 May 2;13(5):e066183.
 
@@ -39,6 +51,8 @@ type = "publicationlist"
 1. Koning NR, Moons LMG, Büchner FL, Helsper CW, Ten Teije A, Numans ME. Identification of patients at risk for colorectal cancer in primary care: an explorative study with routine healthcare data. Eur J Gastroenterol Hepatol. 2015 Dec;27(12):1443–8.
 
 1. Lips SR, Molenaar JM, Schuitmaker-Warnaar TJ. Transforming maternity care: obstetric partnerships as a policy instrument for integration. Health Policy. 2020 Nov;124(11):1245–53.
+
+1. Meulman I, Uiters E, Cloin M, Struijs J, Polder J, Stadhouders N. From test to rest: evaluating socioeconomic differences along the COVID-19 care pathway in the Netherlands. Eur J Health Econ. 2024 Dec;25(9):1581-1594. doi: 10.1007/s10198-024-01680-4. Epub 2024 Mar 18. PMID: 38499952; PMCID: PMC11512841.
 
 1. Molenaar JM, van der Meer L, Bertens LCM, de Vries EF, Waelput AJM, Knight M, et al. Defining vulnerability subgroups among pregnant women using pre-pregnancy information: a latent class analysis. Eur J Public Health. 2023 Feb 3;33(1):25–34.
 
@@ -66,6 +80,18 @@ type = "publicationlist"
 
 1. Sijbom M, Büchner FL, Saadah NH, Numans ME, de Boer MGJ. Determinants of inappropriate antibiotic prescription in primary care in developed countries with general practitioners as gatekeepers: a systematic review and construction of a framework. BMJ Open. 2023 May 17;13(5):e065006.
 
+1. Storm MMC, Giltay EJ, van Eldik WM, Palstra EC, van Duin EDA, van den Berg D, Vermeiren RRJM. Social determinants of youth with mild intellectual disability in outpatient care for mental health disorders: a case-control study. Eur Child Adolesc Psychiatry. 2025 Apr 19. doi: 10.1007/s00787-025-02718-5. Epub ahead of print. PMID: 40252088.
+
+1. van den Brink, G., Koggel, L. M., Hendriks, J. J., de Boer, M. G., Siersema, P. D., & Numans, M. E. (2024). Treatment failure of Helicobacter Pylori in primary care. BJGP open, BJGPO.2023.0252. Advance online publication. https://doi.org/10.3399/BJGPO.2023.0252
+
+1. van den Bulk S, van Egeraat JWA, Petrus AHJ, Numans ME, Bonten TN. Incidence of primary care chest pain consultations during the COVID-19 pandemic: an interrupted time series analysis with routine care data. BMC Prim Care. 2024 Dec 21;25(1):433. doi: 10.1186/s12875-024-02676-y. PMID: 39709389; PMCID: PMC11662427.
+
+1. van den Burg EL, Schoonakker MP, van Peet PG, le Cessie S, Numans ME, Pijl H, Lamb HJ. A fasting-mimicking diet programme reduces liver fat and liver inflammation/fibrosis measured by magnetic resonance imaging in patients with type 2 diabetes. Clin Nutr. 2025 Apr;47:136-145. doi: 10.1016/j.clnu.2025.02.017. Epub 2025 Feb 18. PMID: 40020647.
+
+1. van den Hout WJ, van Peet PG, Numans ME, Mook-Kanamori DO. Recording practices of body mass index, overweight and obesity by Dutch general practitioners: an observational study. BMC Prim Care. 2025 Jan 2;26(1):1. doi: 10.1186/s12875-024-02696-8. PMID: 39748290; PMCID: PMC11697458.
+
+1. van Egeraat JW, Kuijpers T, Burgers J, van Os H, Chavannes NH, Bonten TN. Inhaled corticosteroids for COVID-19: a real-world data analysis on guideline adherence. BJGP Open. 2025 Jul 23;9(2):BJGPO.2024.0135. doi: 10.3399/BJGPO.2024.0135. PMID: 39592217.
+
 1. van Niel J, Geelhoed-Duijvestijn PHLM, Numans ME, Kharagjitsing AV, Vos RC. Type 2 diabetes in South Asians compared to Europeans: Higher risk and earlier development of major cardiovascular events irrespective of the presence and degree of retinopathy. Results from The HinDu The Hague Diabetes Study. Endocrinol Diabetes Metab. 2021 Jul;4(3):e00242.
 
 1. van Os HJA, Kanning JP, Bonten TN, Rakers MM, Putter H, Numans ME, et al. Cardiovascular Risk Prediction in Men and Women Aged Under 50 Years Using Routine Care Data. J Am Heart Assoc. 2023 Apr 4;12(7):e027011.
@@ -75,11 +101,7 @@ type = "publicationlist"
 1. van Os HJA, Kanning JP, Wermer MJH, Chavannes NH, Numans ME, Ruigrok YM, et al. Developing Clinical Prediction Models Using Primary Care Electronic Health Record Data: The Impact of Data Preparation Choices on Model Performance. Frontiers in Epidemiology \[Internet\]. 2022 [cited 2024 Jan 6];2. Available from: https://www.frontiersin.org/articles/10.3389/fepid.2022.871630
 
 1. Extracting Patient Lifestyle Characteristics from Dutch Clinical Text with BERT Models \[Internet\]. 2024 [cited 2024 Feb 13]. Available from: https://www.researchsquare.com
-
+  
 1. van Munster, J. J. C. M., Halperin, I. J. Y., Ardesch, F. H., van den Hout, W. B., van Benthem, P. P. G., Moojen, W., & Peul, W. C. (2024). Practice variation in surgical treatment for lumbar degenerative disc disease: exploring regional and hospital factors influencing surgical rates. Scientific reports, 14(1), 9273. https://doi.org/10.1038/s41598-024-59629-9
 
 1. Watjer RM, Heckmans KM, Eekhof JA, et alAssociation between onychomycosis and ulcerative complications in patients with diabetes: a longitudinal cohort study in Dutch general practiceBMJ Open 2024;14:e076441. doi: 10.1136/bmjopen-2023-076441
-
-1. van den Brink, G., Koggel, L. M., Hendriks, J. J., de Boer, M. G., Siersema, P. D., & Numans, M. E. (2024). Treatment failure of Helicobacter Pylori in primary care. BJGP open, BJGPO.2023.0252. Advance online publication. https://doi.org/10.3399/BJGPO.2023.0252
-
-1. Kist JM, Vos HMM, Vos RC, Mairuhu ATA, Struijs JN, Vermeiren RRJM, van Peet PG, van Os HJA, Ardesch FH, Beishuizen ED, Sijpkens YWJ, de Waal MWM, Haas MR, Groenwold RHH, Numans ME, Mook-Kanamori D. Data Resource Profile: Extramural Leiden University Medical Center Academic Network (ELAN). Int J Epidemiol. 2024 Jun 12;53(4):dyae099. doi: 10.1093/ije/dyae099. PMID: 39049713; PMCID: PMC11269676.
