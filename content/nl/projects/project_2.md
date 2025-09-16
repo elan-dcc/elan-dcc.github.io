@@ -1,6 +1,6 @@
 +++
-title = "Gezond en Gelukkig Den Haag"
-url =  "ggdh-dashboard.onrender.com"
+title = "ELAN Dashboard"
+url =  "elandcc.shinyapps.io/ELANDashboard"
 category = "Project"
 featured = true
 draft = false
