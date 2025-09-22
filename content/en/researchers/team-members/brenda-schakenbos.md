@@ -19,4 +19,4 @@ I live in Warmond with two tomcats. In my spare time, I love being outdoors! I e
 
 **Working days:** Monday, Tuesday, Wednesday, Friday
 
-Links: [Research Center LUMC (Dutch)] (https://www.lumc.nl/afdelingen/public-health-en-eerstelijnsgeneeskunde/onderzoekscentrum/)
+Links: [Research Center LUMC (Dutch)](https://www.lumc.nl/afdelingen/public-health-en-eerstelijnsgeneeskunde/onderzoekscentrum/)
