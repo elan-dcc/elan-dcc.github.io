@@ -17,7 +17,7 @@ weight = 30
 | Frank Ardesch | Data manager | Data manager ELAN and member ELAN-DCC |
 | Henk de Jong | Data manager | Data manager ELAN and member ELAN-DCC |
 | Marcel Haas | Senior data scientist | Head ELAN-DCC |
-| Ammar Faiq | Data scientist | Member ELAN-DCC |
+| [Ammar Faiq]({{< relref "ammar-faiq" >}} "Ammar Faiq") | Data scientist | Member ELAN-DCC |
 | Armel Lefebvre | Data scientist | Member ELAN-DCC |
 | Joost van Son | Relationship manager | Member ELAN core committee |
 | Willian van Dijk | General practitioner in training and PhD student | Member ELAN core committee |
