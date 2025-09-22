@@ -18,7 +18,7 @@ weight = 30
 | [Henk de Jong]({{< relref "henk-de-jong" >}} "Henk de Jong") | Data manager | Data manager ELAN and member ELAN-DCC |
 | [Marcel Haas]({{< relref "marcel-haas" >}} "Marcel Haas") | Senior data scientist | Head ELAN-DCC |
 | [Ammar Faiq]({{< relref "ammar-faiq" >}} "Ammar Faiq") | Data scientist | Member ELAN-DCC |
-| [Armel Lefebvre]({{< relref "armel-lefebvre >}} "Armel Lefebvre") | Data scientist | Member ELAN-DCC |
+| [Armel Lefebvre]({{< relref "armel-lefebvre" >}} "Armel Lefebvre") | Data scientist | Member ELAN-DCC |
 | [Joost van Son]({{< relref "joost-van-son" >}} "Joost van Son") | Relationship manager | Member ELAN core committee |
 | [Willian van Dijk]({{< relref "willian-van-dijk" >}} "Willian van Dijk") | General practitioner in training and PhD student | Member ELAN core committee |
 | [Rosalinde Poortvliet]({{< relref "rosalinde-poortvliet" >}} "Rosalinde Poortvliet") | General practicioner and researcher | Member ELAN core committee and ELAN steering committee |
