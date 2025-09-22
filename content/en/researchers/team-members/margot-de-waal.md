@@ -21,4 +21,4 @@ I live with my husband Eric in Leiderdorp. I am the mother of two adult children
 
 **Working Days:** Monday, Tuesday, Thursday, Friday
 
-**Links:** [LUMC Centre for Geriatric Medicine (Dutch)] (https://lumccentrumouderengeneeskunde.nl), [UNC-ZH - University Network for the Care sector South Holland] (https://unc-zh.nl/english/) 
+**Links:** [LUMC Centre for Geriatric Medicine (Dutch)](https://lumccentrumouderengeneeskunde.nl), [UNC-ZH - University Network for the Care sector South Holland](https://unc-zh.nl/english/) 
