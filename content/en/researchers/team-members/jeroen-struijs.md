@@ -21,4 +21,4 @@ I am married, have two children, and live in The Hague. My work is also my hobby
 
 **Working days:** Monday, Tuesday, Wednesday, Thursday, Friday
 
-**Links:** [NZa - Jeroen Struijs (Dutch)] (https://www.nza.nl/over-de-nza/organisatie/management-p/jeroen-struijs), [Health Campus Den Haag (Dutch)] (https://healthcampusdenhaag.nl/), [BUNDLE (Dutch)] (https://healthcampusdenhaag.nl/nl/bundle/)
+**Links:** <a href="https://www.nza.nl/over-de-nza/organisatie/management-p/jeroen-struijs">NZa Jeroen Struijs (Dutch)</a>, <a href="https://healthcampusdenhaag.nl/">Health Campus Den Haag (Dutch)</a>, <a href="https://healthcampusdenhaag.nl/nl/bundle/">BUNDLE (Dutch)</a>
