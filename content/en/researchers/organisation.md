@@ -9,20 +9,20 @@ weight = 30
 
 | Name     | Position | Role ELAN | 
 | -------- | ------- | ------- |
-| Jeroen Struijs  | Chief of ELAN and senior researcher | Initiator ELAN and member ELAN core committee |
-| Dennis Mook | Chief of ELAN, general practitioner, and senior researcher | Chair ELAN steering committee and member ELAN core committee   |
-| Margot de Waal | Epidemiologist and senior researcher | Chair ELAN core committee, member ELAN steering committee |
-| Rutger Middelburg | Epidemiologist and senior researcher | Member ELAN core committee and ELAN steering committee |
+| [Jeroen Struijs]({{< relref "jeroen-struijs" >}} "Jeroen Struijs") | Chief of ELAN and senior researcher | Initiator ELAN and member ELAN core committee |
+| [Dennis Mook]({{< relref "dennis-mook" >}} "Dennis Mook") | Chief of ELAN, general practitioner, and senior researcher | Chair ELAN steering committee and member ELAN core committee   |
+| [Margot de Waal]({{< relref "margot-de-waal" >}} "Margot de Waal") | Epidemiologist and senior researcher | Chair ELAN core committee, member ELAN steering committee |
+| [Rutger Middelburg]({{< relref "rutger-middelburg" >}} "Rutger Middelburg") | Epidemiologist and senior researcher | Member ELAN core committee and ELAN steering committee |
 | Janet Kist | General practitioner and researcher | Member ELAN Core committee, steering group and ELAN-DCC |
-| Frank Ardesch | Data manager | Data manager ELAN and member ELAN-DCC |
-| Henk de Jong | Data manager | Data manager ELAN and member ELAN-DCC |
-| Marcel Haas | Senior data scientist | Head ELAN-DCC |
+| [Frank Ardesch]({{< relref "frank-ardesch" >}} "Frank Ardesch") | Data manager | Data manager ELAN and member ELAN-DCC |
+| [Henk de Jong]({{< relref "henk-de-jong" >}} "Henk de Jong") | Data manager | Data manager ELAN and member ELAN-DCC |
+| [Marcel Haas]({{< relref "marcel-haas" >}} "Marcel Haas") | Senior data scientist | Head ELAN-DCC |
 | [Ammar Faiq]({{< relref "ammar-faiq" >}} "Ammar Faiq") | Data scientist | Member ELAN-DCC |
-| Armel Lefebvre | Data scientist | Member ELAN-DCC |
-| Joost van Son | Relationship manager | Member ELAN core committee |
-| Willian van Dijk | General practitioner in training and PhD student | Member ELAN core committee |
-| Rosalinde Poortvliet | General practicioner and researcher | Member ELAN core committee and ELAN steering committee |
-| Brenda Schakenbos | Data manager | Member ELAN core committee | 
+| [Armel Lefebvre]({{< relref "armel-lefebvre >}} "Armel Lefebvre") | Data scientist | Member ELAN-DCC |
+| [Joost van Son]({{< relref "joost-van-son" >}} "Joost van Son") | Relationship manager | Member ELAN core committee |
+| [Willian van Dijk]({{< relref "willian-van-dijk" >}} "Willian van Dijk") | General practitioner in training and PhD student | Member ELAN core committee |
+| [Rosalinde Poortvliet]({{< relref "rosalinde-poortvliet" >}} "Rosalinde Poortvliet") | General practicioner and researcher | Member ELAN core committee and ELAN steering committee |
+| [Brenda Schakenbos]({{< relref "brenda-schakenbos" >}} "Brenda Schakenbos") | Data manager | Member ELAN core committee | 
 
 ## ELAN Data Competence Center (ELAN-DCC)
 The Data Competence Center of ELAN is one of the core teams. This is the team that concerns itself with the technicalities of the data infrastructure(s). Data managers and people who perform data engineering tasks (typically our data managers as well) work in this team, but there are also data scientists and people with skills around visualization and dashboarding, may you need further assistance with that.
