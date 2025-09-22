@@ -21,4 +21,4 @@ I live in Vlaardingen with my wife and two children, Jelle and Lotte. I play the
 
 **Working Days:** Tuesday, Friday
 
-**Links:** [General Practitioner Training LUMC (Dutch)] (https://www.lumc.nl/afdelingen/public-health-en-eerstelijnsgeneeskunde/huisartsopleiding-lumc/) 
+**Links:** [General Practitioner Training LUMC (Dutch)](https://www.lumc.nl/afdelingen/public-health-en-eerstelijnsgeneeskunde/huisartsopleiding-lumc/) 
