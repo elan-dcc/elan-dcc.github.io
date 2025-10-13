@@ -24,6 +24,8 @@ type = "publicationlist"
 
 1. Girwar SAM, Verloop JC, Fiocco M, Sutch SP, Numans ME, Bruijnzeels MA. Identifying complex patients using Adjusted Clinical Groups risk stratification tool. Am J Manag Care. 2022 Apr 1;28(4):e140–5.
 
+1. Groenestein SFF, Crone MR, Dubbeldeman EM, Lottman S, Kiefte-de Jong JC, Bussemaker J, van der Pas S. Exploring Family Typologies and Health Outcomes in a Dutch Primary Care Population of Children Living in Urban Cities in the Netherlands: A Latent Class Analysis. International Journal of Environmental Research and Public Health. 2025; 22(10):1474. https://doi.org/10.3390/ijerph22101474
+
 1. Hageman SHJ, Kaptoge S, de Vries TI, et al. Prediction of individual lifetime cardiovascular risk and potential treatment benefit: development and recalibration of the LIFE-CVD2 model to four European risk regions. Eur J Prev Cardiol. 2024;31(14):1690-1699. doi:10.1093/eurjpc/zwae174
 
 1. Kist JM, Smit GWG, Mairuhu ATA, Struijs JN, Vos RC, Peet PG van, et al. Large health disparities in cardiovascular death in men and women, by ethnicity and socioeconomic status in an urban based population cohort. eClinicalMedicine \[Internet\]. 2021 Oct 1 [cited 2024 Jan 3];40. Available from: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00400-4/fulltext
