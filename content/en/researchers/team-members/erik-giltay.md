@@ -1,3 +1,10 @@
++++  
+title = 'Team members'  
+layout = 'page'  
+menu = 'team-members'  
+weight = 3
++++
+
 # Prof. Dr. Erik J. Giltay
 
 **Position:** Professor Psychiatric Epidemiology, Psychiatrist 
@@ -14,4 +21,4 @@ I live with my partner in Gouda and work in Leiden and The Hague. In my free tim
 
 **Working days:** Thursday, Friday 
 
-**Links:**  
+**Links:** [The Netherlands Brain Initiative (Nationaal Plan Hoofdzaken)](https://www.nationaalplanhoofdzaken.nl/english), [ZonMw - ELAN multidisciplinaire en transmurale versterking van hersen- en psychisch onderzoek (Dutch)](https://projecten.zonmw.nl/nl/project/elan-multidisciplinaire-en-transmurale-versterking-van-hersen-en-psychische-onderzoek), [BREN Zuid-Holland](https://brenzh.nl/), [De Wachttijdstudie (Dutch)](https://www.lumc.nl/afdelingen/psychiatrie/wachttijdstudie/)
