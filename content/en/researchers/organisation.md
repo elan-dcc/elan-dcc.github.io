@@ -12,8 +12,9 @@ weight = 30
 | [Jeroen Struijs]({{< relref "jeroen-struijs" >}} "Jeroen Struijs") | Chief of ELAN and senior researcher | Initiator ELAN and member ELAN core committee |
 | [Dennis Mook]({{< relref "dennis-mook" >}} "Dennis Mook") | Chief of ELAN, general practitioner, and senior researcher | Chair ELAN steering committee and member ELAN core committee   |
 | [Margot de Waal]({{< relref "margot-de-waal" >}} "Margot de Waal") | Epidemiologist and senior researcher | Chair ELAN core committee, member ELAN steering committee |
+| [Erik Giltay]({{ relref "erik-giltay" >}} "Erik Giltay") | Psychiatrist, epidemiologist and senior researcher | Member ELAN management team |
 | [Rutger Middelburg]({{< relref "rutger-middelburg" >}} "Rutger Middelburg") | Epidemiologist and senior researcher | Member ELAN core committee and ELAN steering committee |
-| Janet Kist | General practitioner and researcher | Member ELAN Core committee, steering group and ELAN-DCC |
+| Janet Kist | General practitioner and researcher | Member ELAN core committee, steering group and ELAN-DCC |
 | [Frank Ardesch]({{< relref "frank-ardesch" >}} "Frank Ardesch") | Data manager | Data manager ELAN and member ELAN-DCC |
 | [Henk de Jong]({{< relref "henk-de-jong" >}} "Henk de Jong") | Data manager | Data manager ELAN and member ELAN-DCC |
 | [Marcel Haas]({{< relref "marcel-haas" >}} "Marcel Haas") | Senior data scientist | Head ELAN-DCC |
