@@ -10,6 +10,8 @@ type = "publicationlist"
 
 1. Alfaraj S, Vos RC, Spruit M, Groenwold RHH, Mook-Kanamori D. Insulin Initiation in Type 2 Diabetes: Unraveling the Sociodemographic and Biological Dynamics using Routinely Collected Primary Care Data. Br J Gen Pract. 2025 Sep 2:BJGP.2024.0693. doi: 10.3399/BJGP.2024.0693. Epub ahead of print. PMID: 40897507.
 
+1. Alfaraj SA, Vos RC, Spruit M, Groenwold RH, Mook-Kanamori DO. Sociodemographic and biological determinants of insulin initiation in type 2 diabetes: a cohort study using routinely collected primary care data. Br J Gen Pract. 2025 Oct 30;75(760):e749-e758. doi: 10.3399/BJGP.2024.0693. PMID: 40897507; PMCID: PMC12745633.
+
 1. Al-Sabiry M, Slootweg I, Numans ME, van Mook WN, Barnhoorn P. Exploring residents' perspectives on their professional identity in general practice residency in the Netherlands: a qualitative study. BMJ Open. 2024 Dec 27;14(12):e088097. doi: 10.1136/bmjopen-2024-088097. PMID: 39732495; PMCID: PMC11683983.
 
 1. Ardesch FH, Geurten RJ, Struijs JN, Ruwaard D, Bilo HJG, Elissen AMJ. Investigating socioeconomic disparities in prescribing new diabetes medications in individuals with type 2 diabetes and very high cardiovascular risk in the Netherlands. Prim Care Diabetes. 2025 Apr;19(2):178-183. doi: 10.1016/j.pcd.2024.12.011. Epub 2025 Jan 14. PMID: 39809690.
@@ -64,6 +66,8 @@ type = "publicationlist"
 
 1. Molenaar JM, Boesveld IC, Struijs JN, Kiefte-de Jong JC. The Dutch Solid Start program: describing the implementation and experiences of the program’s first thousand days. BMC Health Serv Res. 2023 Aug 30;23(1):926.
 
+1. Muizelaar H, Haas M, van Aken M, Vos R, Spruit M. Quantifying the Predictive Power of Social Determinants of Health in Cardiometabolic Disease Progression Using XGBoost: A Retrospective Cohort Study. JMIR Preprints. 09/07/2025:80377. DOI: 10.2196/preprints.80377
+
 1. Nieuwenhuijse EA, Struijs JN, Sutch SP, Numans MattijsE, Vos RC. Achieving diabetes treatment targets in people with registered mental illness is similar or improved compared with those without: Analyses of linked observational datasets. Diabet Med. 2022 Jun;39(6):e14835.
 
 1. Nieuwenhuijse EA, Van Hof TB, Numans MattijsE, Struijs JN, Vos RC. Are social determinants of health associated with the development of early complications among young adults with type 2 diabetes? A population based study using linked databases. Primary Care Diabetes. 2023 Apr;17(2):168–74.
@@ -76,6 +80,8 @@ type = "publicationlist"
 
 1. Siegersma KR, Evers M, Bots SH, Groepenhoff F, Appelman Y, Hofstra L, et al. Development of a Pipeline for Adverse Drug Reaction Identification in Clinical Notes: Word Embedding Models and String Matching. JMIR Med Inform. 2022 Jan 25;10(1):e31063.
 
+1. Sijbom M, Boelens M, de Boer MGJ, Numans ME. Routine data registries as a basis to analyse and improve the quality of antimicrobial prescription in primary care. BMC Prim Care. 2025 Oct 17;26(1):318. doi: 10.1186/s12875-025-03008-4. PMID: 41107727; PMCID: PMC12532453.
+
 1. Sijbom M, Braun KK, Büchner FL, Bodegom-Vos L van, Hendriks BJC, Boer MGJ de, et al. Cues to improve antibiotic-allergy registration: A mixed-method study. PLOS ONE. 2022 Apr 7;17(4):e0266473.
 
 1. Sijbom M, Büchner FL, Saadah NH, de Boer MG, Numans ME. Comparing antibiotic prescriptions in primary care between SARS-CoV-2 and influenza: a retrospective observational study. BJGP Open. 6(4):BJGPO.2022.0049.
@@ -84,7 +90,9 @@ type = "publicationlist"
 
 1. Storm MMC, Giltay EJ, van Eldik WM, Palstra EC, van Duin EDA, van den Berg D, Vermeiren RRJM. Social determinants of youth with mild intellectual disability in outpatient care for mental health disorders: a case-control study. Eur Child Adolesc Psychiatry. 2025 Apr 19. doi: 10.1007/s00787-025-02718-5. Epub ahead of print. PMID: 40252088.
 
-1. ter Braake JG, Vos RC, Røssell E, Magliano DJ Wild SH, Scottish Diabetes Research Network Epidemiology Group, Walsh D, Morton JI, Boel Graversen S, Støvring H, Laurberg T. Mortality disparity by socioeconomic position in people with and without diabetes: open cohort studies in four high-income countries. European Journal of Public Health. 2025. https://doi.org/10.1093/eurpub/ckaf201
+1. Ter Braake JG, Vos RC, Røssell EL, Magliano DJ, Wild SH; Scottish Diabetes Research Network Epidemiology Group; Walsh D, Morton JI, Boel Graversen S, Støvring H, Laurberg T. Mortality disparity by socioeconomic position in people with and without diabetes: open cohort studies in four high-income countries. Eur J Public Health. 2025 Nov 25:ckaf201. doi: 10.1093/eurpub/ckaf201. Epub ahead of print. PMID: 41401381.1
+
+1. Tros W, van der Steen J, Numans ME, Fiocco M, van Peet PG. Identifying triggers for optimal timing of advance care planning in electronic primary health care records: a nested case-control study. BMJ Open. 2025 Nov 29;15(11):e104742. doi: 10.1136/bmjopen-2025-104742. PMID: 41320208; PMCID: PMC12666204.
 
 1. van den Brink, G., Koggel, L. M., Hendriks, J. J., de Boer, M. G., Siersema, P. D., & Numans, M. E. (2024). Treatment failure of Helicobacter Pylori in primary care. BJGP open, BJGPO.2023.0252. Advance online publication. https://doi.org/10.3399/BJGPO.2023.0252
 
