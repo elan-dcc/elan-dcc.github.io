@@ -84,6 +84,8 @@ type = "publicationlist"
 
 1. Storm MMC, Giltay EJ, van Eldik WM, Palstra EC, van Duin EDA, van den Berg D, Vermeiren RRJM. Social determinants of youth with mild intellectual disability in outpatient care for mental health disorders: a case-control study. Eur Child Adolesc Psychiatry. 2025 Apr 19. doi: 10.1007/s00787-025-02718-5. Epub ahead of print. PMID: 40252088.
 
+1. ter Braake JG, Vos RC, Røssell E, Magliano DJ Wild SH, Scottish Diabetes Research Network Epidemiology Group, Walsh D, Morton JI, Boel Graversen S, Støvring H, Laurberg T. Mortality disparity by socioeconomic position in people with and without diabetes: open cohort studies in four high-income countries. European Journal of Public Health. 2025. https://doi.org/10.1093/eurpub/ckaf201
+
 1. van den Brink, G., Koggel, L. M., Hendriks, J. J., de Boer, M. G., Siersema, P. D., & Numans, M. E. (2024). Treatment failure of Helicobacter Pylori in primary care. BJGP open, BJGPO.2023.0252. Advance online publication. https://doi.org/10.3399/BJGPO.2023.0252
 
 1. van den Bulk S, van Egeraat JWA, Petrus AHJ, Numans ME, Bonten TN. Incidence of primary care chest pain consultations during the COVID-19 pandemic: an interrupted time series analysis with routine care data. BMC Prim Care. 2024 Dec 21;25(1):433. doi: 10.1186/s12875-024-02676-y. PMID: 39709389; PMCID: PMC11662427.
