@@ -56,6 +56,8 @@ type = "publicationlist"
 
 1. Lips SR, Molenaar JM, Schuitmaker-Warnaar TJ. Transforming maternity care: obstetric partnerships as a policy instrument for integration. Health Policy. 2020 Nov;124(11):1245–53.
 
+1. Meijer MCN, Middelburg RA, Arnold IA, Kamphuis J, Mook-Kanamori DO, Numans ME, Chavannes NH, Schoevers RA, van Dalfsen JH. Insomnia as a risk factor for the development of depression and anxiety in primary care: a matched population-based cohort study. Fam Pract. 2026 Apr 3;43(3):cmag019. doi: 10.1093/fampra/cmag019. PMID: 42007511; PMCID: PMC13093215.
+
 1. Meulman I, Uiters E, Cloin M, Struijs J, Polder J, Stadhouders N. From test to rest: evaluating socioeconomic differences along the COVID-19 care pathway in the Netherlands. Eur J Health Econ. 2024 Dec;25(9):1581-1594. doi: 10.1007/s10198-024-01680-4. Epub 2024 Mar 18. PMID: 38499952; PMCID: PMC11512841.
 
 1. Molenaar JM, van der Meer L, Bertens LCM, de Vries EF, Waelput AJM, Knight M, et al. Defining vulnerability subgroups among pregnant women using pre-pregnancy information: a latent class analysis. Eur J Public Health. 2023 Feb 3;33(1):25–34.
