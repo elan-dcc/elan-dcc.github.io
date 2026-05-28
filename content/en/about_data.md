@@ -7,7 +7,7 @@ weight = 5
 
 # ELAN data
 The data research infrastructure allows researchers to investigate the current and past states of health affairs in the region Haaglanden and Hollands Midden, while also enabling the development of exploratory and predictive models using the available data as input. With its extensive data sets the ELAN research infrastructure serves as an ideal platform for conducting a wide range of studies, including both clinical and societal research.
- 
+
 Our (overarching) goal is to contribute to healthcare reform, innovation and the improvement of health and well-being for residents in the Haaglanden and Hollands-Midden regions. As a consequence all data-requests must comply with the following:
 <ul> 
 <li>Results are for the ELAN region. For CBS-microdata of the Netherlands, comparison of regional results to national results is allowed, but presentation of (solely) national results are not. </li>
@@ -26,7 +26,7 @@ Each infrastructure has unique advantages and limitations. For a detailed compar
 
 # Data Sources and Coverage
 In the CBS-RA environment, CBS securely links data from multiple sources at the individual level, using a pseudonymized identifier. Only aggregate results are allowed to be exported, to minimize the risk of re-identification of individuals. The table below provides an overview of the available data sources and their populations.
- 
+
 Datasets are only available following approval by the dataholders, as can be found [here](https://www.lumc.nl/siteassets/over-het-lumc/partners/elan/bestanden/elan-data-governance-versie-1.2.pdf) (for communication with dataholders, see ‘bijlage 2’).
 
 | Type of data | Source(s) | Population |
