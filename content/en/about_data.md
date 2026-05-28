@@ -6,19 +6,28 @@ weight = 5
 +++
 
 # ELAN data
-The data research infrastructure allows researchers to investigate the current and past states of health affairs in the region Haaglanden and Hollands Midden, while also enabling the development of exploratory and predictive models using the available data as input.  With its extensive data sets the ELAN research infrastructure serves as an ideal platform for conducting a wide range of studies, including both clinical and societal research.
+The data research infrastructure allows researchers to investigate the current and past states of health affairs in the region Haaglanden and Hollands Midden, while also enabling the development of exploratory and predictive models using the available data as input. With its extensive data sets the ELAN research infrastructure serves as an ideal platform for conducting a wide range of studies, including both clinical and societal research.
+ 
+Our (overarching) goal is to contribute to healthcare reform, innovation and the improvement of health and well-being for residents in the Haaglanden and Hollands-Midden regions. As a consequence all data-requests must comply with the following:
+<ul> 
+<li>Results are for the ELAN region. For CBS-microdata of the Netherlands, comparison of regional results to national results is allowed, but presentation of (solely) national results are not. </li>
+<li>Use of data is only allowed for (scientific) research questions, that fall under the given broader (overarching) goal. </li>
+<li>Transparency: results must be publicly (Open Access) published. </li>
+</ul>
 
 {{< accent >}}
-The datasets are housed in two separate data infrastructures: 
+The datasets are accessible for researchers in two separate data environments: 
 <ul> 
-<li>the <b>I-Drive</b>: hosted on the secure servers of LUMC. </li>
-<li>the <b>CBS-RA</b>: hosted on the servers of the Statistics Netherlands (CBS). </li>
+<li>The <b>internal LUMC</b> environment (I-Drive):  hosted on the secure servers of LUMC (only GP-data). </li>
+<li>The <b>external CBS-RA</b> environment: hosted on the servers of the Statistics Netherlands (CBS). </li>
 </ul>
 Each infrastructure has unique advantages and limitations. For a detailed comparision, visit <a href="../researchers/environments_overview", alt="An overview of the data environments">the data environments overview</a>.
 {{< /accent >}}
 
 # Data Sources and Coverage
-ELAN securely links data from multiple sources at the individual level, ensuring privacy by minimising the risk of identification, even when datasets are combined. The table below provides an overview of the available data sources and their populations:
+In the CBS-RA environment, CBS securely links data from multiple sources at the individual level, using a pseudonymized identifier. Only aggregate results are allowed to be exported, to minimize the risk of re-identification of individuals. The table below provides an overview of the available data sources and their populations.
+ 
+Datasets are only available following approval by the dataholders, as can be found [here](https://www.lumc.nl/siteassets/over-het-lumc/partners/elan/bestanden/elan-data-governance-versie-1.2.pdf) (for communication with dataholders, see ‘bijlage 2’).
 
 | Type of data | Source(s) | Population |
 |--------------|-----------|-----------|
