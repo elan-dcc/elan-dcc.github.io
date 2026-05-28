@@ -69,5 +69,5 @@ As noted earlier, data is collected quarterly. Patient data evolves over time, s
 GP data is collected by [STIZON](https://stizon.nl/), a trusted third party, which standardises it before sharing it. Standardised attributes start with a 'd'; researchers are encouraged to use these fields, though non-standard attributes may also be useful.
 
 {{< accent >}}
-We strongly recommend researchers to review the {{< link type="codebookGP" text="codebook">}} for guidance. Additional information on challenges and potential solutions can be found on the [github repository](https://github.com/elan-dcc/org/blob/main/QandA.md) of ELAN-DCC or on SharePoint [ELAN Knowledge Sharing](https://lumconline.sharepoint.com/:u:/r/sites/ELANKnowledgeSharing/SitePages/Index.aspx?csf=1&web=1&e=vsfSaG).
+We strongly recommend researchers to review the {{< link type="codebookGP" text="codebook">}} for guidance. Additional information on challenges and potential solutions can be found on the {{< link text="github repository" url="https://github.com/elan-dcc/org/blob/main/QandA.md">}} of ELAN-DCC or on SharePoint {{< link text="ELAN Knowledge Sharing" url="https://lumconline.sharepoint.com/:u:/r/sites/ELANKnowledgeSharing/SitePages/Index.aspx?csf=1&web=1&e=vsfSaG">}}.
 {{< /accent >}}
