@@ -10,9 +10,9 @@ The data research infrastructure allows researchers to investigate the current a
 
 Our (overarching) goal is to contribute to healthcare reform, innovation and the improvement of health and well-being for residents in the Haaglanden and Hollands-Midden regions. As a consequence all data-requests must comply with the following:
 <ul> 
-<li>Results are for the ELAN region. For CBS-microdata of the Netherlands, comparison of regional results to national results is allowed, but presentation of (solely) national results are not. </li>
+<li>Results are for the ELAN region. For CBS-microdata of the Netherlands, comparison of regional results to national results is allowed, but presentation of (solely) national results are not. </li>
 <li>Use of data is only allowed for (scientific) research questions, that fall under the given broader (overarching) goal. </li>
-<li>Transparency: results must be publicly (Open Access) published. </li>
+<li>Transparency: results must be publicly (Open Access) published. </li>
 </ul>
 
 {{< accent >}}
