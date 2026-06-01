@@ -104,6 +104,8 @@ type = "publicationlist"
 
 1. van den Hout WJ, van Peet PG, Numans ME, Mook-Kanamori DO. Recording practices of body mass index, overweight and obesity by Dutch general practitioners: an observational study. BMC Prim Care. 2025 Jan 2;26(1):1. doi: 10.1186/s12875-024-02696-8. PMID: 39748290; PMCID: PMC11697458.
 
+1. van Dokkum ED, Kraaijenbrink N, Le Cessie S, et al. Socioeconomic status and migration background as predictors of complicated lower respiratory tract infections in primary care. Commun Med (Lond). 2026;6(1):297. Published 2026 Mar 28. doi:10.1038/s43856-026-01542-5 
+
 1. van Egeraat JW, Kuijpers T, Burgers J, van Os H, Chavannes NH, Bonten TN. Inhaled corticosteroids for COVID-19: a real-world data analysis on guideline adherence. BJGP Open. 2025 Jul 23;9(2):BJGPO.2024.0135. doi: 10.3399/BJGPO.2024.0135. PMID: 39592217.
 
 1. van Niel J, Geelhoed-Duijvestijn PHLM, Numans ME, Kharagjitsing AV, Vos RC. Type 2 diabetes in South Asians compared to Europeans: Higher risk and earlier development of major cardiovascular events irrespective of the presence and degree of retinopathy. Results from The HinDu The Hague Diabetes Study. Endocrinol Diabetes Metab. 2021 Jul;4(3):e00242.
