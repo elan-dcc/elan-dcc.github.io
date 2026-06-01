@@ -14,7 +14,7 @@ Our (overarching) goal is to contribute to healthcare reform, innovation and the
 <li>Use of data is only allowed for (scientific) research questions, that fall under the given broader (overarching) goal. </li>
 <li>Transparency: results must be publicly (Open Access) published. </li>
 </ul>
-
+ 
 {{< accent >}}
 The datasets are accessible for researchers in two separate data environments: 
 <ul> 
