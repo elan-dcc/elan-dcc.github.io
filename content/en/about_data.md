@@ -9,19 +9,19 @@ weight = 5
 The data research infrastructure allows researchers to investigate the current and past states of health affairs in the region Haaglanden and Hollands Midden, while also enabling the development of exploratory and predictive models using the available data as input. With its extensive data sets the ELAN research infrastructure serves as an ideal platform for conducting a wide range of studies, including both clinical and societal research.
 
 Our (overarching) goal is to contribute to healthcare reform, innovation and the improvement of health and well-being for residents in the Haaglanden and Hollands-Midden regions. As a consequence all data-requests must comply with the following:
-<ul> 
-<li>Results are for the ELAN region. For CBS-microdata of the Netherlands, comparison of regional results to national results is allowed, but presentation of (solely) national results are not. </li>
-<li>Use of data is only allowed for (scientific) research questions, that fall under the given broader (overarching) goal. </li>
-<li>Transparency: results must be publicly (Open Access) published. </li>
-</ul>
+
+- Results are for the ELAN region. For CBS-microdata of the Netherlands, comparison of regional results to national results is allowed, but presentation of (solely) national results are not.
+- Use of data is only allowed for (scientific) research questions, that fall under the given broader (overarching) goal.
+- Transparency: results must be publicly (Open Access) published.
+
  
 {{< accent >}}
 The datasets are accessible for researchers in two separate data environments: 
-<ul> 
-<li>The <b>internal LUMC</b> environment (I-Drive):  hosted on the secure servers of LUMC (only GP-data). </li>
-<li>The <b>external CBS-RA</b> environment: hosted on the servers of the Statistics Netherlands (CBS). </li>
-</ul>
-Each infrastructure has unique advantages and limitations. For a detailed comparision, visit <a href="../researchers/environments_overview", alt="An overview of the data environments">the data environments overview</a>.
+
+- The **internal LUMC** environment (I-Drive):  hosted on the secure servers of LUMC (only GP-data).
+- The **external CBS-RA** environment: hosted on the servers of the Statistics Netherlands (CBS).
+
+Each infrastructure has unique advantages and limitations. For a detailed comparision, visit [the data environments overview](../researchers/environments_overview/ "An overview of the data environments").
 {{< /accent >}}
 
 # Data Sources and Coverage
@@ -110,7 +110,7 @@ Datasets are only available following approval by the dataholders, as can be fou
 {{< /chart >}}
 
 {{< accent >}}
-For a detailed statistical overview of the data sets, including key insights and research potential, refer to <a href="https://academic.oup.com/ije/article/53/4/dyae099/7720610)" target="_blank">this article</a>.
+For a detailed statistical overview of the data sets, including key insights and research potential, refer to [this article](https://academic.oup.com/ije/article/53/4/dyae099/7720610).
 {{< /accent >}}
 
 By combining comprehensive datasets with secure linkage capabilities, ELAN enables cutting-edge research that bridges the gap between clinical outcomes and societal health determinants.
