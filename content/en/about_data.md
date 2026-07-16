@@ -10,6 +10,7 @@ The data research infrastructure allows researchers to investigate the current a
 
 Our (overarching) goal is to contribute to healthcare reform, innovation and the improvement of health and well-being for residents in the Haaglanden and Hollands-Midden regions. As a consequence all data-requests must comply with the following:
 
+
 - Results are for the ELAN region. For CBS-microdata of the Netherlands, comparison of regional results to national results is allowed, but presentation of (solely) national results are not.
 - Use of data is only allowed for (scientific) research questions, that fall under the given broader (overarching) goal.
 - Transparency: results must be publicly (Open Access) published.
@@ -18,8 +19,10 @@ Our (overarching) goal is to contribute to healthcare reform, innovation and the
 {{< accent >}}
 The datasets are accessible for researchers in two separate data environments: 
 
+
 - The **internal LUMC** environment (I-Drive):  hosted on the secure servers of LUMC (only GP-data).
 - The **external CBS-RA** environment: hosted on the servers of the Statistics Netherlands (CBS).
+
 
 Each infrastructure has unique advantages and limitations. For a detailed comparision, visit [the data environments overview](../researchers/environments_overview/ "An overview of the data environments").
 {{< /accent >}}
