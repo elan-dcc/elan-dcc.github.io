@@ -93,8 +93,19 @@ a {
 h2, h1 {
     margin-top: 50px;
 }
-ul{
+
+ul, ol {
     list-style-position: inside;
+    margin: 1em 0;
+}
+
+li {
+    margin: 0.35em 0;
+}
+
+p + ul,
+p + ol {
+    margin-top: 1em;
 }
 
 li::marker {
@@ -1031,7 +1042,7 @@ h2.key:first-of-type{
 }
 
 main > ul, main > ol {
-    margin-top: 20px;
+    margin-top: 1em;
 }
 
 main > ul > li > ul > li{
