@@ -711,13 +711,18 @@ ul.publicationauthors, ul.publicationauthors > li {
 }
 
 .marquee-content li img {
-    width: 100%;
+    /* width: 100%; */
+    /* Partner SVGs without width/height attrs collapse if height is auto. */
+    width: auto;
+    max-width: 90%;
+    height: 100px;
     max-height: 150px;
+    object-fit: contain;
 }
-
 .marquee-content li img:hover {
-    width: 98%;
-    height: 98%;
+    /* width: 98%;
+    height: 98%; */
+    opacity: 0.85;
 }
 
 @media (max-width: 600px) {
