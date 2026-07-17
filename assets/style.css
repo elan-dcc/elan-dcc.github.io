@@ -732,7 +732,8 @@ ul.publicationauthors, ul.publicationauthors > li {
     width: auto;
     max-width: 90%;
     max-height: 150px;
-    height: auto;
+    /* height: auto; */
+    height: 100px;
     object-fit: contain;
 }
 
