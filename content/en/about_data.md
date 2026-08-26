@@ -39,7 +39,7 @@ Datasets are only available following approval by the dataholders, as can be fou
 | Health Insurance data | [Vektis](https://www.vektis.nl/) | the Netherlands | 
 | Patient health data | Hospitals | patients from the hospitals HagaZiekenhuis or HMC |
 | Acute and chronical care data | Hadoks | patients in Haaglanden | 
-| Mental health data | Parnassia | patients in Haaglanden |
+| Mental health data | Parnassia Groep | patients in Haaglanden |
 | Perinatal data | Perined | patients in the Netherlands |
 | Covid-19 | GGD Haaglanden | patients in Haaglanden |
 | WMO data  | Municipality of The Hague | citizens of The Hague |
