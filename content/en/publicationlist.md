@@ -121,3 +121,5 @@ type = "publicationlist"
 1. van Munster, J. J. C. M., Halperin, I. J. Y., Ardesch, F. H., van den Hout, W. B., van Benthem, P. P. G., Moojen, W., & Peul, W. C. (2024). Practice variation in surgical treatment for lumbar degenerative disc disease: exploring regional and hospital factors influencing surgical rates. Scientific reports, 14(1), 9273. https://doi.org/10.1038/s41598-024-59629-9
 
 1. Watjer RM, Heckmans KM, Eekhof JA, et alAssociation between onychomycosis and ulcerative complications in patients with diabetes: a longitudinal cohort study in Dutch general practiceBMJ Open 2024;14:e076441. doi: 10.1136/bmjopen-2023-076441
+
+1. Yang Z, Petrus AHJ, Kist JM, et al. Concurrent psychiatric, somatic, and social vulnerabilities in patients at increased cardiovascular risk in the Netherlands. Prev Med. Published online August 27, 2026. doi:10.1016/j.ypmed.2026.108653
