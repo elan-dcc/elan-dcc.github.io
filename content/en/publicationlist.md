@@ -70,6 +70,8 @@ type = "publicationlist"
 
 1. Muizelaar H, Haas M, van Aken M, Vos R, Spruit M. Quantifying the Predictive Power of Social Determinants of Health in Cardiometabolic Disease Progression Using XGBoost: A Retrospective Cohort Study. JMIR Preprints. 09/07/2025:80377. DOI: 10.2196/preprints.80377
 
+1. Muizelaar H, Haas M, Vos R, et al. Urban Mobility and Population Health in the Hague: A Multi-Scale Analysis. medRxiv. Published online July 1, 2026. doi:10.64898/2026.06.23.26356068
+
 1. Nieuwenhuijse EA, Struijs JN, Sutch SP, Numans MattijsE, Vos RC. Achieving diabetes treatment targets in people with registered mental illness is similar or improved compared with those without: Analyses of linked observational datasets. Diabet Med. 2022 Jun;39(6):e14835.
 
 1. Nieuwenhuijse EA, Van Hof TB, Numans MattijsE, Struijs JN, Vos RC. Are social determinants of health associated with the development of early complications among young adults with type 2 diabetes? A population based study using linked databases. Primary Care Diabetes. 2023 Apr;17(2):168–74.
